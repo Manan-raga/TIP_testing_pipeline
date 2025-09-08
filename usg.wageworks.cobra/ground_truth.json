@@ -1,0 +1,122 @@
+{
+    "integrationId": "51792c60-5573-47c5-8622-5723975f1387",
+    "tenantId": "cac055b8-1b4e-494e-9193-d456af368598",
+    "integrationName": "GEN1035 Wageworks Cobra Export",
+    "vendor": "c3a10a57-dbff-4f37-be3b-f47fe64c2025",
+    "fileTypeId": "usg.wageworks.cobra",
+    "customerName": null,
+    "createdDate": "2023-04-04T14:44:39.440Z",
+    "updatedDate": "2025-04-04T17:10:42.548Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "toggle-qualifying-events-step",
+        "value": "{\"stepId\":\"b245a5f5-7d9a-4131-9d32-8c35c05a713f\",\"hidden\":true}"
+      },
+      {
+        "key": "divisionNameMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"58400\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"881LC\",\"BP2FC\",\"BP2K1\",\"BP30I\",\"BP357\",\"BPQZ3\",\"BPR36\",\"FG62C\",\"I7CGN\",\"I7CJD\",\"I7CL8\",\"I7CMR\",\"I7CO8\",\"I7CPN\",\"JU8Y5\",\"R6YYN\"]}]}]}"
+      },
+      {
+        "key": "clientName",
+        "value": "Gen II Management LLC"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"757aba3e3a8bdea9e98be459c136705b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2e6011af35b4ff11817f56b24d610edb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f65806faf6d897ac27b5960d4393d47e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5e1310bdda27e541e6baab78ee9afed4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9cf770072e2a7e683e551309b8b3576a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b245a5f5-7d9a-4131-9d32-8c35c05a713f\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"73aaeae4-74ef-47a0-a403-aecc165630ce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0ef64088-7d29-45b3-9c12-c3a8cd1591e8\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0f7bfedb7a3a7275de3b85db1c19d905\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"941bb989-f247-47ae-b214-88b98d97b15e\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"9d124572-95b5-4e8c-b52a-f48baf098139\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9d124572-95b5-4e8c-b52a-f48baf098138\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9d124572-95b5-4e8c-b52a-f48baf098137\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9d124572-95b5-4e8c-b52a-f48baf098136\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9d124572-95b5-4e8c-b52a-f48baf098135\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9d124572-95b5-4e8c-b52a-f48baf098134\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7af67d30-0670-4a46-sftp-f5a74810291l\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"27ce9b4fb9d132ea74762c5bffb3fcb2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"CHL\":\"CHILD\",\"DP\":\"DOMESTICPARTNER\",\"DPC\":\"STEPCHILD\",\"OTH\":\"QMCSO\",\"PAR\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIG\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"STEPSON\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "toggle-employee-class-step",
+        "value": "{\"hidden\":true,\"stepId\":\"9d124572-95b5-4e8c-b52a-f48baf098139\"}"
+      },
+      {
+        "key": "toggle-division-step",
+        "value": "{\"stepId\":\"941bb989-f247-47ae-b214-88b98d97b15e\",\"hidden\":false}"
+      },
+      {
+        "key": "database",
+        "value": "CXT"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "planCoverageCodes",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]}]}]}"
+      },
+      {
+        "key": "cobraMinStartDate",
+        "value": "benefitStopDate"
+      },
+      {
+        "key": "clientId",
+        "value": "104857"
+      },
+      {
+        "key": "toggle-subsidy-record-step",
+        "value": "{\"hidden\":true,\"stepId\":\"9d124572-95b5-4e8c-b52a-f48baf098138\"}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "dbrereton@gen2fund.com, rbadrinarayan@gen2fund.com, trosario@gen2fund.com, micha.cooper@gen2fund.com, HRbenefits@gen2fund.com"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "fileTransmissionCheckbox",
+        "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810291l\"}"
+      },
+      {
+        "key": "companyId",
+        "value": "I7CO8"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN1\",\"DEN2\",\"DENP1\",\"DENP2\",\"MED1\",\"MED2\",\"MED3\",\"MEDP1\",\"MEDP2\",\"MEDP3\",\"VIS\",\"VISP\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"484478 Cigna Base Medical Plan\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDP1\",\"MED1\"]}]},{\"targetValue\":\"484479 Cigna Mid Medical Plan\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED2\",\"MEDP2\"]}]},{\"targetValue\":\"484480 Cigna Premier Medical Plan\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED3\",\"MEDP3\"]}]},{\"targetValue\":\"Cigna PPO Dental High\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENP2\",\"DEN2\"]}]},{\"targetValue\":\"Cigna PPO Low\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENP1\",\"DEN1\"]}]},{\"targetValue\":\"485423 Equitable Vision Plan\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"VISP\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 3 * * SAT",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "cac055b8-1b4e-494e-9193-d456af368598"
+  }

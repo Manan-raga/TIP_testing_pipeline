@@ -1,0 +1,102 @@
+{
+    "integrationId": "5d496ae4-fd3c-40c0-98b2-88319841b6fd",
+    "tenantId": "46ce6dc2-45b6-4aab-8bdf-30439d3f1e96",
+    "integrationName": "Fidelity Demographic",
+    "vendor": "25dea1fd-7a65-42f9-a403-63d3c6f3fc82",
+    "fileTypeId": "usg.fidelity.demographic",
+    "customerName": null,
+    "createdDate": "2024-01-10T13:52:23.066Z",
+    "updatedDate": "2024-02-16T15:30:59.917Z",
+    "fileTransferFields": [
+      {
+        "key": "hireDate",
+        "value": "dateOfOriginalHire"
+      },
+      {
+        "key": "toggle-division-code",
+        "value": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "fidelityProdSftp"
+      },
+      {
+        "key": "eligibilityDate",
+        "value": "weDoNotReportEligibilityDate"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"4f9ee1e641b0bbce966e3b3a661cddd4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"de0ead55ce394be28bdf2a6168ca5064\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51c7589050c3e35011df7713d72384de\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b271ba677aedac0511cc6200ec95ef23\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e76608244cd0b93c45048593d3752bc6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cd21044e20e2fc7a1bb336128429cb4a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"371b76b7cc7da016f87f8666846facbd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"892e0bbb5718d4f753ba15d754520637\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1fb8873f35abb5f0f97ee615347c43d1\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "recordCASalary",
+        "value": "false"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "Laurieanne@nference.net, Katherine.M@nference.net, Fryan@nference.net"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"employeeTypeCode\",\"values\":[\"FT\",\"REG\"]},{\"source\":\"companyId\",\"values\":[\"F5QH0\"]},{\"source\":\"fullTimeOrPartTime\",\"values\":\"F\"}]"
+      },
+      {
+        "key": "includeVestingDateForNewHires",
+        "value": "false"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "planNumber",
+        "value": "0812P"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "eligibilityTracking",
+        "value": "true"
+      },
+      {
+        "key": "minimumAge",
+        "value": "noMinimumAgeRequired"
+      },
+      {
+        "key": "vestingDate",
+        "value": "weDoNotReportVestingDate"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 14 * * SUN",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "46ce6dc2-45b6-4aab-8bdf-30439d3f1e96"
+}

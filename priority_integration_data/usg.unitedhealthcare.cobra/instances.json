@@ -1,0 +1,2260 @@
+[
+  {
+    "integrationId": "16ada039-5810-4abe-89d6-1be1d3b4ee3b",
+    "tenantId": "b4572912-5567-4762-aa29-ab10746b58e7",
+    "integrationName": "UHC Cobra Smoke Test AS",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-02-01T13:29:58.936Z",
+    "updatedDate": "2021-07-14T13:56:04.698Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS270010544"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Jamie Thor"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESPOU\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHIL\"]}]},{\"targetValue\":\"05\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDOM\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEFAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":true}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "contactPhone",
+        "value": "4194820948"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DDNTL\",\"UH750\",\"UHDHP\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DNT1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DDNTL\"]}]},{\"targetValue\":\"00100010\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UH750\"]}]},{\"targetValue\":\"00160016\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DCCOH\",\"UHDHP\"]}]},{\"targetValue\":\"00140014\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"terminationReasonCode\",\"values\":[\"203\"]}]"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "b4572912-5567-4762-aa29-ab10746b58e7"
+  },
+  {
+    "integrationId": "09d52265-98af-4fc7-bdc9-6e9fef8113d5",
+    "tenantId": "b4572912-5567-4762-aa29-ab10746b58e7",
+    "integrationName": "UHC COBRA SMOKE TEST SW",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-02-16T21:19:04.808Z",
+    "updatedDate": "2021-02-22T17:48:56.774Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":true}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DV\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\",\"LEVNT4\"]}]},{\"targetValue\":\"DC\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\"]}]},{\"targetValue\":\"ML\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"207\"]}]},{\"targetValue\":\"RH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"AR\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS270010544"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Jamie Thor"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEFAM\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESPOU\",\"EEDOM\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHIL\"]}]}]}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "spencer.williams@ukg.com"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":true}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "contactPhone",
+        "value": "4194820948"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DDNTL\",\"UH750\",\"UHDHP\",\"VIS\",\"FSAMD\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00100010\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UH750\"]}]},{\"targetValue\":\"00160016\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHDHP\"]}]},{\"targetValue\":\"00140014\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"DNT1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DDNTL\"]}]},{\"targetValue\":\"00010001\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSAMD\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "b4572912-5567-4762-aa29-ab10746b58e7"
+  },
+  {
+    "integrationId": "9dc05c5e-7c1e-4f8a-9a56-e8a3208b27df",
+    "tenantId": "948dafb1-8410-4d1b-91c7-4a3cdf109210",
+    "integrationName": "uhc",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2025-02-20T18:12:57.280Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "948dafb1-8410-4d1b-91c7-4a3cdf109210"
+  },
+  {
+    "integrationId": "01ae639d-1d7e-4a6b-9a50-15d89b496a04",
+    "tenantId": "9f23373e-c36d-4232-9b07-2ee9bfa508cf",
+    "integrationName": "SF UHC COBRA BETA",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-02-19T21:09:36.355Z",
+    "updatedDate": "2022-11-02T22:39:41.719Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":true}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"RH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"CHGRP\",\"402\",\"NONPAY\",\"400\"]}]},{\"targetValue\":\"TE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS521702529"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Kim VanGeersdaelen"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"AUN\":\"noCoverage\",\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"noCoverage\",\"FIA\":\"noCoverage\",\"FRD\":\"noCoverage\",\"GRF\":\"noCoverage\",\"GRM\":\"noCoverage\",\"HCC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"NEP\":\"noCoverage\",\"NIE\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"UNC\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEO\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEFAM\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]}]},{\"targetValue\":\"05\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE1\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECH\"]}]}]}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": ""
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":true}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":false}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "case_foods_inc"
+      },
+      {
+        "key": "contactPhone",
+        "value": "7045282721"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENT\",\"MEDB0\",\"MEDB1\",\"MEDH0\",\"MEDH1\",\"VIS\",\"FSADC\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"50035003\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"MEDB1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"10\",\"15\",\"51\",\"90\"]}]},{\"targetValue\":\"50045004\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDH1\",\"MEDH0\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"10\",\"15\",\"51\",\"90\"]}]},{\"targetValue\":\"50065006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"10\",\"15\",\"51\",\"90\"]}]},{\"targetValue\":\"60036003\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"MEDB1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"13\",\"16\",\"53\",\"56\",\"54\"]}]},{\"targetValue\":\"60046004\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDH0\",\"MEDH1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"13\",\"16\",\"53\",\"56\",\"55\"]}]},{\"targetValue\":\"60066006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"13\",\"16\",\"53\",\"56\",\"54\",\"55\"]}]},{\"targetValue\":\"80038003\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"MEDB1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"18\",\"58\"]}]},{\"targetValue\":\"80048004\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDH0\",\"MEDH1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"18\",\"58\"]}]},{\"targetValue\":\"80068006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"DENT\",\"MEDB1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"18\",\"58\"]}]},{\"targetValue\":\"90039003\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"MEDB1\",\"MEDB1\",\"MEDB0\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"59\",\"19\",\"18\",\"19\",\"59\"]}]},{\"targetValue\":\"90049004\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDH0\",\"MEDH1\",\"MEDH0\",\"MEDH1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"59\",\"19\",\"19\",\"59\"]}]},{\"targetValue\":\"90069006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"19\",\"59\"]}]},{\"targetValue\":\"FSA\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSADC\",\"FSAHC\"]}]},{\"targetValue\":\"VSPVIS\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"13\",\"16\",\"17\",\"18\",\"19\",\"53\",\"56\",\"57\",\"58\",\"54\",\"55\",\"59\"]}]},{\"targetValue\":\"70057005\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDB0\",\"MEDB1\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"17\",\"57\"]}]},{\"targetValue\":\"70067006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDH1\",\"MEDH0\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"17\",\"57\"]}]},{\"targetValue\":\"70157015\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]},{\"tableValue\":\"organizationLevel1\",\"selectedFieldValues\":[\"57\",\"17\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"210\"]}]"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "9f23373e-c36d-4232-9b07-2ee9bfa508cf"
+  },
+  {
+    "integrationId": "dfc791a2-5ef8-4e84-a919-159f026d0498",
+    "tenantId": "10be7d62-84c5-4cc5-84f3-47c534c48005",
+    "integrationName": "UHC COBRA BETA",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-09-08T17:10:01.339Z",
+    "updatedDate": "2022-10-21T17:44:32.187Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS273513153"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Alan Guzman"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"ANT\":\"noCoverage\",\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DPC\":\"CHILD\",\"DPS\":\"SPOUSE\",\"FIA\":\"noCoverage\",\"GMA\":\"noCoverage\",\"GPA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"UNC\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEFAM\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\",\"EEDP\",\"EEDP\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EDPCHL\",\"EEDPC\",\"EECH\",\"EDPCHL\",\"EDPCHL\",\"EECH\",\"EEDPC\",\"EEDPEC\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "rswcny"
+      },
+      {
+        "key": "contactPhone",
+        "value": "7026766501"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"UHCBP\",\"UHCBU\",\"UHCBV\",\"UHCP\",\"UHCVI\",\"UHMBP\",\"UHMBU\",\"UHMBV\",\"UHMVI\",\"UHMP\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00130013\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHMBU\",\"UHCBU\",\"UHCBU\",\"UHMBU\"]}]},{\"targetValue\":\"00310031\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHCBP\",\"UHMBP\"]}]},{\"targetValue\":\"00270027\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHCP\",\"UHMP\"]}]},{\"targetValue\":\"00180018\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHCBV\",\"UHMBV\"]}]},{\"targetValue\":\"00220022\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHCVI\",\"UHMVI\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"203\"]}]"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "10be7d62-84c5-4cc5-84f3-47c534c48005"
+  },
+  {
+    "integrationId": "256d856e-bfc8-4f6b-91aa-73c3ad3e7394",
+    "tenantId": "cf83944f-907e-45d8-84bd-128ad2e699a7",
+    "integrationName": "UHC Cobra Tanya ATL",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2020-12-29T21:03:49.758Z",
+    "updatedDate": "2021-02-02T16:27:08.001Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":true}"
+      },
+      {
+        "key": "classCode",
+        "value": "[{\"value\":\"A001\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"To the Max Amusement Park\",\"value\":\"UWLN6\",\"table\":\"companyId\"},{\"description\":\"Maxine's Inc.\",\"value\":\"UWM7Z\",\"table\":\"companyId\"},{\"description\":\"Another World Electronics Inc.\",\"value\":\"UWMOL\",\"table\":\"companyId\"}]}]}]"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "ABC12345"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":true,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "John Doe"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"02\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE1\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE2\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE3\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":true}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "divisionCode",
+        "value": "[{\"value\":\"1234567\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"To the Max Amusement Park\",\"value\":\"UWLN6\",\"table\":\"companyId\"},{\"description\":\"Maxine's Inc.\",\"value\":\"UWM7Z\",\"table\":\"companyId\"},{\"description\":\"Another World Electronics Inc.\",\"value\":\"UWMOL\",\"table\":\"companyId\"}]}]}]"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1234567890"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"HMO\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"PLANID\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"HMO\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "cf83944f-907e-45d8-84bd-128ad2e699a7"
+  },
+  {
+    "integrationId": "7e4e1489-5269-46ce-b11c-f65d402c619c",
+    "tenantId": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c",
+    "integrationName": "UHC COBRA",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-08-30T18:32:04.609Z",
+    "updatedDate": "2022-08-30T18:32:09.823Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c"
+  },
+  {
+    "integrationId": "cb89d0da-87b8-446f-8ee7-1c62ac1a48de",
+    "tenantId": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c",
+    "integrationName": "UHC Cobra Export Test Nayal",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-10-21T18:32:49.148Z",
+    "updatedDate": "2023-06-05T14:46:01.448Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"AR\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"202\",\"206\"]}]},{\"targetValue\":\"RH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"TE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]}]},{\"targetValue\":\"DV\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"WW\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]}]},{\"targetValue\":\"DC\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\"]}]},{\"targetValue\":\"DS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"ML\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"207\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "test1234"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "testContactName"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"SPOUSE\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"FF\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"02\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE1\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\",\"EE2\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]}]}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "ganga.nayal@ukg.com"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":false}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "Test"
+      },
+      {
+        "key": "contactPhone",
+        "value": "7812993208"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"132P\",\"132T\",\"401CU\",\"401KD\",\"401KE\",\"401KL\",\"401KP\",\"401KX\",\"ADJ\",\"AZNC+\",\"BOND\",\"CARUP\",\"CHILD\",\"CVOD+\",\"DEN\",\"DNPPO\",\"DRG\",\"EYE\",\"FSADC\",\"FSAHC\",\"FSAPY\",\"GARN\",\"GLIFE\",\"GTLUP\",\"HMO\",\"HSAER\",\"LEVY\",\"LIFE\",\"LOAN\",\"LTD\",\"LTD2\",\"MEALS\",\"PPO\",\"RVOD+\",\"SDL\",\"SEL\",\"SHOES\",\"STD\",\"TFBUP\",\"TIPS\",\"TPSP6\",\"TPSPN\",\"TPSPT\",\"TUIT\",\"UCAR2\",\"UCARP\",\"UELEC\",\"UNF\",\"UWAY\",\"WELD\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"test\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\",\"P\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": ""
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c"
+  },
+  {
+    "integrationId": "99544224-742e-43a4-b746-d5adc428e3bb",
+    "tenantId": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c",
+    "integrationName": "UHC Cob",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-02-16T13:50:52.021Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c"
+  },
+  {
+    "integrationId": "dae7273d-d5ac-4f64-8f63-2e2217e6ea72",
+    "tenantId": "ff66d0fc-d96e-4117-a755-89345d7f929e",
+    "integrationName": "test5",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-06-08T17:43:38.367Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "ff66d0fc-d96e-4117-a755-89345d7f929e"
+  },
+  {
+    "integrationId": "6df9ba14-3576-41a6-b241-13febd65018f",
+    "tenantId": "ddd768f6-acd7-4b7c-95ab-3052591e5209",
+    "integrationName": "talyr",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-01-12T15:17:43.734Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "ddd768f6-acd7-4b7c-95ab-3052591e5209"
+  },
+  {
+    "integrationId": "0e5ffecc-a363-45e1-aead-69d023d1014d",
+    "tenantId": "ddd768f6-acd7-4b7c-95ab-3052591e5209",
+    "integrationName": "uhccobqbtest",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-10-20T17:46:00.356Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "ddd768f6-acd7-4b7c-95ab-3052591e5209"
+  },
+  {
+    "integrationId": "6b1f7138-0918-4015-8f29-762b19b5b3b0",
+    "tenantId": "ddd768f6-acd7-4b7c-95ab-3052591e5209",
+    "integrationName": "GT TEST UHC COB",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-11-14T14:52:45.937Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "ddd768f6-acd7-4b7c-95ab-3052591e5209"
+  },
+  {
+    "integrationId": "ae23145c-8ed2-4a98-af2a-35a45eb3a43a",
+    "tenantId": "7814cc4f-cc32-4a3e-8418-ae613a537b79",
+    "integrationName": "UHC QB Export",
+    "vendor": "066dff97-3791-423f-930e-073cff608816",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2024-04-09T03:51:39.151Z",
+    "updatedDate": "2024-04-10T14:23:55.912Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "testtest"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "test"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "test"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1234567891"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "7814cc4f-cc32-4a3e-8418-ae613a537b79"
+  },
+  {
+    "integrationId": "8228d30b-4a0a-4dac-a63d-ac40eb575e21",
+    "tenantId": "01df0381-f9df-4234-a668-c7bdcebdb80e",
+    "integrationName": "UHC Cobra",
+    "vendor": "066dff97-3791-423f-930e-073cff608816",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2025-03-19T19:01:51.335Z",
+    "updatedDate": "2025-03-19T19:23:59.674Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "testSftp"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS990292253"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Melaine"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\"]}]},{\"targetValue\":\"05\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE1\",\"EE1DP\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "V0001R0008"
+      },
+      {
+        "key": "contactPhone",
+        "value": "6024434835"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"HSA2\",\"PPO\",\"UHA3\",\"UHA6\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00050005\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"PPO\"]}]},{\"targetValue\":\"00060006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HSA2\"]}]},{\"targetValue\":\"METDEN\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"METVIS\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"UHA01\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHA6\"]}]},{\"targetValue\":\"UHA02\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHA3\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"107\",\"108\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"LE\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "01df0381-f9df-4234-a668-c7bdcebdb80e"
+  },
+  {
+    "integrationId": "58bdbe21-4f3a-4ef3-a696-6a5a89e3f154",
+    "tenantId": "0e8ebc9b-5fdc-4353-ad2a-c3aeec044aef",
+    "integrationName": "cobra",
+    "vendor": "066dff97-3791-423f-930e-073cff608816",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2025-02-25T15:49:22.033Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "0e8ebc9b-5fdc-4353-ad2a-c3aeec044aef"
+  },
+  {
+    "integrationId": "6a543a37-86e8-4d3c-90ec-62014503ec28",
+    "tenantId": "9a5aa333-db9d-4bbd-8b0b-72d6d4779e90",
+    "integrationName": "UHC COBRA TOR",
+    "vendor": "23a2b7a7-9c32-4893-97d2-f017e874a304",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-01-04T18:15:29.299Z",
+    "updatedDate": "2021-01-12T21:31:23.664Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":true}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "11111111"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "1111"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE4\",\"FAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":true}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1111111111"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_TOR_2025_07_03_16_08_17_formatted.json",
+    "_tenant_id": "9a5aa333-db9d-4bbd-8b0b-72d6d4779e90"
+  },
+  {
+    "integrationId": "9814c855-1d7d-4712-b296-da6f5658b35b",
+    "tenantId": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9",
+    "integrationName": "UHC COBRA LAS",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-01-04T18:08:45.639Z",
+    "updatedDate": "2021-01-12T21:27:56.683Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "12345678"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "111"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE4\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1111111111"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mappings\":[{\"targetValue\":\"1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"2\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMO\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9"
+  },
+  {
+    "integrationId": "6eec9e0c-5847-463f-9018-cc4cb8feaf02",
+    "tenantId": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9",
+    "integrationName": "UHC COBRA Tara",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2024-11-22T07:22:25.267Z",
+    "updatedDate": "2024-11-26T06:13:04.373Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":false}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"AR\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"100\",\"208\",\"101\",\"102\",\"103\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE4\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":false}"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":false}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "test"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]"
+      },
+      {
+        "key": "clientId",
+        "value": "12345678"
+      },
+      {
+        "key": "contactName",
+        "value": "111"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "tara.agarwal@ukg.com"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "divisionCode",
+        "value": "[{\"value\":\"243254\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"401(k)\",\"value\":\"401K\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental PPO Plan\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Vision Plan\",\"value\":\"EYE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1111111111"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"401CU\",\"401K\",\"41KCU\",\"AZNC+\",\"CARUP\",\"CHDSP\",\"CSPT1\",\"CSPT2\",\"CVOD+\",\"DCSA\",\"DHMO\",\"DLIFE\",\"DRG\",\"EYE\",\"FRAD1\",\"FRADE\",\"FRADF\",\"FRAE1\",\"FRAEF\",\"FRAM1\",\"FRAME\",\"GARN\",\"GARN1\",\"GARN2\",\"GTLE\",\"GTLUP\",\"HCSA\",\"HDMP\",\"HMO\",\"HRS\",\"ITADE\",\"ITAE1\",\"ITAME\",\"ITAMF\",\"ITDE1\",\"ITDEF\",\"JPND1\",\"JPNDE\",\"JPNDF\",\"JPNE1\",\"JPNEF\",\"JPNME\",\"LEVY\",\"LIFE\",\"LIFE2\",\"LOAN\",\"LTD\",\"MEALS\",\"MEXD1\",\"MEXDE\",\"MEXDF\",\"MEXE1\",\"MEXEF\",\"MEXME\",\"MIN\",\"PPO\",\"RVOD+\",\"STD\",\"SUPCH\",\"SUPP\",\"SUPSP\",\"TFBUP\",\"TIPS\",\"TPUP\",\"UNF\",\"UWAY\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mappings\":[{\"targetValue\":\"1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"2\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMO\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9"
+  },
+  {
+    "integrationId": "27216972-0313-4643-b5ab-8318d461c0f3",
+    "tenantId": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9",
+    "integrationName": "CLONE UHC COBRA Tara",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2024-11-26T06:32:35.257Z",
+    "updatedDate": "2024-11-26T06:34:35.179Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":false}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"AR\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"100\",\"208\",\"101\",\"102\",\"103\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE4\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":false}"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":false}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "test"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]"
+      },
+      {
+        "key": "classCode",
+        "value": "[{\"value\":\"234\",\"tables\":[{\"name\":\"earningsGroupCode\",\"selectedFieldValues\":[{\"description\":\"Tipped EE Earning Group\",\"value\":\"TIP\",\"table\":\"earningsGroupCode\"}]}]}]"
+      },
+      {
+        "key": "clientId",
+        "value": "12345678"
+      },
+      {
+        "key": "contactName",
+        "value": "111"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "tara.agarwal@ukg.com"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "divisionCode",
+        "value": "[{\"value\":\"243254\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"401(k)\",\"value\":\"401K\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental PPO Plan\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Vision Plan\",\"value\":\"EYE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1111111111"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"401CU\",\"401K\",\"41KCU\",\"AZNC+\",\"CARUP\",\"CHDSP\",\"CSPT1\",\"CSPT2\",\"CVOD+\",\"DCSA\",\"DHMO\",\"DLIFE\",\"DRG\",\"EYE\",\"FRAD1\",\"FRADE\",\"FRADF\",\"FRAE1\",\"FRAEF\",\"FRAM1\",\"FRAME\",\"GARN\",\"GARN1\",\"GARN2\",\"GTLE\",\"GTLUP\",\"HCSA\",\"HDMP\",\"HMO\",\"HRS\",\"ITADE\",\"ITAE1\",\"ITAME\",\"ITAMF\",\"ITDE1\",\"ITDEF\",\"JPND1\",\"JPNDE\",\"JPNDF\",\"JPNE1\",\"JPNEF\",\"JPNME\",\"LEVY\",\"LIFE\",\"LIFE2\",\"LOAN\",\"LTD\",\"MEALS\",\"MEXD1\",\"MEXDE\",\"MEXDF\",\"MEXE1\",\"MEXEF\",\"MEXME\",\"MIN\",\"PPO\",\"RVOD+\",\"STD\",\"SUPCH\",\"SUPP\",\"SUPSP\",\"TFBUP\",\"TIPS\",\"TPUP\",\"UNF\",\"UWAY\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mappings\":[{\"targetValue\":\"1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"2\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMO\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9"
+  },
+  {
+    "integrationId": "0c3d2e9a-af52-4707-a044-a7aaa298009f",
+    "tenantId": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9",
+    "integrationName": "CLONE Shadab UHC COBRA",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2024-11-27T09:51:24.839Z",
+    "updatedDate": "2024-11-28T06:36:56.770Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\",\"hidden\":false}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"AR\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"100\",\"101\",\"100\",\"101\"]}]}]}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"03\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE4\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\",\"hidden\":false}"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":false}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "test"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"306\",\"307\",\"308\",\"309\",\"310\",\"400\",\"401\",\"402\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"ERROR\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]"
+      },
+      {
+        "key": "classCode",
+        "value": "[{\"value\":\"234\",\"tables\":[{\"name\":\"earningsGroupCode\",\"selectedFieldValues\":[{\"description\":\"Tipped EE Earning Group\",\"value\":\"TIP\",\"table\":\"earningsGroupCode\"}]}]}]"
+      },
+      {
+        "key": "clientId",
+        "value": "12345678"
+      },
+      {
+        "key": "contactName",
+        "value": "111"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "shadab.ali@ukg.com"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "divisionCode",
+        "value": "[{\"value\":\"243254\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"401(k)\",\"value\":\"401K\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental PPO Plan\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Vision Plan\",\"value\":\"EYE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "contactPhone",
+        "value": "1111111111"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"401CU\",\"401K\",\"41KCU\",\"AZNC+\",\"CARUP\",\"CHDSP\",\"CSPT1\",\"CSPT2\",\"CVOD+\",\"DCSA\",\"DHMO\",\"DLIFE\",\"DRG\",\"EYE\",\"FRAD1\",\"FRADE\",\"FRADF\",\"FRAE1\",\"FRAEF\",\"FRAM1\",\"FRAME\",\"GARN\",\"GARN1\",\"GARN2\",\"GTLE\",\"GTLUP\",\"HCSA\",\"HDMP\",\"HMO\",\"HRS\",\"ITADE\",\"ITAE1\",\"ITAME\",\"ITAMF\",\"ITDE1\",\"ITDEF\",\"JPND1\",\"JPNDE\",\"JPNDF\",\"JPNE1\",\"JPNEF\",\"JPNME\",\"LEVY\",\"LIFE\",\"LIFE2\",\"LOAN\",\"LTD\",\"MEALS\",\"MEXD1\",\"MEXDE\",\"MEXDF\",\"MEXE1\",\"MEXEF\",\"MEXME\",\"MIN\",\"PPO\",\"RVOD+\",\"STD\",\"SUPCH\",\"SUPP\",\"SUPSP\",\"TFBUP\",\"TIPS\",\"TPUP\",\"UNF\",\"UWAY\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mappings\":[{\"targetValue\":\"1\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"2\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMO\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "80ddae4c-a356-4935-b15f-ef7c8b4e01d9"
+  },
+  {
+    "integrationId": "a3a7400f-e7fe-4b09-ab07-975abb731f58",
+    "tenantId": "b6e41ea6-c300-45bb-bfb3-fe9e98cfb3eb",
+    "integrationName": "UHC COBRA",
+    "vendor": "7e9c596b-cfad-4c60-a123-0a8a7a4df857",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2025-01-08T15:20:56.954Z",
+    "updatedDate": "2025-01-22T16:29:11.856Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS411419949"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Jodie"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DCH\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"SPOUSE\",\"GRC\":\"CHILD\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EE\",\"EEW\",\"EEW\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VLS\",\"GLIFE\",\"VLEE\",\"VLC\",\"VLEE\",\"VLS\",\"GLIFC\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFW2\",\"EEFW\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EESW\",\"EESW2\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECW\"]}]},{\"targetValue\":\"05\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECW\",\"EEDP\",\"EES\",\"EESW\",\"EESW2\"]}]},{\"targetValue\":\"FF\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSA\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "BernatellosPizza"
+      },
+      {
+        "key": "contactPhone",
+        "value": "9207595878"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"FSA\",\"GLIFE\",\"MDHSA\",\"MDPPO\",\"VISUH\",\"VLEE\",\"VLS\",\"GLIFC\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00030003\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDHSA\"]}]},{\"targetValue\":\"00040004\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDPPO\"]}]},{\"targetValue\":\"00060006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISUH\"]}]},{\"targetValue\":\"DENTAL\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"FSA\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSA\"]}]},{\"targetValue\":\"LIFE01\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"GLIFE\"]}]},{\"targetValue\":\"LIFE03\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VLEE\"]}]},{\"targetValue\":\"LIFE04\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VLS\"]}]},{\"targetValue\":\"LIFE05\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"GLIFC\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "b6e41ea6-c300-45bb-bfb3-fe9e98cfb3eb"
+  },
+  {
+    "integrationId": "6dde97c3-32ee-4603-be49-aa5820a7736c",
+    "tenantId": "b4869548-8116-4148-a00e-3b646709f4a5",
+    "integrationName": "UHC COBRA",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-05-24T13:03:27.073Z",
+    "updatedDate": "2023-09-11T15:28:47.184Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS596143861"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Michael Gomez"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"SPOUSE\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECHN\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "GulfWinds"
+      },
+      {
+        "key": "contactPhone",
+        "value": "8888483375"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DNTL\",\"MDCL1\",\"MDCL2\",\"MDCL3\",\"MDCL4\",\"MDCL5\",\"MDCL6\",\"MDCL7\",\"MDCL8\",\"MDCL9\",\"MDEX1\",\"MDEX2\",\"MDEX3\",\"MDEX4\",\"MDEX5\",\"MDEX6\",\"MDEX7\",\"MDEX8\",\"MDEX9\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00170017\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX2\",\"MDEX5\"]}]},{\"targetValue\":\"00180018\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX7\",\"MDEX9\"]}]},{\"targetValue\":\"00190019\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX1\",\"MDEX6\"]}]},{\"targetValue\":\"00200020\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DNTL\"]},{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"EXIN\",\"EXOUT\"]}]},{\"targetValue\":\"00210021\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]},{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"EXIN\",\"EXOUT\"]}]},{\"targetValue\":\"00220022\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX3\"]}]},{\"targetValue\":\"00230023\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX4\"]}]},{\"targetValue\":\"00240024\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDEX8\"]}]},{\"targetValue\":\"00250025\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL1\",\"MDCL5\"]}]},{\"targetValue\":\"00260026\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL7\",\"MDCL9\"]}]},{\"targetValue\":\"00270027\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL2\",\"MDCL6\"]}]},{\"targetValue\":\"00280028\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DNTL\"]},{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"OUTFT\",\"INFT\"]}]},{\"targetValue\":\"00280029\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]},{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"INFT\",\"OUTFT\"]}]},{\"targetValue\":\"00300030\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL3\"]}]},{\"targetValue\":\"00310031\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL4\"]}]},{\"targetValue\":\"00320032\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MDCL8\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": true,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "b4869548-8116-4148-a00e-3b646709f4a5"
+  },
+  {
+    "integrationId": "15a66413-56b4-4b25-a82b-cacd30b36e21",
+    "tenantId": "0796522e-b620-4411-8120-f2783899b628",
+    "integrationName": "UHC COBRA",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2021-03-12T19:53:40.072Z",
+    "updatedDate": "2021-03-19T20:44:25.702Z",
+    "fileTransferFields": [
+      {
+        "key": "clientId",
+        "value": "UHCUSS421425214"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"278c497170a1d3038adfcbcad9a8c66b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3a25ac1bba16e8834021d00428db66a9\":{\"visited\":false,\"valid\":false,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Mike Whitehead"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"SPOUSE\",\"CHD\":\"SPOUSE\",\"CHL\":\"CHILD\",\"COU\":\"CHILD\",\"DAD\":\"CHILD\",\"DOM\":\"CHILD\",\"DPC\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"noCoverage\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"WRD\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"EF\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FS213\",\"FS214\"]}]},{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EMA035\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EMD149\",\"EMF210\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EMC105\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EMD140\",\"EMS665\"]}]}]}"
+      },
+      {
+        "key": "contactPhone",
+        "value": "5152079580"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"211\",\"CHGRP\"]}]"
+      }
+    ],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "0796522e-b620-4411-8120-f2783899b628"
+  },
+  {
+    "integrationId": "3a452e8c-b3e7-443a-a660-39368caa9636",
+    "tenantId": "a6fa61b0-f4ae-4d8f-acc9-8c9ea694321a",
+    "integrationName": "UHC COBRA NPM",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-04-04T19:24:59.980Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "a6fa61b0-f4ae-4d8f-acc9-8c9ea694321a"
+  },
+  {
+    "integrationId": "362575d5-6345-48b7-8f79-9a06cf6b6ee2",
+    "tenantId": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1",
+    "integrationName": "UHC COBRA",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-02-24T15:54:48.937Z",
+    "updatedDate": "2025-01-20T17:39:39.930Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS740865200"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Hamza Tanzeem"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DDP\":\"noCoverage\",\"DP\":\"noCoverage\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"FRE\":\"noCoverage\",\"GRA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LDP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIG\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"UNC\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]}]}]}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "nicola.ellis@riveroakscc.net"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"companyId\",\"values\":[\"HBAQH\"]}]"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "riveroaks"
+      },
+      {
+        "key": "contactPhone",
+        "value": "9086250054"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENPL\",\"DENVA\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00060006\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENVA\"]}]},{\"targetValue\":\"00070007\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"00080008\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPL\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": true,
+    "cron": "0 0 13 * * FRI",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1"
+  },
+  {
+    "integrationId": "07b63ab3-23ca-4958-b375-11eb49ccc869",
+    "tenantId": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1",
+    "integrationName": "UHC COBRA Plan 2",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-02-27T16:05:47.824Z",
+    "updatedDate": "2023-09-08T18:42:03.394Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS7408654200"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Hamza Tanzeem"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DDP\":\"noCoverage\",\"DP\":\"noCoverage\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"FRE\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LDP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "riveroaks"
+      },
+      {
+        "key": "contactPhone",
+        "value": "9086250054"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENPL\",\"DENVA\",\"VIS\",\"MEDC\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00060006\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENVA\"]}]},{\"targetValue\":\"0007007\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"00080008\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPL\"]}]},{\"targetValue\":\"00090009\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDC\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1"
+  },
+  {
+    "integrationId": "0d49cc58-23ea-4c16-b8af-28e0ab854eb3",
+    "tenantId": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1",
+    "integrationName": "UHC COBRA Plan 3",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2023-02-27T16:27:42.458Z",
+    "updatedDate": "2023-07-24T14:50:15.576Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS740865200"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Hamza Tanzeem"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DDP\":\"noCoverage\",\"DP\":\"noCoverage\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"FRE\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LDP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"06\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\"]}]},{\"targetValue\":\"08\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]}]}]}"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "riveroaks"
+      },
+      {
+        "key": "contactPhone",
+        "value": "9086250054"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENPL\",\"DENVA\",\"VIS\",\"MEDC\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00060006\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EES\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENVA\"]}]},{\"targetValue\":\"00070007\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"00080008\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEC\",\"EEF\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPL\"]}]},{\"targetValue\":\"00090009\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EES\",\"EEC\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDC\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "d221981d-0d6c-46a6-b4a8-e5010c19f1c1"
+  },
+  {
+    "integrationId": "83705d8b-fcc4-4c45-b76a-c3ad1139a205",
+    "tenantId": "7d5d6b8c-9fe8-4ba2-b594-81b07a957345",
+    "integrationName": "UHC COBRA",
+    "vendor": "bdc95d6f-9708-4c80-b0d9-23331d9c2eba",
+    "fileTypeId": "usg.unitedhealthcare.cobra",
+    "customerName": null,
+    "createdDate": "2022-12-06T16:59:26.525Z",
+    "updatedDate": "2024-04-05T19:46:01.117Z",
+    "fileTransferFields": [
+      {
+        "key": "toggle-class-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\"}"
+      },
+      {
+        "key": "cobraQualifyingEvents",
+        "value": ""
+      },
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "clientId",
+        "value": "UHCUSS390491540"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"01ee24f797d9a8250662adc1f7f1976d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"386ae1cd8e1a87f95d09cd30a70f4bbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b0bb726a2daf6de5175d759976293f7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e3b3a933d996f70e8684848bea354c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f9e43dea-147a-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f24b6a539d9bb38c67b4115b750d4a3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5837945a6c1466f1311812f9811a3834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a62845e4-1825-11eb-adc1-0242ac120002\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"7c787861-8396-496c-ab46-299143ec477a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ddb7331ae5acbc64c2db1e457af0bdcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51a60bd7e2c26418a90d5594347e97a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da71dd9dfa2894683e771d34cf6e1e08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"64f3725c-1b01-491e-ab08-0ca3c1bf0997\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e0703eaf08556445251eec335e7abfa2\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "contactName",
+        "value": "Anna Risch"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"CHN\":\"noCoverage\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DOM\":\"noCoverage\",\"FIA\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "coverageLevel",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"01\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]}]},{\"targetValue\":\"04\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\",\"EEC\",\"EEFP\"]}]},{\"targetValue\":\"05\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE2\",\"EE2P\",\"EEP\"]}]}]}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "arisch@acuity.com"
+      },
+      {
+        "key": "toggle-division-code-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8ae3a183-4829-47bb-9e01-fd8bd3ddcc40\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-qe-custome-mapping-step",
+        "value": "{\"stepId\":\"a62845e4-1825-11eb-adc1-0242ac120002\",\"hidden\":true}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "uhcFolderName",
+        "value": "acuity"
+      },
+      {
+        "key": "contactPhone",
+        "value": "8002427666"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENP2\",\"DENPT\",\"MEDPT\",\"VISP1\",\"VISPT\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"00020002\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPT\"]}]},{\"targetValue\":\"DENBASE\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPT\"]}]},{\"targetValue\":\"DENTUP\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENP2\"]}]},{\"targetValue\":\"EYEMEDBS\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISP1\"]}]},{\"targetValue\":\"EYEMEDUP\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISPT\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      },
+      {
+        "key": "IneligibleFilters",
+        "value": "[{\"source\":\"benefitChangeReasonCode\",\"values\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"107\",\"108\",\"202\",\"203\",\"205\",\"206\",\"209\",\"222\",\"300\",\"301\",\"302\",\"303\",\"304\",\"305\",\"400\",\"401\",\"402\",\"403\",\"404\",\"405\",\"900\",\"960\",\"CHGRP\",\"CONV\",\"LE\",\"LEVNT1\",\"LEVNT2\",\"LEVNT3\",\"LEVNT4\",\"LEVNT5\",\"OE\",\"TRB\",\"TRO\",\"Z\"]}]"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": true,
+    "cron": "0 0 23 * * MON",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "7d5d6b8c-9fe8-4ba2-b594-81b07a957345"
+  }
+]

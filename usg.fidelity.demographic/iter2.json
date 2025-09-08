@@ -1,0 +1,24 @@
+{
+    "integrationId": "228ce4e5-a9d7-4ee6-9a75-ecdbf8eab45b",
+    "fileTypeId": "usg.fidelity.demographic",
+    "globalTenantId": "TO-DO",
+    "suggestions": {
+        "record63TransactionDate": "PayEndDate",
+        "record36ByDivision": "doNotReport",
+        "toggle-division-code": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}",
+        "eligibilityDate": "weDoNotReportEligibilityDate",
+        "ui_statusMap": "{\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"valid\":false,\"hidden\":true,\"visited\":false}}",
+        "batchGroupIDMapping": "[{\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Ash Brokerage, LLC\",\"table\":\"companyId\",\"value\":\"0X621\"}]}],\"value\":\"2\"}]",
+        "recordCASalary": "false",
+        "employeeFilters": "[{\"source\":\"employeeTypeCode\",\"values\":[\"REG\"]}]",
+        "RecordPHParticipantTelephone": "homePhone",
+        "includeVestingDateForNewHires": "false",
+        "record57CompanyID": "doNotReport",
+        "record63ServiceUnitHistory": "doNotReport",
+        "eligibilityTracking": "true",
+        "divisionIDMapping": "[{\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Ash Brokerage, LLC\",\"table\":\"companyId\",\"value\":\"0X621\"}]}],\"value\":\"2\"}]",
+        "minimumAge": "18",
+        "vestingDate": "dateOfOriginalHire",
+        "record57PayrollID": "doNotReport"
+    }
+}

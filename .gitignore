@@ -1,0 +1,43 @@
+# --- Environment Variables ---
+# Never commit your API keys or other secrets!
+.env
+.env.*
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# --- Virtual Environments ---
+# Never commit your virtual environment folders.
+.venv/
+venv/
+env/
+virtualenv/
+
+# --- Generated Output & Data Files ---
+# Ignore generated reports and logs.
+# Customize these if you need to commit specific data files.
+*.csv
+*.txt
+*.log
+# *.json # Be careful with this one, as your input files are .json.
+# It's better to ignore specific output files by name, e.g., my_output.json
+
+# --- IDE & Editor Configuration ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg
+
+# --- Testing & Coverage Reports ---
+.pytest_cache/
+.coverage
+htmlcov/

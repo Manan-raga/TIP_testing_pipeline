@@ -1,0 +1,19 @@
+{
+    "integrationId": "228ce4e5-a9d7-4ee6-9a75-ecdbf8eab45b",
+    "fileTypeId": "usg.cigna.834-proclaim",
+    "globalTenantId": "TO-DO",
+    "suggestions": {
+        "customerFEIN": "262342955-Q",
+        "benefitOptionMappingMed": "{\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\",\"totalFormFilledOutValidation\":true}",
+        "deductionCodeVis": "[\"DENVI\"]",
+        "denHd03": "DEN",
+        "benefitOptionMappingVis": "{\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\",\"totalFormFilledOutValidation\":true}",
+        "hIndNo": "20,029053964",
+        "employeeFilters": "[{\"source\":\"employeeTypeCode\",\"values\":[\"REG\"]}]",
+        "benefitOptionMappingPre": "{\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\",\"totalFormFilledOutValidation\":true}",
+        "cignaVisBenefitOptionMapping": "[{\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Vision\",\"table\":\"deductions.deductionCode\",\"value\":\"DENVI\"}]}],\"value\":\"VIS\"}]",
+        "minStartDateVis": "2022-03-31T18:30:00.000Z",
+        "deductionCodeDentalCap": "[]",
+        "ClientNumber": "employeeNumber"
+    }
+}

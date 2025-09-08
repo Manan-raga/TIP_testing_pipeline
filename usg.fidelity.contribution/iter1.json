@@ -1,0 +1,21 @@
+{
+    "integrationId": "228ce4e5-a9d7-4ee6-9a75-ecdbf8eab45b",
+    "fileTypeId": "usg.fidelity.contribution",
+    "globalTenantId": "TO-DO",
+    "suggestions": {
+        "source8": "8",
+        "source3": "3",
+        "source4": "4",
+        "ui_statusMap": "{\"3eaac5d0-12ed-4d5f-b14c-be8becf80f22\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"valid\":false,\"hidden\":false,\"visited\":false}}",
+        "includeTerminateEmployees": "false",
+        "employeeFilters": "[{\"source\":\"employeeTypeCode\",\"values\":[\"REG\"]}]",
+        "batchIdMapping": "[{\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Ash Brokerage, LLC\",\"table\":\"companyId\",\"value\":\"0X621\"}]}],\"value\":\"2\"}]",
+        "source1": "1",
+        "loanIDFromDedCode": "[{\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"401k Loan\",\"table\":\"deductionCode\",\"value\":\"401L\"}]}],\"value\":\"LOAN 1\"},{\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"401k Loan 2\",\"table\":\"deductionCode\",\"value\":\"401L2\"}]}],\"value\":\"LOAN 2\"}]",
+        "source2": "2",
+        "toggle-reportLoanIDDedCode-step": "{\"hidden\":false,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}",
+        "voidedCheckOption": "Y",
+        "minimumAge": "18",
+        "toggle-reportLoanIDUKGPro-step": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f22\"}"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "integrationId": "228ce4e5-a9d7-4ee6-9a75-ecdbf8eab45b",
+    "fileTypeId": "usg.wageworks.cobra",
+    "globalTenantId": "TO-DO",
+    "suggestions": {
+        "fileNameExtension": ".csv",
+        "cobraMinStartDate": "benefitStopDate",
+        "custFileName": "COB_Complink44csv_120543_CXT_",
+        "database": "CXT",
+        "toggle-qualifying-events-step": "{\"hidden\":true,\"stepId\":\"b245a5f5-7d9a-4131-9d32-8c35c05a713f\"}",
+        "toggle-subsidy-record-step": "{\"hidden\":true,\"stepId\":\"9d124572-95b5-4e8c-b52a-f48baf098138\"}",
+        "ui_statusMap": "{\"9d124572-95b5-4e8c-b52a-f48baf098138\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"941bb989-f247-47ae-b214-88b98d97b15e\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"9d124572-95b5-4e8c-b52a-f48baf098139\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"b245a5f5-7d9a-4131-9d32-8c35c05a713f\":{\"valid\":false,\"hidden\":true,\"visited\":false}}",
+        "fileNameOption": "yyyyMMdd",
+        "fileNamePosition": "After",
+        "toggle-employee-class-step": "{\"hidden\":true,\"stepId\":\"9d124572-95b5-4e8c-b52a-f48baf098139\"}",
+        "fileTransmissionCheckbox": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810291l\"}",
+        "toggle-division-step": "{\"hidden\":true,\"stepId\":\"941bb989-f247-47ae-b214-88b98d97b15e\"}"
+    }
+}
+

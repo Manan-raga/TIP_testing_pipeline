@@ -1,0 +1,1394 @@
+[
+  {
+    "integrationId": "a393b0ee-6013-432e-98b8-16df4c7dd08f",
+    "tenantId": "641cfa29-6d29-43b1-907e-50dd21791cf3",
+    "integrationName": "Flores COBRA",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-04-24T15:16:17.238Z",
+    "updatedDate": "2024-05-16T15:54:46.441Z",
+    "fileTransferFields": [
+      {
+        "key": "groupPrefix",
+        "value": "10002410"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\",\"250\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\",\"204\",\"205\",\"208\",\"210\",\"240\",\"207\",\"211\",\"Z\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"105\",\"106\",\"107\",\"108\",\"202\",\"110\",\"111\",\"112\",\"109\",\"113\",\"201\",\"212\",\"TRO\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]}]}"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":false,\"valid\":false,\"hidden\":false}}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"AUN\":\"noCoverage\",\"BIL\":\"noCoverage\",\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DAU\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"SPOUSE\",\"FIL\":\"noCoverage\",\"FRD\":\"noCoverage\",\"GRC\":\"CHILD\",\"GRP\":\"noCoverage\",\"HUS\":\"SPOUSE\",\"MIL\":\"noCoverage\",\"MOM\":\"noCoverage\",\"NEP\":\"noCoverage\",\"NIE\":\"noCoverage\",\"OTH\":\"noCoverage\",\"QCD\":\"CHILD\",\"SIL\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SOL\":\"noCoverage\",\"SON\":\"CHILD\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"UNC\":\"noCoverage\",\"WIF\":\"noCoverage\",\"XSP\":\"SPOUSE\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN1\",\"FSAI\",\"MED1\",\"VIS1\",\"FSAMD\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      }
+    ],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "641cfa29-6d29-43b1-907e-50dd21791cf3"
+  },
+  {
+    "integrationId": "c7a377c7-ad57-4b02-9086-98dd120167e1",
+    "tenantId": "4bb7e0b8-3e0e-4c92-98f1-9dafb275bec8",
+    "integrationName": "Flores COBRA NPM and QB",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2023-09-26T15:38:19.022Z",
+    "updatedDate": "2024-07-30T17:29:44.872Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"noCoverage\",\"FIA\":\"SPOUSE\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": ""
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10005480"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"300\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"LTDMED\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"202\",\"RETIRE\",\"104\",\"TRO\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\",\"201\",\"204\",\"206\",\"LAYOFF\",\"ABAND\",\"207\",\"205\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"CDEE\",\"DTEE\",\"HMEE\",\"NSOHM\",\"NSOPP\",\"POEE\",\"VIEE\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\",\"NSOEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMEE\"]}]},{\"targetValue\":\"5011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\",\"NSOEE1\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMEE\"]}]},{\"targetValue\":\"5012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EETWO\",\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"HMEE\"]}]},{\"targetValue\":\"6020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\",\"NSOEE\",\"EXEEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"POEE\"]}]},{\"targetValue\":\"6021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\",\"EXEEE1\",\"NSOEE1\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"POEE\"]}]},{\"targetValue\":\"6022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EETWO\",\"EXEEE2\",\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"POEE\"]}]},{\"targetValue\":\"7030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CDEE\"]}]},{\"targetValue\":\"7031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CDEE\"]}]},{\"targetValue\":\"7032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EETWO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CDEE\"]}]},{\"targetValue\":\"8040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]}]},{\"targetValue\":\"8041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE1\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]}]},{\"targetValue\":\"8042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]}]},{\"targetValue\":\"10060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTEE\"]}]},{\"targetValue\":\"10061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTEE\"]}]},{\"targetValue\":\"10062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EETWO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTEE\"]}]},{\"targetValue\":\"14085\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTEE\"]},{\"tableValue\":\"organizationLevel4\",\"selectedFieldValues\":[\"NSOORC\",\"NSOLIB\"]}]},{\"targetValue\":\"14086\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTEE\"]},{\"tableValue\":\"organizationLevel4\",\"selectedFieldValues\":[\"NSOORC\",\"NSOLIB\"]}]},{\"targetValue\":\"4050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]}]},{\"targetValue\":\"4051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]}]},{\"targetValue\":\"4052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EETWO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]}]},{\"targetValue\":\"12070\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]},{\"tableValue\":\"organizationLevel4\",\"selectedFieldValues\":[\"NSOORC\",\"NSOLIB\"]}]},{\"targetValue\":\"12071\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE1\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]},{\"tableValue\":\"organizationLevel4\",\"selectedFieldValues\":[\"NSOLIB\",\"NSOORC\"]}]},{\"targetValue\":\"12072\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIEE\"]},{\"tableValue\":\"organizationLevel4\",\"selectedFieldValues\":[\"NSOORC\",\"NSOLIB\"]}]},{\"targetValue\":\"13080\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]},{\"tableValue\":\"employeeTypeCode\",\"selectedFieldValues\":[\"RET\"]}]},{\"targetValue\":\"13081\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE1\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]},{\"tableValue\":\"employeeTypeCode\",\"selectedFieldValues\":[\"RET\"]}]},{\"targetValue\":\"13082\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"NSOEE2\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"NSOPP\"]},{\"tableValue\":\"employeeTypeCode\",\"selectedFieldValues\":[\"RET\"]}]}]}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "4bb7e0b8-3e0e-4c92-98f1-9dafb275bec8"
+  },
+  {
+    "integrationId": "2bd4647c-bb96-4e8d-9af8-21c4df15cb03",
+    "tenantId": "2c1fb1f7-a572-4595-a20a-88c99cfd18ef",
+    "integrationName": "Flores COBRA",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-01-12T18:54:59.599Z",
+    "updatedDate": "2024-10-01T16:32:11.312Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"100\":\"CHILD\",\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "kricca@inspyrsolutions.com"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"companyId\",\"values\":[\"5CVMI\"]}]"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "10000"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10011721"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\",\"LEVNT4\",\"302\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\",\"302\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"1\",\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"107\",\"108\",\"109\",\"110\",\"111\",\"200\",\"201\",\"204\",\"205\",\"206\",\"207\",\"208\",\"99\",\"OTHINV\",\"RIF\",\"Z\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"1\",\"1\",\"100\",\"101\",\"102\",\"100\",\"103\",\"101\",\"102\",\"105\",\"106\",\"107\",\"108\",\"103\",\"104\",\"105\",\"106\",\"109\",\"107\",\"110\",\"108\",\"111\",\"109\",\"110\",\"201\",\"111\",\"Z\",\"200\",\"201\",\"202\",\"203\",\"204\",\"207\",\"205\",\"206\",\"99\",\"207\",\"OTHINV\",\"208\",\"99\",\"OTHINV\",\"RIF\",\"TRO\",\"Z\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENT\",\"EYE\",\"FSA\",\"MEDG\",\"MEDP\",\"MEDS\",\"FSAL\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"4020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDP\"]}]},{\"targetValue\":\"4021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDP\"]}]},{\"targetValue\":\"4022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDP\"]}]},{\"targetValue\":\"4023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDP\"]}]},{\"targetValue\":\"5010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDS\"]}]},{\"targetValue\":\"5011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDS\"]}]},{\"targetValue\":\"5012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDS\"]}]},{\"targetValue\":\"5013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDS\"]}]},{\"targetValue\":\"9030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDG\"]}]},{\"targetValue\":\"9031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDG\"]}]},{\"targetValue\":\"9032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDG\"]}]},{\"targetValue\":\"9033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDG\"]}]},{\"targetValue\":\"6010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"6011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"6012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"6013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"7010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EYE\"]}]},{\"targetValue\":\"7011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EYE\"]}]},{\"targetValue\":\"7012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EYE\"]}]},{\"targetValue\":\"7013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EYE\"]}]},{\"targetValue\":\"10000\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSA\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "2c1fb1f7-a572-4595-a20a-88c99cfd18ef"
+  },
+  {
+    "integrationId": "f7e6008e-44de-43ac-90b3-f681a8fb8c88",
+    "tenantId": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c",
+    "integrationName": "Flores COBRA Test 0303",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2023-03-03T12:54:03.054Z",
+    "updatedDate": "2023-03-03T13:16:15.117Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"SPOUSE\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"noCoverage\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "Plan1"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "TestCOB"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"DIVORC\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"207\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"206\",\"200\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "location",
+        "value": "employeeType"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DNPPO\",\"EYE\",\"FSADC\",\"FSAHC\",\"FSAPY\",\"HMO\",\"PPO\",\"DEN\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"Plan1\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\",\"P\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "8c2f78a2-b21c-406a-bafb-7aedda5f2a9c"
+  },
+  {
+    "integrationId": "89f607a4-ce78-4ef8-994c-8b6a3cfe305a",
+    "tenantId": "c8f1d227-e992-4c24-b14e-d0f0d75a5f73",
+    "integrationName": "RED1021 Flores Cobra",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-01-12T22:39:57.203Z",
+    "updatedDate": "2024-03-22T13:48:28.052Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"FRN\":\"noCoverage\",\"GRC\":\"noCoverage\",\"GRP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OFM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "14000"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10011466"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"103\",\"307\",\"104\",\"306\",\"304\",\"308\",\"305\",\"303\",\"207\",\"300\",\"302\",\"301\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"500\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"510\",\"LEVNT3\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"204\",\"205\",\"206\",\"207\",\"300\",\"306\",\"302\",\"305\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"508\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DENLO\",\"DENPP\",\"DENPR\",\"FSAH\",\"MASUR\",\"MCLAS\",\"MEADV\",\"MEPRE\",\"MESUR\",\"VISN\",\"VISNP\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEPRE\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEPRE\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MAPRE\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEPRE\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEADV\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEADV\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEADV\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEADV\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCLAS\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCLAS\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCLAS\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCLAS\"]}]},{\"targetValue\":\"7040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MESUR\"]}]},{\"targetValue\":\"7041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MESUR\"]}]},{\"targetValue\":\"7042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MESUR\"]}]},{\"targetValue\":\"7043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MESUR\"]}]},{\"targetValue\":\"9060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MASUR\"]}]},{\"targetValue\":\"9061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MASUR\"]}]},{\"targetValue\":\"9062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MASUR\"]}]},{\"targetValue\":\"9063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MASUR\"]}]},{\"targetValue\":\"8050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPR\"]}]},{\"targetValue\":\"8051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPR\"]}]},{\"targetValue\":\"8052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPR\"]}]},{\"targetValue\":\"8053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPR\"]}]},{\"targetValue\":\"12090\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPP\"]}]},{\"targetValue\":\"12091\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPP\"]}]},{\"targetValue\":\"12092\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPP\"]}]},{\"targetValue\":\"12093\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENPP\"]}]},{\"targetValue\":\"13100\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENLO\"]}]},{\"targetValue\":\"13101\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENLO\"]}]},{\"targetValue\":\"13102\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENLO\"]}]},{\"targetValue\":\"13103\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENLO\"]}]},{\"targetValue\":\"10070\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISNP\"]}]},{\"targetValue\":\"10071\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISNP\"]}]},{\"targetValue\":\"10072\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISNP\"]}]},{\"targetValue\":\"10073\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISNP\"]}]},{\"targetValue\":\"11080\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEONLY\",\"EEONLY\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISN\"]}]},{\"targetValue\":\"11081\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EESP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISN\"]}]},{\"targetValue\":\"11082\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EECHLD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISN\"]}]},{\"targetValue\":\"11083\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"FAM\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISN\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "c8f1d227-e992-4c24-b14e-d0f0d75a5f73"
+  },
+  {
+    "integrationId": "6bb218c8-b2f3-4b5d-8995-888fddbd070e",
+    "tenantId": "e7b5541a-7d43-4505-a9dc-3e8f727074a1",
+    "integrationName": "Flores COBRA BETA",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2023-07-05T17:50:02.761Z",
+    "updatedDate": "2023-07-05T18:09:28.224Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"ANT\":\"noCoverage\",\"BRL\":\"noCoverage\",\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"noCoverage\",\"DPC\":\"noCoverage\",\"DTR\":\"noCoverage\",\"FIA\":\"noCoverage\",\"FRL\":\"noCoverage\",\"FRN\":\"noCoverage\",\"GRC\":\"noCoverage\",\"HUS\":\"noCoverage\",\"LEG\":\"noCoverage\",\"MOM\":\"noCoverage\",\"MRL\":\"noCoverage\",\"NEP\":\"noCoverage\",\"NIC\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SLF\":\"noCoverage\",\"SON\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"WIF\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "12345678"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"104\",\"106\",\"200\",\"201\",\"203\",\"205\",\"206\",\"209\",\"EAD\",\"FXDEND\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"AETD\",\"AETM\",\"UCDN\",\"UHMO\",\"UPPO\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"10070\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHMO\"]}]},{\"targetValue\":\"10071\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHMO\"]}]},{\"targetValue\":\"10072\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EEC\",\"EECRN\",\"EECRN\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHMO\"]}]},{\"targetValue\":\"10073\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UHMO\"]}]},{\"targetValue\":\"13014\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETM\"]}]},{\"targetValue\":\"13015\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EEC\",\"EES\",\"EEOD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETM\"]}]},{\"targetValue\":\"13017\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EECRN\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETM\"]}]},{\"targetValue\":\"15090\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UPPO\"]}]},{\"targetValue\":\"15091\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UPPO\"]}]},{\"targetValue\":\"15092\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECRN\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UPPO\"]}]},{\"targetValue\":\"15093\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UPPO\"]}]},{\"targetValue\":\"14024\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETD\"]}]},{\"targetValue\":\"14025\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EEC\",\"EES\",\"EEOD\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETD\"]}]},{\"targetValue\":\"14027\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EECRN\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETD\"]}]},{\"targetValue\":\"12090\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UCDN\"]}]},{\"targetValue\":\"12091\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"UCDN\"]}]},{\"targetValue\":\"12092\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECRN\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETD\"]}]},{\"targetValue\":\"12093\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AETD\"]}]},{\"targetValue\":\"8060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EEO\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"8061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"8062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EECRN\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"8063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EMPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "e7b5541a-7d43-4505-a9dc-3e8f727074a1"
+  },
+  {
+    "integrationId": "3c1c7786-b39b-4522-ba7a-282376ad2a00",
+    "tenantId": "c3d529a4-ebc8-4f28-b662-df93cbd7b288",
+    "integrationName": "TEST - Flores COBRA - TEST",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2023-05-31T15:54:01.426Z",
+    "updatedDate": "2025-05-12T18:03:37.000Z",
+    "fileTransferFields": [
+      {
+        "key": "ineligleReasonsFilters",
+        "value": "[{\"source\":\"terminationReason\",\"values\":[\"TRO\"]}]"
+      },
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DCH\":\"CHILD\",\"DDC\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"FNC\":\"noCoverage\",\"FRD\":\"noCoverage\",\"FSP\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OFM\":\"noCoverage\",\"ORG\":\"noCoverage\",\"OTH\":\"noCoverage\",\"PRN\":\"noCoverage\",\"SBL\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "traci.beynon@copperriverss.com, courtney.ashmore@copperriverss.com"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"companyId\",\"values\":[\"23RHO\",\"4UU7X\",\"HAZJ0\",\"HAZP7\",\"HB005\",\"HB02Q\",\"HUYOY\",\"LGRBW\",\"LTZV9\",\"OAV31\",\"OAV8E\",\"TJVA0\",\"TWHCU\",\"U30E3\",\"X1RHV\",\"X1S83\"]}]"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "4000"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10004549"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"202\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"207\",\"201\",\"204\",\"200\",\"205\",\"206\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"103\",\"104\",\"105\",\"202\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"207\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "location",
+        "value": "company"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"DENB\",\"DENCB\",\"DENWD\",\"FSA\",\"MEDHS\",\"MEDPP\",\"MHSBD\",\"MHSCB\",\"MHSWD\",\"MPPBD\",\"MPPWD\",\"OHLTH\",\"VIS\",\"VISB\",\"VISCB\",\"VISWD\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "npm"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"7010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSWD\",\"MHSCB\"]}]},{\"targetValue\":\"7011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"MEDHS\",\"MHSBD\",\"MHSWD\",\"MHSCB\"]}]},{\"targetValue\":\"7012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSCB\",\"MHSWD\",\"MHSBD\"]}]},{\"targetValue\":\"7013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSCB\",\"MHSWD\"]}]},{\"targetValue\":\"8015\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"8016\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"8017\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"8018\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"11030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"OHLTH\"]}]},{\"targetValue\":\"11031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"OHLTH\"]}]},{\"targetValue\":\"11032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"OHLTH\"]}]},{\"targetValue\":\"11033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"OHLTH\"]}]},{\"targetValue\":\"6020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"DENB\",\"DENCB\",\"DENWD\"]}]},{\"targetValue\":\"6021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"DENB\",\"DENCB\",\"DENWD\"]}]},{\"targetValue\":\"6022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"DENB\",\"DENCB\",\"DENWD\"]}]},{\"targetValue\":\"6023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"DENB\",\"DENCB\",\"DENWD\"]}]},{\"targetValue\":\"5025\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"VISB\",\"VISCB\",\"VISWD\"]}]},{\"targetValue\":\"5026\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"VISB\",\"VISCB\",\"VISWD\"]}]},{\"targetValue\":\"5027\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"VISB\",\"VISCB\",\"VISWD\"]}]},{\"targetValue\":\"5028\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\",\"VISB\",\"VISCB\",\"VISWD\"]}]},{\"targetValue\":\"9040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSCB\",\"MHSWD\"]}]},{\"targetValue\":\"9041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSCB\",\"MHSWD\"]}]},{\"targetValue\":\"9042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSCB\",\"MHSWD\"]}]},{\"targetValue\":\"9043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEDPEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\",\"MHSBD\",\"MHSCB\",\"MHSWD\"]}]},{\"targetValue\":\"10035\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"Z\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"10036\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"10037\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"Z\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]},{\"targetValue\":\"10038\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPEC\",\"EEDPF\",\"EEF\",\"Z\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\",\"MPPBD\",\"MPPWD\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "c3d529a4-ebc8-4f28-b662-df93cbd7b288"
+  },
+  {
+    "integrationId": "efcb89de-9c4d-4d0b-89c7-e57064eab285",
+    "tenantId": "94e29012-98bf-4bb5-8967-70bb35d1c4d3",
+    "integrationName": "Cobra",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-08-07T13:39:09.398Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "94e29012-98bf-4bb5-8967-70bb35d1c4d3"
+  },
+  {
+    "integrationId": "6e8a5c56-df38-481f-a931-1d391d6f4fc2",
+    "tenantId": "89fada67-ceee-4ae0-9c20-a62e6a6a781d",
+    "integrationName": "Flores COBRA BETA",
+    "vendor": "a398df36-c3bc-4e58-9d6f-91efc811c302",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2023-07-05T17:21:01.994Z",
+    "updatedDate": "2023-07-05T18:12:23.673Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BFR\":\"noCoverage\",\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DC\":\"noCoverage\",\"DP\":\"noCoverage\",\"DPC\":\"noCoverage\",\"EXS\":\"noCoverage\",\"FIA\":\"noCoverage\",\"FIE\":\"noCoverage\",\"FRI\":\"noCoverage\",\"GFR\":\"noCoverage\",\"GRC\":\"noCoverage\",\"GRM\":\"noCoverage\",\"MOM\":\"noCoverage\",\"NEP\":\"noCoverage\",\"NIE\":\"noCoverage\",\"OTH\":\"noCoverage\",\"PAR\":\"noCoverage\",\"RMT\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TST\":\"noCoverage\",\"UDP\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "9000"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "12345678"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\",\"201\",\"203\",\"204\",\"205\",\"206\",\"208\",\"300\",\"ACQMRG\",\"ATWILL\",\"REDUC\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"FSA\",\"FSADC\",\"LPFSA\",\"MEDHS\",\"MEDPP\",\"VIS\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"3010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\"]}]},{\"targetValue\":\"3011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\"]}]},{\"targetValue\":\"3012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\"]}]},{\"targetValue\":\"3013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDPP\"]}]},{\"targetValue\":\"7050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\"]}]},{\"targetValue\":\"7051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\"]}]},{\"targetValue\":\"7052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\"]}]},{\"targetValue\":\"7053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MEDHS\"]}]},{\"targetValue\":\"8060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"8061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"8062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"8063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"10025\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10026\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10027\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10028\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9000\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"FSA\",\"FSADC\",\"LPFSA\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "89fada67-ceee-4ae0-9c20-a62e6a6a781d"
+  },
+  {
+    "integrationId": "10ab2a80-2f11-431f-a0fc-2d672f3420b7",
+    "tenantId": "b376b877-790d-400b-8aba-3cd51ca481d2",
+    "integrationName": "Flores QE Export",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-02-06T19:11:14.936Z",
+    "updatedDate": "2024-05-07T20:08:41.711Z",
+    "fileTransferFields": [
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":false,\"valid\":false,\"hidden\":false}}"
+      }
+    ],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "b376b877-790d-400b-8aba-3cd51ca481d2"
+  },
+  {
+    "integrationId": "4d199e4a-aecb-47ab-997d-cfd159c2cb9c",
+    "tenantId": "b376b877-790d-400b-8aba-3cd51ca481d2",
+    "integrationName": "Flores Cobra IN & NPM",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-05-28T21:36:38.920Z",
+    "updatedDate": "2024-05-29T15:08:23.032Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DAU\":\"CHILD\",\"DIS\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LGD\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SON\":\"CHILD\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "8001"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10004891"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"104\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"205\",\"206\",\"207\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"VISST\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "npm"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"3010\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V1\"]}]},{\"targetValue\":\"3011\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V2\"]}]},{\"targetValue\":\"3012\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V3\"]}]},{\"targetValue\":\"3013\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24VC\"]}]},{\"targetValue\":\"4015\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DHF\"]}]},{\"targetValue\":\"4016\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DHI\"]}]},{\"targetValue\":\"4017\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DLF\"]}]},{\"targetValue\":\"4018\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DLI\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401F\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401L\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401L2\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401P\"]}]},{\"targetValue\":\"6025\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFAP\"]}]},{\"targetValue\":\"6026\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFAT\"]}]},{\"targetValue\":\"6027\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFCP\"]}]},{\"targetValue\":\"6028\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFDI\"]}]},{\"targetValue\":\"7030\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENH\"]}]},{\"targetValue\":\"7031\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHA\"]}]},{\"targetValue\":\"7032\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHF\"]}]},{\"targetValue\":\"7033\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHS\"]}]},{\"targetValue\":\"8001\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"457F\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "b376b877-790d-400b-8aba-3cd51ca481d2"
+  },
+  {
+    "integrationId": "6379969b-c9a5-43b9-81bb-4e00c6168c38",
+    "tenantId": "b376b877-790d-400b-8aba-3cd51ca481d2",
+    "integrationName": "Flores Cobra QE & QB",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-05-29T15:07:04.352Z",
+    "updatedDate": "2024-05-29T15:10:19.404Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DAU\":\"CHILD\",\"DIS\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LGD\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SON\":\"CHILD\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "8001"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10004891"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"104\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"205\",\"206\",\"207\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"VISST\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "qb"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"3010\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V1\"]}]},{\"targetValue\":\"3011\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V2\"]}]},{\"targetValue\":\"3012\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24V3\"]}]},{\"targetValue\":\"3013\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"24VC\"]}]},{\"targetValue\":\"4015\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DHF\"]}]},{\"targetValue\":\"4016\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DHI\"]}]},{\"targetValue\":\"4017\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DLF\"]}]},{\"targetValue\":\"4018\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"2DLI\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401F\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401L\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401L2\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"401P\"]}]},{\"targetValue\":\"6025\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFAP\"]}]},{\"targetValue\":\"6026\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFAT\"]}]},{\"targetValue\":\"6027\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFCP\"]}]},{\"targetValue\":\"6028\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"AFDI\"]}]},{\"targetValue\":\"7030\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENH\"]}]},{\"targetValue\":\"7031\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHA\"]}]},{\"targetValue\":\"7032\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHF\"]}]},{\"targetValue\":\"7033\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENHS\"]}]},{\"targetValue\":\"8001\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"457F\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "b376b877-790d-400b-8aba-3cd51ca481d2"
+  },
+  {
+    "integrationId": "cba76177-beda-4332-a0c5-16f3585c7b78",
+    "tenantId": "b3b3d903-68d6-4495-8a10-a6b0cc2fec4e",
+    "integrationName": "Flores Cobra Export",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-01-05T13:40:08.082Z",
+    "updatedDate": "2024-09-14T00:11:21.041Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DDP\":\"CHILD\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"FRD\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "rsheppard@allroads.com, sramsey@allroads.com"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10010365"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\",\"SAA\",\"304\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"105\",\"106\",\"107\",\"108\",\"109\",\"110\",\"111\",\"112\",\"113\",\"114\",\"202\",\"TRO\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"302\",\"201\",\"300\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\",\"201\",\"204\",\"205\",\"206\",\"207\",\"208\",\"209\",\"210\",\"211\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "true"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"DEN\",\"VIS\",\"MED\"]"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MED\"]}]},{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EES\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\",\"DEN\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\",\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": true,
+    "cron": "0 0 0 * * FRI",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "b3b3d903-68d6-4495-8a10-a6b0cc2fec4e"
+  },
+  {
+    "integrationId": "6ad479c7-35ec-44bc-8d7d-e2f27c855ae4",
+    "tenantId": "a9f409da-128e-4bef-8069-a69164f2d701",
+    "integrationName": "Flores COBRA Combined Export",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-03-07T17:31:39.033Z",
+    "updatedDate": "2024-10-02T16:01:52.559Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LDC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRT\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"companyId\",\"values\":[\"51QH9\",\"51QKC\"]},{\"source\":\"employeeTypeCode\",\"values\":[\"CON\",\"HR\",\"INT\",\"REG\",\"STU\",\"SUM\",\"TES\",\"TMP\"]}]"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "medFSAPlanCode",
+        "value": "5000"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10011633"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"208\",\"LEVNT5\",\"200\",\"208\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"103\",\"101\",\"104\",\"202\",\"TRO\",\"Z\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\",\"LEVNT4\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"300\",\"LEVNT3\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"206\",\"207\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"208\",\"200\",\"201\",\"204\",\"205\",\"105\",\"206\",\"207\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"FSA\",\"MCP5\",\"MH25\",\"MH40\",\"VIS\",\"DEN\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"9040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"9041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"9042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"9043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"10050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"10053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH40\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH40\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH40\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH40\"]}]},{\"targetValue\":\"7020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH25\"]}]},{\"targetValue\":\"7021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH25\"]}]},{\"targetValue\":\"7022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH25\"]}]},{\"targetValue\":\"7023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MH25\"]}]},{\"targetValue\":\"8030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCP5\"]}]},{\"targetValue\":\"8031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCP5\"]}]},{\"targetValue\":\"8032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCP5\"]}]},{\"targetValue\":\"8033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"MCP5\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "a9f409da-128e-4bef-8069-a69164f2d701"
+  },
+  {
+    "integrationId": "8cbb41d8-6cc7-4e0c-86e0-f3d410cc0708",
+    "tenantId": "8aff5263-b2ac-497b-8692-2842b4225cd4",
+    "integrationName": "Flores COBRA",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2025-05-08T20:20:44.728Z",
+    "updatedDate": "2025-05-30T17:49:10.101Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "dashboard"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"CL\":\"SPOUSE\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"EXS\":\"noCoverage\",\"FIA\":\"noCoverage\",\"GP\":\"noCoverage\",\"GRC\":\"noCoverage\",\"LDP\":\"CHILD\",\"MOM\":\"noCoverage\",\"OE\":\"noCoverage\",\"OTH\":\"noCoverage\",\"PAR\":\"noCoverage\",\"REL\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"TRU\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10019565"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\",\"DECEAS\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"VCP\",\"ADM\",\"CE\",\"EOP\",\"200\",\"201\",\"204\",\"FTD\",\"FAP\",\"206\",\"205\",\"207\",\"INS\",\"MNL\",\"SV\",\"UEC\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"UEV\",\"101\",\"105\",\"102\",\"ATI\",\"104\",\"103\",\"DNC\",\"202\",\"NSJ\",\"QUT\",\"SL\",\"JA\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"ACCL2\",\"BLADD\",\"CILLN\",\"DENT\",\"DENT2\",\"EHSAP\",\"EPPO2\",\"EPPO5\",\"HOSD2\",\"KHSAP\",\"KPPO2\",\"KPPO5\",\"LTD\",\"NHSAP\",\"NPPO5\",\"RHSAP\",\"RPPO5\",\"STD\",\"VISI2\",\"VISIO\",\"VLADD\",\"VLADS\",\"CILSP\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\",\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EHSAP\",\"KHSAP\",\"NHSAP\",\"RHSAP\",\"EHSAP\",\"KHSAP\",\"NHSAP\",\"RHSAP\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EHSAP\",\"KHSAP\",\"NHSAP\",\"RHSAP\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"KHSAP\",\"EHSAP\",\"NHSAP\",\"RHSAP\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EHSAP\",\"KHSAP\",\"NHSAP\",\"RHSAP\",\"EHSAP\",\"KHSAP\",\"NHSAP\",\"RHSAP\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\",\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\",\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\",\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO5\",\"KPPO5\",\"NPPO5\",\"RPPO5\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\",\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EEDPF\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\",\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"EPPO2\",\"KPPO2\",\"NPPO2\",\"RPPO2\"]}]},{\"targetValue\":\"7040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT2\"]}]},{\"targetValue\":\"7041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT2\"]}]},{\"targetValue\":\"7042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT2\"]}]},{\"targetValue\":\"7043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT2\"]}]},{\"targetValue\":\"10070\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"10071\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"10072\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"10073\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DENT\"]}]},{\"targetValue\":\"8050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISIO\"]}]},{\"targetValue\":\"8051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISIO\"]}]},{\"targetValue\":\"8052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISIO\"]}]},{\"targetValue\":\"8053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISIO\"]}]},{\"targetValue\":\"9060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISI2\"]}]},{\"targetValue\":\"9061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\",\"EESPSC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISI2\"]}]},{\"targetValue\":\"9063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDPF\",\"EEF\",\"EEFASC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISI2\"]}]},{\"targetValue\":\"9062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VISI2\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "8aff5263-b2ac-497b-8692-2842b4225cd4"
+  },
+  {
+    "integrationId": "15592828-1a3b-4135-9fbc-f0a8dcfb259a",
+    "tenantId": "d942e94e-6a14-45eb-8a9c-da2ce1134110",
+    "integrationName": "Flores Cobra NPM Export",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-03-04T13:55:43.634Z",
+    "updatedDate": "2024-03-08T19:33:32.554Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10012105"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"202\",\"300\",\"105\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"BBH\",\"CTC\",\"DEN\",\"DEN2\",\"DTC\",\"VIS\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "npm"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"9060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"8050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EES\",\"EEDP\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"7040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "d942e94e-6a14-45eb-8a9c-da2ce1134110"
+  },
+  {
+    "integrationId": "41c7612a-7105-4bd3-aae0-04ae6545eed5",
+    "tenantId": "d942e94e-6a14-45eb-8a9c-da2ce1134110",
+    "integrationName": "Flores Cobra QB Export",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-03-04T14:16:51.888Z",
+    "updatedDate": "2024-03-06T15:02:47.222Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"SPOUSE\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10012105"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\",\"LEVNT4\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"LEVNT3\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"BBH\",\"CTC\",\"DEN\",\"DEN2\",\"DTC\",\"VIS\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "qb"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"7040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"8050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"9060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "d942e94e-6a14-45eb-8a9c-da2ce1134110"
+  },
+  {
+    "integrationId": "ed4fc14c-2172-46a5-93b7-51436851be95",
+    "tenantId": "d942e94e-6a14-45eb-8a9c-da2ce1134110",
+    "integrationName": "Flores Cobra",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-03-06T15:02:11.264Z",
+    "updatedDate": null,
+    "fileTransferFields": [],
+    "deleted": false,
+    "runType": null,
+    "runAutomatically": null,
+    "cron": null,
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "d942e94e-6a14-45eb-8a9c-da2ce1134110"
+  },
+  {
+    "integrationId": "5f836bb9-a7aa-4715-b9e0-322224c4a72d",
+    "tenantId": "d942e94e-6a14-45eb-8a9c-da2ce1134110",
+    "integrationName": "Flores Cobra NPM and QB",
+    "vendor": "3787b54f-8e91-420a-970a-c63b1cd6481f",
+    "fileTypeId": "usg.flores.cobra",
+    "customerName": null,
+    "createdDate": "2024-03-11T16:01:15.304Z",
+    "updatedDate": "2024-04-25T13:41:56.928Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"148228d6198d4eed47257f16816b6eff\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a0eddb37a9bf205f745ecb4e869fa4b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aa9b6c55a0cb31e7076adb437fc0d394\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09d150299d4f7a5639971370885d53ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"478cb0ff0687e0a044ccb0b99b405d8b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b0ca40fa-05fa-4079-bc09-171cd96241ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08ea830f8560d298c6213a5f0fdaab20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9f312851dbd70b4d6856cac1b60931dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a52484b2a992c0408fd99b1e8ca2baaf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"92d795aee222806c6742b5409c1e1105\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bece1bcba24fbe09310ecafeb609f31c\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "false"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"CHILD\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"SPOUSE\",\"DPC\":\"CHILD\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"SPOUSE\",\"STC\":\"CHILD\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "test"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "groupPrefix",
+        "value": "10012105"
+      },
+      {
+        "key": "eventCode",
+        "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"DEATH\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"DIVORCELEGALSEPARATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"204\"]}]},{\"targetValue\":\"INELIGIBLEDEPENDENT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"201\",\"300\"]}]},{\"targetValue\":\"MEDICARE\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"205\"]}]},{\"targetValue\":\"REDUCTIONINHOURS\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"203\"]}]},{\"targetValue\":\"VOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"200\",\"208\"]},{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"100\",\"101\",\"102\",\"103\",\"104\",\"TRO\",\"202\"]}]},{\"targetValue\":\"INVOLUNTARYTERMINATION\",\"sourceTables\":[{\"tableValue\":\"terminationReason\",\"selectedFieldValues\":[\"200\",\"201\",\"204\",\"205\",\"206\",\"207\"]}]}]}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "false"
+      },
+      {
+        "key": "cobraDeductionCodes",
+        "value": "[\"BBH\",\"CTC\",\"DEN\",\"DEN2\",\"DTC\",\"VIS\"]"
+      },
+      {
+        "key": "fileType",
+        "value": "both"
+      },
+      {
+        "key": "planNamesMapping",
+        "value": "{\"mustMatchAllCriteria\":true,\"mappings\":[{\"targetValue\":\"9060\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9061\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9062\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"9063\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\",\"EEDPF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VIS\"]}]},{\"targetValue\":\"8050\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8051\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8052\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"8053\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN2\"]}]},{\"targetValue\":\"7040\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7041\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7042\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"7043\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DEN\"]}]},{\"targetValue\":\"6030\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6031\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6032\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"6033\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"BBH\"]}]},{\"targetValue\":\"5020\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5021\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5022\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"5023\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"DTC\"]}]},{\"targetValue\":\"4010\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EE\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4011\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEDP\",\"EES\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4012\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEC\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]},{\"targetValue\":\"4013\",\"sourceTables\":[{\"tableValue\":\"deductions.benefitOption\",\"selectedFieldValues\":[\"EEF\"]},{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"CTC\"]}]}]}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "d942e94e-6a14-45eb-8a9c-da2ce1134110"
+  }
+]

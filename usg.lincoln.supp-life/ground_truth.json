@@ -1,0 +1,278 @@
+{
+    "integrationId": "ca961052-4ef2-48f1-b44e-606b862060db",
+    "tenantId": "22148fb5-25d1-4820-a210-616ff47a8f92",
+    "integrationName": "Lincoln - Launch and ADD",
+    "vendor": "11b85280-d83e-4dc1-9d87-af7d6651eb58",
+    "fileTypeId": "usg.lincoln.supp-life",
+    "customerName": null,
+    "createdDate": "2024-03-06T20:23:08.879Z",
+    "updatedDate": "2024-04-08T14:25:36.999Z",
+    "fileTransferFields": [
+      {
+        "key": "fileDestination",
+        "value": "prodSftp"
+      },
+      {
+        "key": "ltdPlanCode",
+        "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"LTD\",\"value\":\"LTDER\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD NO EOI\",\"value\":\"LTDNE\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD WEOI\",\"value\":\"LTDWE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "toggle-dental-hmo-dhmo-step",
+        "value": "{\"hidden\":true,\"stepId\":\"ca2c2035-a751-4254-acc4-1f96d41dc806\"}"
+      },
+      {
+        "key": "toggle-spouse-stand-alone-vol-ad&d-stvsad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8af45891-ef48-4370-a365-0b1cf545cb17\"}"
+      },
+      {
+        "key": "ltdBillLocation",
+        "value": "[{\"value\":\"1756593\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+      },
+      {
+        "key": "groupId",
+        "value": "1076324"
+      },
+      {
+        "key": "ltdPolicyNumber",
+        "value": "[{\"value\":\"000010271516-00000\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"LTD\",\"value\":\"LTDER\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD NO EOI\",\"value\":\"LTDNE\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD WEOI\",\"value\":\"LTDWE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "ltdClassCode",
+        "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"LTD\",\"value\":\"LTDER\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD NO EOI\",\"value\":\"LTDNE\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Group Insurance LTD WEOI\",\"value\":\"LTDWE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "toggle-ad&d-elected-coverage",
+        "value": "{\"hidden\":true,\"stepId\":\"5d681c0f-6ed6-442b-b302-4b059dd6e916\"}"
+      },
+      {
+        "key": "toggle-group-accident-step",
+        "value": "{\"hidden\":true,\"stepId\":\"195bf548-ab24-46b1-93f0-40f61ed61186\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "toggle-spouse-opt-life-osli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"81c4d20a-7349-42c6-8ca6-ac614b7f00f5\"}"
+      },
+      {
+        "key": "liPlanCode",
+        "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"GTL - Life and ADD\",\"value\":\"GLIFE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "empLiDeductionCode",
+        "value": "[\"GLIFE\"]"
+      },
+      {
+        "key": "ltdDeductionCodes",
+        "value": "[\"LTDER\"]"
+      },
+      {
+        "key": "liBillLocation",
+        "value": "[{\"value\":\"1756593\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+      },
+      {
+        "key": "liPolicyNumber",
+        "value": "[{\"value\":\"000010271515-00000\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"GTL - Life and ADD\",\"value\":\"GLIFE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "empAddDeductionCodes",
+        "value": "[\"GLIFE\"]"
+      },
+      {
+        "key": "toggle-voluntary-short-term-disability-vwi-step",
+        "value": "{\"hidden\":true,\"stepId\":\"7db57ebe-b5b9-49da-88d8-d9128a22d976\"}"
+      },
+      {
+        "key": "toggle-voluntary-dental-vdn-step",
+        "value": "{\"hidden\":true,\"stepId\":\"5e56f844-3ac2-4d93-b35d-54d17699d9bb\"}"
+      },
+      {
+        "key": "toggle-employee-opt-ad&d-oad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"e10d06b0-9fd9-492f-9c7b-4b717624ae05\"}"
+      },
+      {
+        "key": "toggle-employee-ad&d-ad-step",
+        "value": "{\"hidden\":false,\"stepId\":\"ed0f2217-6dc5-4a93-a859-7c500e3c3eef\"}"
+      },
+      {
+        "key": "toggle-voluntary-life-plans-step",
+        "value": "{\"hidden\":true,\"stepId\":\"bb3b938a-5362-45e7-939f-85ed9b4845f2\"}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "toggle-dependent-life-dli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"7ed7cb8e-68a2-41af-8173-f421d1183142\"}"
+      },
+      {
+        "key": "ltdElectedCoverage",
+        "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"LTD\",\"value\":\"LTDER\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "toggle-spouse-life-sli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8fe8f74b-040e-49c5-977a-740512c38b07\"}"
+      },
+      {
+        "key": "toggle-hospital-indemnity-step",
+        "value": "{\"hidden\":true,\"stepId\":\"c4e72b20-4d8e-4a3b-8f0c-aaa286b2dedb\"}"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "toggle-child-life-cli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"42b87933-f612-4d76-91e7-e0d646e377c3\"}"
+      },
+      {
+        "key": "toggle-child-opt-life-ocli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"c8ab07b7-41b9-40b1-b2b8-9fbb88e44c5e\"}"
+      },
+      {
+        "key": "toggle-voluntary-long-term-disability-vltd-step",
+        "value": "{\"hidden\":true,\"stepId\":\"8be39e71-4882-4298-ae18-c9b33ea13df3\"}"
+      },
+      {
+        "key": "toggle-ltd-elected-coverage",
+        "value": "{\"hidden\":false,\"stepId\":\"76ec0399-e71f-4cb1-9c7c-26fe65608976\"}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "false"
+      },
+      {
+        "key": "toggle-child-vol-stand-alone-ad&d-stvcad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"ee78aa87-d2e8-4a9e-8512-70b4a01a2b07\"}"
+      },
+      {
+        "key": "toggle-child-voluntary-ad&d-vcad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"6f4ba029-9495-444d-a23b-9707f5eb3b8b\"}"
+      },
+      {
+        "key": "toggle-short-term-disability-wi-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a56c5e8c-e7ac-4624-a152-584f34e2955f\"}"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"ccfa66d170e45854cd71cd9493f3189e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"294f396e9b310734badc05fe9cdc19dd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8d44deea08e469b1232c904c41ca4ea6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8b7d499f82eace5a58eec8c9e7770099\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4b50dbc6079801c945fdc4bbfa3c8ef0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c0fae8ef-7f62-4ec3-b3f1-be9961e785d3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b3eb3edc2ff4f1a5dd39d20833f87a3b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"90487c05-cf1a-4939-ad48-7d0bc566570c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d9d31588-c067-4b00-b5bf-2f257c28cb91\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"14969b1e-c8a5-4ac2-903a-0b9544b95b2c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8584c602-e3cb-4205-a63e-0e52fbfe9eaa\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"40096822-5a1a-42fa-864b-9be2a8e334ec\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"54fc6575-5d18-4df8-a38e-e2f1ccd77606\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c4af69b3-cc6a-4e5d-aa66-ae44aef6c21e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cb4ce814-a9e3-4568-bbc9-6de21035d64f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8fe8f74b-040e-49c5-977a-740512c38b07\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"44d8a829-9c51-4c51-b7da-f34aca38e2f8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1f23eb54-2462-4292-a968-5e0e070fa20a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7cff8bf7-5441-4831-967d-cf82d9e34c5e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"42b87933-f612-4d76-91e7-e0d646e377c3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"23181cf8-cb1c-45ca-9eb8-7fc5d0a26f3f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"776028d4-7141-4a8b-b8df-b45ae49e690e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"545f44cf-5782-4e42-ac2d-845ce7084f17\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7ed7cb8e-68a2-41af-8173-f421d1183142\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"751c027a-dc7c-4a66-9783-953632d68f38\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"952e0d17-2c3e-4c69-876c-410e77c2ae83\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"00b86c41-307d-4569-9b7f-b26f94e61c66\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9103ddaf-1d08-4582-8fbd-027a60d47976\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"015b6112-79be-4f4d-a4ff-5fdab6e7c725\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9ec37631-1621-4ab8-a785-ea734390d292\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"364d0f7d-6a7b-4f14-8da0-1188d74f0fa0\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"81c4d20a-7349-42c6-8ca6-ac614b7f00f5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"92627816-de2a-4aa5-9f07-48921005f334\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ae78a807-fb76-456f-ace8-5e0cc46b247e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f5ae44ff-e84b-45b5-a546-cbcfefc552c5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c8ab07b7-41b9-40b1-b2b8-9fbb88e44c5e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"05ad0901-6f1e-4639-8ace-b2c1e7d419ee\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"028fad11-9ffd-4601-a1cc-318f9f97e75b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1d2a2f5a-da69-493f-9a4d-1a52bd45ee98\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a35ce170-1395-4d32-8b89-118a1e83ca27\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"63713d2c-5f5f-4b53-bb18-edd49479f02b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3d06e9f5-3cac-45b4-a336-9fb89dc342f4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b1a15bf5-f1ce-4404-b1fa-a7d151908fc3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bb3b938a-5362-45e7-939f-85ed9b4845f2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a4f722002f290aa0af0f36b93d3eb2e9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d0906fd5-d839-4d2b-8740-432f3221ba2b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"05e0f266-a375-4988-8563-4ebda3b7ef9f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bcee1395-07b4-498a-ac16-dde60aa3423d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c8743bbb-1a42-424b-948c-e83c7b720368\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"03d40a25-a835-4105-8707-02293499769e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"eec7ff61-600b-4643-9780-d7f11f0c3b1d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1965da4c-978c-4cef-bff8-636038851944\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"108318f1-4a6d-405a-b80e-92a8f868140a\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"b4d4b488-4ac1-4431-b75f-f10ddcff4455\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"efbc3895-bd90-4749-a9f9-1a5f68a2a729\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9c288979-b37a-4d03-bf94-80fbbbe022c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"64d36c9b-1ffd-4c3e-b41e-7c1cece06456\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d1746102-3daf-43d2-bdaf-a7d4daad3d88\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ef3a4251-2758-4a4d-b094-7c1dd21fe88a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"75460630-2319-4994-b4ca-813bf2ccb742\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"412a4345-8f98-447f-95ee-da90f1d2c7c6\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ed0f2217-6dc5-4a93-a859-7c500e3c3eef\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"21de1eea-77d4-4c10-83ed-4456dd2fd454\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d5b957a2-757b-4906-9d23-5126c963d313\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5d681c0f-6ed6-442b-b302-4b059dd6e916\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e10d06b0-9fd9-492f-9c7b-4b717624ae05\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"0809b9bf-f52b-44e2-89a5-21bda52dc8b0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5d62c7ca-75dd-4f8f-b05e-98af19f08e5e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"033d9180-3b75-4447-a178-b4bccdd3284b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"93b8fc77-dcd7-4e4a-bc4e-f82ea6eb605e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7627568c-b12b-4c03-b923-831654c7332e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ad3e90f5-e9f1-4361-a119-4c86a8a81701\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0eaeeb8a-7815-4c82-97fe-1d74af37bb3d\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"71023d4c-bf04-4793-b63b-16c0cf4d381c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"06f5bd20-f59b-4849-bb5a-3594afa99bad\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e9789c73-bb50-48e6-9d76-03a2d00c8850\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"84d248a4-64b3-454d-aa03-084b1c6f24ad\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6aa349fc-5e5b-4118-aed4-728535eac2ed\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d2b2eee1-c226-4964-ba26-a410dcd75c6f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a532c418-aaa5-45cb-9cee-53d4d11c50d2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"77b1b944-31e2-45f3-a88f-2810f117b4e5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"de2b155a-0d96-4441-808c-21a1b8c5d3a3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c075fcef-6fc9-4cf3-b139-f78b855937ff\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e31d027a-b5dd-4436-ab0d-20f37e8ade2f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6146f7c8-f509-4c08-8ebd-094e70ff06bb\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6f4ba029-9495-444d-a23b-9707f5eb3b8b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6e442df5-de5b-44db-94dc-85f0718fecd1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"57205b0c-0f17-42d0-af48-3ce6327eab77\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9f21d9f2-2a1e-4ac1-b5d2-6e95c0fe303c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a44a3eb2-a65e-490a-8565-ef76ff623581\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c000fcd9-6c5c-41d0-86f4-16e8125d79d6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ef27695-22c3-4e9d-b5c7-b81dcda40e86\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a346cc59-0c48-4e0b-96ce-91d28db54b07\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a3d1a7f9-3986-4894-af87-a364e2d2727d\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"0e25d8c6-d670-4d51-a957-795e0885b88b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"65c28a46-450d-4ea1-b250-593a0fe7007c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5cc5cf22-6644-47ae-a8f7-dd2d194a3591\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bb163d02-bf1c-4f56-a604-99b62c9f2021\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"5b05b36e-1c0e-424f-9f6a-32824afe937e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c7ce5e86-acba-4248-a4c1-5e6ceb48e4c7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ac78c440-4eae-4f69-8db3-e55df4335a16\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a6d43328-ac3c-40d3-9875-6885e44b2717\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"076c3d85-1926-4e6c-b37b-a8c6d86cf56a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"29de9db5-e116-441e-8317-933029aa41a3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"59591759-eec6-4479-8fd3-177c3def5cf0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8af45891-ef48-4370-a365-0b1cf545cb17\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"afb34dd4-d60b-458f-a148-e9f24a42ee1d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fc407163-1d9e-440b-ba9d-16c0ab5f43a4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4f425259-a60f-43b0-89c7-ddd387e2a196\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ee78aa87-d2e8-4a9e-8512-70b4a01a2b07\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bc662834-47d9-4757-9bb9-d0fc76e24484\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"33b154da-76dd-4729-81d6-3f6335449e17\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"715dcbe0-e906-43f1-a769-5483d6e5a844\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a56c5e8c-e7ac-4624-a152-584f34e2955f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a08bcf6e-7cfa-4887-9029-b690fa0cb1bf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"16ed280f-b916-4849-bd88-3d638ea0496c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e4fd1824-dcfb-4b4e-8ed8-5eb65985232e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"90175025-3860-4cf7-a638-cbc535273882\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"18ff45ec-d74b-4a6e-bbea-836cb5181f67\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"41991e4c-92f9-49de-bf54-71957dd48cef\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dd9ae621-8827-4c50-9112-daad3caf03ba\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7db57ebe-b5b9-49da-88d8-d9128a22d976\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"85f14a99-740f-4e16-9f1c-8ff0746a2a37\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e48a5e90-ed4f-43d1-82a2-cb8e47848ef2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7a4f9d17-6142-42cc-9438-c07f0dac5de2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"932ad2dd-b017-420f-a857-c1585fe86d01\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e9faaa77-350e-46c0-92b2-8299c3e17c5f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9e9faad8-10ec-4192-852e-09966ed479df\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f7af4086-bff3-4804-80d2-982d43af1588\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1415143e-ae0f-4938-bfa6-a2354005b386\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"46ae38a2-ac58-482c-ad06-91702d5c5c64\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"75293f6a-ef0a-4b4f-9719-9c5f8f5acadd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ab057e27-c8bf-42ba-b711-d3a241b93927\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c50195ee-c713-4c10-a578-0e0d3073b00e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"76ec0399-e71f-4cb1-9c7c-26fe65608976\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cdc94cfd-a8dc-4e81-803a-d3bd463e008d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f3513656-4285-4404-98c2-9691143cfda3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1e6c9abb-bb76-4640-85d4-085c8556e93a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a5026629-8c21-4a0f-9691-6c5be45fe4dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8be39e71-4882-4298-ae18-c9b33ea13df3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"2561a084-33dc-4669-966c-3d8e4b0e864b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b3791943-ddfa-459c-8bd5-1ccc55d557d4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6003fb07-1d3c-471f-99c9-21c23a3ae615\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"77b4e620-1c4a-4835-9450-55b434488c3c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"db49359b-03b5-49a9-a32a-290035987455\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4cc24443-05c0-452a-81ab-efb9aa9fd2a6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bd7d0d9f-d532-45cb-b1b1-eac5e699985c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8ac79442-290e-468e-b4e7-7544ae97b1e7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e0be27e8-a881-4a34-bf19-11c9ada35c58\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7d51b13d-5f92-48ab-8e24-86ec9508c97e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2f46cc0c-5d6c-43b8-9fbf-01eb44040556\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d9305ead-e25f-4999-b334-99a74e6c9d16\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7854207e-56c1-47cc-9011-c5490c53b66c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"58e263a2-1150-4a4f-8534-8392d905bec9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b2f1b235-a1e3-42d9-901b-487b76e8db1e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"82cd9b3e-287b-49f0-8a40-dedfb25e2306\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e31ac913-3034-47f4-8dbb-12a6523c278d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5e56f844-3ac2-4d93-b35d-54d17699d9bb\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"50297335-3d60-44dd-a219-8257dc1734f0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"54ff83e6-d886-46ee-ab9f-5f5b55513798\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"cc31a04f-3b2c-4dd4-897f-b6d84f96a35e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f97cb36a-8baa-4947-83e2-aa50ce9ce749\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3609d1a4-ae65-4689-b165-9359742d72f0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5c8b0b2d-1026-44b4-a631-ba4f4c0f9ccb\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ca2c2035-a751-4254-acc4-1f96d41dc806\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"f43b9719-ad65-49ec-a204-d1e6744e99b5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c0dfa488-453b-40fb-b96d-031e0e23b6fb\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"db55bc9e-2f8d-47e1-9fa9-8b1f7b3f7405\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0274e4b3-7c7f-4d80-ae8f-fe08d464b351\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d2f7f1f1-17e9-48c8-96fe-55116e27e76e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"038372f7-a56b-4047-ba3d-80f6426f3f32\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"480d7bf6-2eed-475f-b9c4-8ee015db9fad\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7421aedd-bead-44f9-9998-f019da81dcb0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1c555e8f-860f-43dc-9f6b-1d74cf03966a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b7017517-fb16-490a-888e-5f85943aba30\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d17035c7-b15f-43be-a88a-23899deede46\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7d2d91da-0488-40fd-a5b2-26653ea51686\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7dd0411b-6e8f-46f6-81c3-89b6d3b4d195\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bffdc690-4acc-40e3-abe0-daea188521a7\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3cb8a0bd-2085-423f-b046-0395f6cdd8ba\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"91d32258-72f6-401f-90b1-a128cffd39b9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bdf43f0f-fca8-4bd7-8c25-d11089b34965\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3d6fcd29-c158-4650-b5a7-59b19e880e73\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d1326481-9285-4c35-b6f7-459fa17c5c59\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5eee57eb-60ec-4f0a-82a9-cf80c98e0232\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"986bd48d-35b9-4e45-9da4-d8a1243eca14\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"b1ed7ed4-9192-4cd9-a8d8-accc577e6882\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6f11f8af-3705-492c-b883-37f521cd2cfc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"af6a0a5c-603b-4b31-badb-39cb41545941\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6eef696c-1ce6-4125-9029-003e30a1692e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"99e1fd83-f241-4449-b74b-f9ccca923004\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"653018d9-c700-4cae-a34b-25815ab05243\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"195bf548-ab24-46b1-93f0-40f61ed61186\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a245fade-e7d0-4429-abbe-234715354e72\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"40d7d9d9-b839-4da2-84d3-71745b217a6d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0cb72054-76f5-406b-8ea3-011caa21cda2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"621c4b68-1fde-4ebd-b34b-78836800f76a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"54be7903-b350-4ba9-bf09-194617058437\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0c4dc320-e129-4892-ac52-46f6cbafe402\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"25379d37-158e-4e94-b374-26ac6b57bbaa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c4e72b20-4d8e-4a3b-8f0c-aaa286b2dedb\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a4e2e233-c619-4f77-848b-0f020ce905e3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"02c0e2e8-7037-41b0-976b-909c4e9c23a3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92970a98-be61-4961-98a0-894978822980\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92970a98-be61-4961-98a0-894978822981\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92970a98-be61-4961-98a0-894978822982\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"92970a98-be61-4961-98a0-894978822984\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"43730672-6a05-4e4e-9662-db2eb4dfcd8d\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4b3cfc5aa487b3d526245cc873d5b1a5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6b3e17e3-f029-4872-ae33-7dba8010d931\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"70c51153-4799-43c2-b5c1-c8c8bb53edf1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3e3ff6f2-0727-43ab-b3c1-1c0d28af5308\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dcec9e61-7257-4276-bab2-99012c4bb74f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8d001d22-f6f0-4f47-8bff-567b29485616\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"dacf6b6a-d2cf-4167-9df7-62e699aa23ae\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"89fc53a2-485b-44e8-ad4d-8639fcbc496f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a57375a9-2ee7-4e5a-b9aa-9354156f9a65\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d99c4033-1563-4ab8-a7d8-2a30729dab42\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d6a86f61-e8bf-4592-aeb6-2a99800b79c8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"cde254b7-a649-49a0-96f7-800e62ab5248\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b103fff1-0a79-44b5-9aa3-5fc4f54b3eb0\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8c52d2cb-bd9f-42a5-9149-f7180432bae7\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1bddf7e0-531c-4931-aa04-f7d1334b5810\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"59fe8cff-6785-4a47-a05c-1a3c56c04e71\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b9aa16e1-382f-4c30-be4e-7ab4a75c60e9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"5a49e56f019fbb9d2f683d8afab56842\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "toggle-employee-life-li-step",
+        "value": "{\"hidden\":false,\"stepId\":\"40096822-5a1a-42fa-864b-9be2a8e334ec\"}"
+      },
+      {
+        "key": "relationshipMapping",
+        "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"C\",\"CLW\":\"noCoverage\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"S\",\"STC\":\"C\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"UNK\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+      },
+      {
+        "key": "minCoverageDateLtd",
+        "value": "2024-01-01T05:00:00.000Z"
+      },
+      {
+        "key": "toggle-spouse-ad&d-sad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"71023d4c-bf04-4793-b63b-16c0cf4d381c\"}"
+      },
+      {
+        "key": "minCoverageDateLi",
+        "value": "2024-01-01T05:00:00.000Z"
+      },
+      {
+        "key": "toggle-life-ad&d-plans-step",
+        "value": "{\"hidden\":false,\"stepId\":\"c0fae8ef-7f62-4ec3-b3f1-be9961e785d3\"}"
+      },
+      {
+        "key": "toggle-employee-life-coverage",
+        "value": "{\"hidden\":true,\"stepId\":\"cb4ce814-a9e3-4568-bbc9-6de21035d64f\"}"
+      },
+      {
+        "key": "toggle-vision-lvc-step",
+        "value": "{\"hidden\":true,\"stepId\":\"bffdc690-4acc-40e3-abe0-daea188521a7\"}"
+      },
+      {
+        "key": "toggle-employee-stand-alone-ad&d-stad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"bb163d02-bf1c-4f56-a604-99b62c9f2021\"}"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "toggle-long-term-disability-ltd-step",
+        "value": "{\"hidden\":false,\"stepId\":\"75293f6a-ef0a-4b4f-9719-9c5f8f5acadd\"}"
+      },
+      {
+        "key": "toggle-spouse-voluntary-ad&d-vsad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"de2b155a-0d96-4441-808c-21a1b8c5d3a3\"}"
+      },
+      {
+        "key": "toggle-dental-step",
+        "value": "{\"hidden\":true,\"stepId\":\"2f46cc0c-5d6c-43b8-9fbf-01eb44040556\"}"
+      },
+      {
+        "key": "toggle-voluntary-dental-hmo-vdhmo-step",
+        "value": "{\"hidden\":true,\"stepId\":\"480d7bf6-2eed-475f-b9c4-8ee015db9fad\"}"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "accounting@longboardproducts.com"
+      },
+      {
+        "key": "toggle-critical-illness-plans-step",
+        "value": "{\"hidden\":true,\"stepId\":\"43730672-6a05-4e4e-9662-db2eb4dfcd8d\"}"
+      },
+      {
+        "key": "toggle-dependent-opt-life-odli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a35ce170-1395-4d32-8b89-118a1e83ca27\"}"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "toggle-employee-opt-life-oli-step",
+        "value": "{\"hidden\":true,\"stepId\":\"9103ddaf-1d08-4582-8fbd-027a60d47976\"}"
+      },
+      {
+        "key": "liClassCode",
+        "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"GTL - Life and ADD\",\"value\":\"GLIFE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+      },
+      {
+        "key": "toggle-dependent-opt-ad&d-odad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a3d1a7f9-3986-4894-af87-a364e2d2727d\"}"
+      },
+      {
+        "key": "toggle-employee-voluntary-ad&d-vad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"93b8fc77-dcd7-4e4a-bc4e-f82ea6eb605e\"}"
+      },
+      {
+        "key": "toggle-dependent-ad&d-dad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"a44a3eb2-a65e-490a-8565-ef76ff623581\"}"
+      },
+      {
+        "key": "toggle-voluntary-vision-vlvc-step",
+        "value": "{\"hidden\":true,\"stepId\":\"986bd48d-35b9-4e45-9da4-d8a1243eca14\"}"
+      },
+      {
+        "key": "toggle-spouse-opt-ad&d-osad-step",
+        "value": "{\"hidden\":true,\"stepId\":\"6aa349fc-5e5b-4118-aed4-728535eac2ed\"}"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 13 * * SUN,MON,TUE,WED,THU,FRI,SAT",
+    "_source_file": "Integartion_Details_TOR_2025_07_03_16_08_17_formatted.json",
+    "_tenant_id": "22148fb5-25d1-4820-a210-616ff47a8f92"
+  }

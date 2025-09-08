@@ -1,0 +1,114 @@
+{
+    "integrationId": "263c9b4f-d149-4561-bec4-5ead66bb7afd",
+    "tenantId": "fe9ff459-6e25-43b1-861a-d23df76514a8",
+    "integrationName": "Fidelity Contribution Export",
+    "vendor": "f24301bc-c66a-4b48-ac20-26c581e0efac",
+    "fileTypeId": "usg.fidelity.contribution",
+    "customerName": null,
+    "createdDate": "2025-03-03T16:33:38.710Z",
+    "updatedDate": "2025-05-15T16:32:33.840Z",
+    "fileTransferFields": [
+      {
+        "key": "loanIDFromUKGPro",
+        "value": "dedCode"
+      },
+      {
+        "key": "fileDestination",
+        "value": "fidelityProdSftp"
+      },
+      {
+        "key": "ui_statusMap",
+        "value": "{\"8fb88063796b2b7aa6ce5f723f4ea872\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5ce93bead28e43cabffa7a3984ffc7f2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"6d257770742130bbea3e9091f7f444a3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e1682f9d9e4596af5fd62249a08d5d03\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"954ca72210af508e8c8247bbe24f0457\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fd09fcd4bf0ac5ff3af79534de15adee\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"387a83b5-0745-4ea8-b7b1-3b9119862b21\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f22\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f23\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f24\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b1af507fa96c58f770a7e8e6eed1152e\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+      },
+      {
+        "key": "notificationSuccess",
+        "value": "true"
+      },
+      {
+        "key": "includeTerminateEmployees",
+        "value": "false"
+      },
+      {
+        "key": "loanDeductionCodes",
+        "value": "[\"401L\"]"
+      },
+      {
+        "key": "notificationEmailAddress",
+        "value": "Maria.Olvera@Pinchin.com, Jessica.Coumans@pinchin.com"
+      },
+      {
+        "key": "employeeFilters",
+        "value": "[{\"source\":\"companyId\",\"values\":[\"EOE11\",\"P71IX\"]},{\"source\":\"employeeTypeCode\",\"values\":[\"CAS\",\"REG\"]}]"
+      },
+      {
+        "key": "batchIdMapping",
+        "value": "[{\"value\":\"PIN\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Ransom Consulting LLC\",\"value\":\"EODT7\",\"table\":\"companyId\"},{\"description\":\"Pinchin LLC\",\"value\":\"EOE11\",\"table\":\"companyId\"}]}]},{\"value\":\"CG\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Codegreen Solutions LLC\",\"value\":\"P71IX\",\"table\":\"companyId\"}]}]}]"
+      },
+      {
+        "key": "integrationMode",
+        "value": "production"
+      },
+      {
+        "key": "eventingInfo",
+        "value": "{\"publishing_event\":\"PayrollCompleteEvent\",\"filters\":[{\"eventFieldName\":\"PayGroup\",\"transferFieldName\":\"publishing_payGroupFilter\",\"values\":[\"GREEN\",\"PINCH1\",\"PINCH2\",\"PINCH3\"]}],\"batching\":\"NONE\",\"delayInHours\":null}"
+      },
+      {
+        "key": "notificationCreateTicket",
+        "value": "false"
+      },
+      {
+        "key": "planNumber",
+        "value": "2446N"
+      },
+      {
+        "key": "toggle-reportLoanIDDedCode-step",
+        "value": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}"
+      },
+      {
+        "key": "notificationStart",
+        "value": "false"
+      },
+      {
+        "key": "employerSourceCodes",
+        "value": "[{\"value\":\"03\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"401K ER Match\",\"value\":\"401M\",\"table\":\"deductionCode\"},{\"description\":\"401k ER Match\",\"value\":\"401MG\",\"table\":\"deductionCode\"},{\"description\":\"ER Match PM Env\",\"value\":\"401MP\",\"table\":\"deductionCode\"},{\"description\":\"ER Match Ransom\",\"value\":\"401MR\",\"table\":\"deductionCode\"}]}]}]"
+      },
+      {
+        "key": "voidedCheckOption",
+        "value": "Y"
+      },
+      {
+        "key": "minimumAge",
+        "value": "21"
+      },
+      {
+        "key": "toggle-reportLoanIDUKGPro-step",
+        "value": "{\"hidden\":false,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f22\"}"
+      },
+      {
+        "key": "lookBack",
+        "value": "7"
+      },
+      {
+        "key": "notificationFailure",
+        "value": "true"
+      },
+      {
+        "key": "employeeSourceCodes",
+        "value": "[{\"value\":\"01\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"401K Flat Amount\",\"value\":\"401F\",\"table\":\"deductionCode\"},{\"description\":\"401K Percentage\",\"value\":\"401P\",\"table\":\"deductionCode\"}]}]},{\"value\":\"02\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"Roth 401K Flat Amount\",\"value\":\"ROTHF\",\"table\":\"deductionCode\"},{\"description\":\"Roth 401K Percentage\",\"value\":\"ROTHP\",\"table\":\"deductionCode\"}]}]}]"
+      },
+      {
+        "key": "publishingConfiguration",
+        "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+      },
+      {
+        "key": "notificationWarning",
+        "value": "true"
+      }
+    ],
+    "deleted": false,
+    "runType": "eventing",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_TOR_2025_07_03_16_08_17_formatted.json",
+    "_tenant_id": "fe9ff459-6e25-43b1-861a-d23df76514a8"
+  }

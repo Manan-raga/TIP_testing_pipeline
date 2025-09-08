@@ -1,0 +1,30 @@
+{
+    "integrationId": "228ce4e5-a9d7-4ee6-9a75-ecdbf8eab45b",
+    "fileTypeId": "usg.unum.basiclife",
+    "globalTenantId": "TO-DO",
+    "suggestions": {
+        "basicLifeCoverage": "includeNone",
+        "toggle-ee-voluntary-supplemental-life-step": "{\"hidden\":true,\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f3\"}",
+        "toggle-ee-voluntary-ad&d-step": "{\"hidden\":true,\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51884\"}",
+        "toggle-dental-step": "{\"hidden\":true,\"stepId\":\"3babe90f-8369-42fc-9915-f2a0f01e92c5\"}",
+        "toggle-sp-voluntary-ad&d-step": "{\"hidden\":true,\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51885\"}",
+        "ui_statusMap": "{\"3babe90f-8369-42fc-9915-f2a0f01e92c5\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f4\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"ad8636bd-c64a-47a9-881b-f40251333c0b\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"c11a7dd6-eeb8-486a-9347-710adc0b98fa\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f5\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f3\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"af46fe18-aac9-40c7-b1be-c16ec2d78bd1\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51886\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51885\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51884\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"e5fdc1e4-759f-4b2c-829e-8491f7b12afd\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"908997e5-d31c-4147-ae04-579f4b7d1541\":{\"valid\":false,\"hidden\":false,\"visited\":false},\"5831252a-4990-423f-90ae-a14ea7c0f5d8\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"18d79681-025f-454b-ace0-0700c8ea4271\":{\"valid\":false,\"hidden\":true,\"visited\":false},\"7a370f2c-4fe0-43fd-aed7-55834b4de98a\":{\"valid\":false,\"hidden\":true,\"visited\":false}}",
+        "relationshipMapping": "{\"Spouse\":\"01\",\"Child\":\"19\",\"No Coverage\":\"noCoverage\"}",
+        "toggle-ch-voluntary-ad&d-step": "{\"hidden\":true,\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51886\"}",
+        "employeeFilters": "[{\"source\":\"companyId\",\"values\":[\"LFJ3M\",\"LFK0D\"]}]",
+        "toggle-vision-step": "{\"hidden\":true,\"stepId\":\"e5fdc1e4-759f-4b2c-829e-8491f7b12afd\"}",
+        "EmailAddress": "workEmailAddress",
+        "toggle-accident-step": "{\"hidden\":true,\"stepId\":\"c11a7dd6-eeb8-486a-9347-710adc0b98fa\"}",
+        "basicLifeMinStartDate": "2023-01-01T05:00:00.000Z",
+        "toggle-basic-life-ad&d-std-ltd-dbl-std-state-plan-step": "{\"hidden\":false,\"stepId\":\"908997e5-d31c-4147-ae04-579f4b7d1541\"}",
+        "ltdDeductionCodes": "[\"LTD\"]",
+        "toggle-ch-voluntary-supplemental-life-step": "{\"hidden\":true,\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f5\"}",
+        "adDeductionCodes": "[\"BLIFE\"]",
+        "toggle-sp-voluntary-supplemental-life-step": "{\"hidden\":true,\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f4\"}",
+        "toggle-dental-dhmo-step": "{\"hidden\":true,\"stepId\":\"ad8636bd-c64a-47a9-881b-f40251333c0b\"}",
+        "toggle-select-short-term-disability-step": "{\"hidden\":true,\"stepId\":\"af46fe18-aac9-40c7-b1be-c16ec2d78bd1\"}",
+        "toggle-critical-illness-attained-age-step": "{\"hidden\":true,\"stepId\":\"7a370f2c-4fe0-43fd-aed7-55834b4de98a\"}",
+        "toggle-critical-illness-issue-age-step": "{\"hidden\":true,\"stepId\":\"18d79681-025f-454b-ace0-0700c8ea4271\"}",
+        "toggle-select-long-term-disability-step": "{\"hidden\":true,\"stepId\":\"5831252a-4990-423f-90ae-a14ea7c0f5d8\"}"
+    }
+}
