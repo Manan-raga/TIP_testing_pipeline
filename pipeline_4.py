@@ -148,8 +148,18 @@ def upload_account_structure_file(
         print(f"   ✗ File not found at the source path. Cannot upload.")
         return False
 
-    files = {'file': (destination_filename, open(source_file_path, 'rb'),
-                      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')}
+    # Determine content type based on file extension
+    file_extension = os.path.splitext(destination_filename)[1].lower()
+    if file_extension == '.pdf':
+        content_type = 'application/pdf'
+    elif file_extension == '.xlsx':
+        content_type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    elif file_extension == '.csv':
+        content_type = 'text/csv'
+    else:
+        content_type = 'text/plain'
+
+    files = {'file': (destination_filename, open(source_file_path, 'rb'), content_type)}
     data = {'bucket_name': bucket_name, 'blob_key_prefix': blob_key_prefix}
     try:
         response = requests.post(upload_endpoint, files=files, data=data, verify=False)
@@ -158,16 +168,15 @@ def upload_account_structure_file(
         print(f"   Server Response: {response.text}")
         return True
     except requests.exceptions.HTTPError as http_err:
-        print(f"   ✗ HTTP error during file upload: {http_err}");
-        print(f"   Response body: {response.text}");
+        print(f"   ✗ HTTP error during file upload: {http_err}")
+        print(f"   Response body: {response.text}")
         return False
     except requests.exceptions.RequestException as req_err:
-        print(f"   ✗ Request failed during file upload: {req_err}");
+        print(f"   ✗ Request failed during file upload: {req_err}")
         return False
     finally:
         if 'file' in files:
             files['file'][1].close()
-
 
 def find_tenant_info(tenant_id_to_find: str, tenant_info_folder: str) -> Optional[Dict[str, Any]]:
     """Searches for tenant information in JSON files within the specified folder."""
@@ -462,7 +471,7 @@ def main():
 
     discovered_files = sorted([
         f for f in os.listdir(accounts_path)
-        if f.lower().endswith(('.xlsx', '.csv', '.txt')) and f.lower() != 'instances.json'
+        if f.lower().endswith(('.xlsx', '.csv', '.txt', '.pdf')) and f.lower() != 'instances.json'
     ])
 
     if not discovered_files:
