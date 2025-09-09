@@ -486,7 +486,7 @@ def main():
 
     accounts_to_process = list(zip(discovered_files, integration_ids))
 
-    bearer_token = input("Enter your Authorization Bearer Token for the prediction API: ")
+    bearer_token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjdDdDZzYkx2QVYya1B1MVRicWVuSiJ9.eyJpc3MiOiJodHRwczovL3dlbGNvbWUtc3RhZ2luZy51a2cuZGV2LyIsInN1YiI6IjJhY2RjNzNmLTczYTQtNGI2Yy05OGI5LTQ5ZDZmOTQ0YWI4ZkBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly90aXAudWtnLm5ldCIsImlhdCI6MTc1NjM2OTQzNCwiZXhwIjoxNzU2MzcxMjM0LCJzY29wZSI6IndyaXRlOnRpcCBhZG1pbjp0aXAgZXhlY3V0ZTp0aXAgcmVhZDp0aXAiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMiLCJhenAiOiIyYWNkYzczZi03M2E0LTRiNmMtOThiOS00OWQ2Zjk0NGFiOGYifQ.ZVLVkyQJ6kBZ8Dljgv7sz8I3dY_wXICaIkCNtSzQjr3_8I-j0cDzUSFByMsLzM7_Jmae-9qX6cUh7mBEdIuQeAbeEBD6aOttHd_8xjGD8X1FDMyxzJmlT2j8McCdswnV_3WwL0SP5p_pu-kq3jFq2UDMfQRdOZbM878Ag9AsCxVBMog_Fut5gvh7CvaLoFby29Jt2r1avYpgoYb0e_BgTBuM-uslbPIGx94IL3LptuPpeySyEqWqvcHArZqvKWY65zLBq5K2NwahtP9K3Nm19Kc1RUP5FA8Bc-2WfotmL1PWhZoMmiBQOEQdB_EezhDWeZFhVvsMPbSkI5sigeVYuA"
     run_local_prediction = input("Run prediction against local server for logs? (yes/no) [no]: ").lower() or "no"
     if run_local_prediction == 'yes':
         print("\n⚠️ Please ensure local services are running with the latest code.")
