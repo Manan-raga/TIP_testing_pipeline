@@ -156,6 +156,10 @@ def upload_account_structure_file(
         content_type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     elif file_extension == '.csv':
         content_type = 'text/csv'
+    elif file_extension == '.doc':
+        content_type = 'application/msword'
+    elif file_extension == '.docx':
+        content_type = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     else:
         content_type = 'text/plain'
 
@@ -471,7 +475,7 @@ def main():
 
     discovered_files = sorted([
         f for f in os.listdir(accounts_path)
-        if f.lower().endswith(('.xlsx', '.csv', '.txt', '.pdf')) and f.lower() != 'instances.json'
+        if f.lower().endswith(('.xlsx', '.csv', '.txt', '.pdf' , '.doc' , '.docx')) and f.lower() != 'instances.json'
     ])
 
     if not discovered_files:
