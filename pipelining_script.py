@@ -56,7 +56,7 @@ def fetch_and_save_predictions(api_endpoint: str, headers: Dict[str, str], paylo
         iteration_num = i + 1
         print(f"   Fetching iteration {iteration_num}/{num_iterations}...")
         try:
-            response = requests.post(api_endpoint, headers=headers, json=payload)
+            response = requests.post(api_endpoint, headers=headers, json=payload , verify=False)
             response.raise_for_status()
             prediction_data = response.json()
             file_path = os.path.join(output_dir, f"iter{iteration_num}.json")
@@ -286,9 +286,9 @@ def main():
     DEFAULT_API_ENDPOINT = "https://tip-agent-config-service-dev.us-east4.dev.gcp.int/api/v1/metadata-prediction/predict"
     DEFAULT_NUM_ITERATIONS = 3
     DEFAULT_FILE_TYPE_ID = "usg.cigna.834-facets"
-    TENANT_INFO_FOLDER = "D:\\RagaAI\\TIP\\pipelining_script\\Tenet_info"
-    BASE_OUTPUT_FOLDER = "D:\\RagaAI\\TIP\\pipelining_script"
-    BASE_INSTANCES_FOLDER = "D:\\RagaAI\\TIP\\pipelining_script\\priority_integration_data"
+    TENANT_INFO_FOLDER = "Tenet_info"
+    BASE_OUTPUT_FOLDER = ""
+    BASE_INSTANCES_FOLDER = "priority_integration_data"
     
     # ========================== SCRIPT EXECUTION (INTERACTIVE) ==========================
     print("--- Automated Prediction & Evaluation Workflow (Single Tenant) ---")
