@@ -1,0 +1,71 @@
+{
+  "integration_ids_mapping": {
+    "usg.cigna.834-facets": [
+      "c04d7010-a727-41ef-a59e-021dd7e16172",
+      "2dc248d1-cfd6-4a7d-9a89-1aa257448d99",
+      "0e48a791-d7e8-450b-9cbd-db3cfa1d7d16"
+    ],
+    "usg.wageworks.cobra": [
+      "098c4f1a-8e95-4f38-b160-a447b88e3e2f"
+    ],
+    "usg.unum.telephonic": [
+      "d80ca806-4659-45a4-aac5-2350433d88a2",
+      "3d7ab204-8d8a-4950-b063-44d93df51b24",
+      "e1e8ecc9-02bf-4d15-9273-87b119b03988",
+      "11fe0372-81da-4527-b05a-e5f0b75eeae8",
+      "e4644e27-9e46-41c9-bf85-70beda799cf3"
+    ],
+    "usg.fidelity.demographic": [
+      "93759bdf-74a6-40d2-be39-312080753f9e",
+      "4b8f2949-5b72-4c1c-b9fb-7d2531eded98",
+      "5fd8fd91-262e-44d2-a9be-59033c4a67f4",
+      "8509c477-ad0e-4ef1-b4b0-b64db9f84a3d",
+      "4be39767-796a-4e3d-b093-f6df49470fb1",
+      "98266b22-2b87-4cd1-8745-8697adcb34b4",
+      "c3c100c3-ce7f-47f3-b18d-ca80f8b74a15"
+    ],
+    "usg.lincoln.supp-life": [
+      "4053dcad-edd5-4e92-886d-f8d03f6c8145",
+      "f19c0f7b-1b24-431a-91a4-7e303ee55288",
+      "78bb628b-4118-4ac0-b230-f5f844d2f06f",
+      "3816c175-1dc5-4989-8a63-c9f09d6d1504"
+    ],
+    "usg.cigna.834-proclaim": [
+      "bcbb789d-aa1e-4b2d-9201-0b54d065a984",
+      "4fb1d222-a146-44b3-a36a-4de17985f9b7",
+      "8e8b1417-049a-44ac-895d-d48ab6e80f61",
+      "6c5f9234-a9fc-4c9c-8470-e77f041c27d5"
+    ],
+    "usg.cigna.sa.enrollment": [
+      "d749680b-6fc0-4ca0-bdfc-a4d1086a1dd4",
+      "d749680b-6fc0-4ca0-bdfc-a4d1086a1dd4"
+    ],
+    "usg.ukg.gis.nextgen.generic834": [
+      "00b2bb31-4be7-4621-b05f-f0105fb5135e",
+      "bfe239b0-ad91-4a62-a9a7-8c91d705c937",
+      "6e06d5a4-3bd9-4804-a1eb-321de964f074",
+      "e6af3c22-918b-4982-a02e-c8c29cdf114d",
+      "7ddee8ad-9361-408a-8e84-58cd31d5b700"
+    ],
+    "usg.sunlife.834": [
+      "5264be4a-d46b-4181-82c3-1faaaf1cd1c8",
+      "cdd6858d-6a4c-4ee2-9b22-629b00ce66e4",
+      "30bf1e8d-9361-4dfd-b6d9-99450d0e4992"
+    ],
+    "usg.unum.basiclife": [
+      "a762b84e-db79-4cc6-9923-e9b3221f4c15",
+      "930a63b4-597f-4ba7-ba59-fc384558264c",
+      "30d5827c-dd0d-4af7-9031-6b7ac008881a",
+      "725a829b-3e47-42a5-a8db-51d141301d04"
+    ],
+    "usg.metlife.one": [
+      "96f84018-c3f4-445e-802f-54513f8d70a0",
+      "08f4dbee-f7d8-4c2c-add4-988a802979cc",
+      "43ce39fe-a2c7-454d-a9a3-b269771062d8",
+      "14f76dd7-6917-4e8b-9d1f-e49b622c3d21",
+      "2393d1e6-bad2-47bb-a5fc-4569ab2a40a8",
+      "0067b8e9-dc7c-4b3e-8d13-4cccf6cc2109",
+      "c768c0a4-9061-4253-958c-64376bbd74bd"
+    ]
+  }
+}
