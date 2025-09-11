@@ -1,0 +1,122 @@
+{
+    "integrationId": "98838a76-67b2-46a5-8ba2-99749a8c29a8",
+    "tenantId": "cd7b6b73-893c-41ae-853a-24378cf5f2ff",
+    "integrationName": "Monogram Health Fidelity Demographic",
+    "vendor": "a01d1588-2758-4b05-bce5-de6bebb8c00f",
+    "fileTypeId": "usg.fidelity.demographic",
+    "customerName": null,
+    "createdDate": "2023-02-06T12:15:29.098Z",
+    "updatedDate": "2024-12-17T21:24:58.245Z",
+    "fileTransferFields": [
+        {
+            "key": "record36ByDivision",
+            "value": "doNotReport"
+        },
+        {
+            "key": "fileDestination",
+            "value": "fidelityProdSftp"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"4f9ee1e641b0bbce966e3b3a661cddd4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"de0ead55ce394be28bdf2a6168ca5064\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"65fe81ddb1719cd33eba17be91fb9538\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b271ba677aedac0511cc6200ec95ef23\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e76608244cd0b93c45048593d3752bc6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cd21044e20e2fc7a1bb336128429cb4a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"371b76b7cc7da016f87f8666846facbd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f4dd0be0bf8454bdde5842c80f2050b1\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ac6ee43e29eb89507b6a4dd200d94eee\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "recordCASalary",
+            "value": "false"
+        },
+        {
+            "key": "RecordPHParticipantTelephone",
+            "value": "homePhone"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "eligibilityTracking",
+            "value": "true"
+        },
+        {
+            "key": "divisionIDMapping",
+            "value": "[{\"value\":\"7051\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Monogram Health Professional Services\",\"value\":\"H4BKO\",\"table\":\"companyId\"}]}]},{\"value\":\"7052\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"MH Physician Services MSO LLC\",\"value\":\"H4BWF\",\"table\":\"companyId\"}]}]},{\"value\":\"7053\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"MH Renal Services MSO LLC\",\"value\":\"H4BZ0\",\"table\":\"companyId\"}]}]},{\"value\":\"7050\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Monogram Health Inc\",\"value\":\"IQ5UA\",\"table\":\"companyId\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "toggle-division-code",
+            "value": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}"
+        },
+        {
+            "key": "eligibilityDate",
+            "value": "dateOfBenefitSeniority"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "Meredith.powell@monogramhealth.com, Ryan.Fuerst@monogramhealth.com"
+        },
+        {
+            "key": "employeeFilters",
+            "value": "[{\"source\":\"companyId\",\"values\":[\"H4BKO\",\"H4BWF\",\"H4BZ0\",\"IQ5UA\"]}]"
+        },
+        {
+            "key": "record57CompanyID",
+            "value": "doNotReport"
+        },
+        {
+            "key": "includeVestingDateForNewHires",
+            "value": "false"
+        },
+        {
+            "key": "record63ServiceUnitHistory",
+            "value": "doNotReport"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "planNumber",
+            "value": "1785K"
+        },
+        {
+            "key": "minimumAge",
+            "value": "21"
+        },
+        {
+            "key": "vestingDate",
+            "value": "dateOfOriginalHire"
+        },
+        {
+            "key": "record57PayrollID",
+            "value": "doNotReport"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 30 19 * * SUN",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "cd7b6b73-893c-41ae-853a-24378cf5f2ff"
+}

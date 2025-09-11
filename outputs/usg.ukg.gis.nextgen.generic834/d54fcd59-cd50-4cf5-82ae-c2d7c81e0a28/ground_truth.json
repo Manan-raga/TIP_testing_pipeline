@@ -1,0 +1,386 @@
+{
+    "integrationId": "ffa68100-511d-404d-a613-4112cd6d261f",
+    "tenantId": "d54fcd59-cd50-4cf5-82ae-c2d7c81e0a28",
+    "integrationName": "BCBS FL PPO Dental",
+    "vendor": "a7d7fc29-0a0e-40fb-8c6a-f263b048dbd7",
+    "fileTypeId": "usg.ukg.gis.nextgen.generic834",
+    "customerName": null,
+    "createdDate": "2023-04-25T20:06:44.236Z",
+    "updatedDate": "2024-12-30T15:41:50.107Z",
+    "fileTransferFields": [
+        {
+            "key": "headerISA16",
+            "value": ":"
+        },
+        {
+            "key": "headerREF01",
+            "value": "false"
+        },
+        {
+            "key": "fileTransmissionURL",
+            "value": "sbsftp.benefitfocus.com"
+        },
+        {
+            "key": "header1000AN103",
+            "value": "FI"
+        },
+        {
+            "key": "headerISA14",
+            "value": "false"
+        },
+        {
+            "key": "detail2310Loop",
+            "value": "false"
+        },
+        {
+            "key": "fileDestination",
+            "value": "dashboard"
+        },
+        {
+            "key": "detail2100APER07WE",
+            "value": "false"
+        },
+        {
+            "key": "headerISA11",
+            "value": "^"
+        },
+        {
+            "key": "fileNameOption",
+            "value": "yyyyMMdd"
+        },
+        {
+            "key": "companyName",
+            "value": "IndelibleSolutions"
+        },
+        {
+            "key": "policyNumber",
+            "value": "K3146"
+        },
+        {
+            "key": "toggle-dept-number",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029d9\"}"
+        },
+        {
+            "key": "toggle-vision-step",
+            "value": "{\"hidden\":true,\"stepId\":\"1705e04b-0abp-4304-8757-546eb176ce77\"}"
+        },
+        {
+            "key": "denCoverageLevelMapping",
+            "value": "[{\"value\":\"EMP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"1. Employee Only\",\"value\":\"EE\",\"table\":\"benefitOption\"}]}]},{\"value\":\"ESP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"5. Emp + Domestic Partner\",\"value\":\"EEDP\",\"table\":\"benefitOption\"},{\"description\":\"2. Employee + Spouse\",\"value\":\"EES\",\"table\":\"benefitOption\"}]}]},{\"value\":\"ECH\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"3. Employee + Child\",\"value\":\"EEC\",\"table\":\"benefitOption\"}]}]},{\"value\":\"FAM\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"6. EE + Dom Partner Fam\",\"value\":\"EEDPF\",\"table\":\"benefitOption\"},{\"description\":\"4. Employee + Family\",\"value\":\"EEF\",\"table\":\"benefitOption\"}]}]}]"
+        },
+        {
+            "key": "fileTransmissionForGlobalCreds",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810302m\"}"
+        },
+        {
+            "key": "toggle-denAmtFlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am1\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "toggle-Dental-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070dbo\"}"
+        },
+        {
+            "key": "headerBGN02",
+            "value": "K3146"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "detail2100APER05",
+            "value": "false"
+        },
+        {
+            "key": "toggle-QQ-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029qq\"}"
+        },
+        {
+            "key": "custFileName",
+            "value": "IndelibleSolutions_BCBSFL_"
+        },
+        {
+            "key": "toggle-denhd04FlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd1\"}"
+        },
+        {
+            "key": "detail2100APER07",
+            "value": "false"
+        },
+        {
+            "key": "headerGS03",
+            "value": "570287419"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "headerGS06",
+            "value": "K3146"
+        },
+        {
+            "key": "detail2000INS08",
+            "value": "true"
+        },
+        {
+            "key": "fileLocationOption",
+            "value": "customCredentials"
+        },
+        {
+            "key": "detail2000INS09",
+            "value": "false"
+        },
+        {
+            "key": "toggle-detail-2700-step",
+            "value": "{\"hidden\":true,\"stepId\":\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\"}"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "detail2100APER07PE",
+            "value": "false"
+        },
+        {
+            "key": "toggle-client-number",
+            "value": "{\"hidden\":true,\"stepId\":\"c7385852-a6bd-4836-a198-f194f4c56237\"}"
+        },
+        {
+            "key": "detail2000DTP01",
+            "value": "336"
+        },
+        {
+            "key": "detail2100ANM106",
+            "value": "false"
+        },
+        {
+            "key": "detail2100ANM105",
+            "value": "true"
+        },
+        {
+            "key": "detail2300DTP300",
+            "value": "false"
+        },
+        {
+            "key": "companyId",
+            "value": "I03Y9"
+        },
+        {
+            "key": "detail2100AHLHLoop",
+            "value": "false"
+        },
+        {
+            "key": "fileTransmissionPort",
+            "value": "22"
+        },
+        {
+            "key": "detail2100AN404ForeignCountry",
+            "value": "false"
+        },
+        {
+            "key": "detail2300DTP303",
+            "value": "false"
+        },
+        {
+            "key": "detail2300DTP348",
+            "value": "startDate"
+        },
+        {
+            "key": "detail2000INS10",
+            "value": "true"
+        },
+        {
+            "key": "detail2300DTP349",
+            "value": "stopDatePlus1"
+        },
+        {
+            "key": "toggle-60-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029mu\"}"
+        },
+        {
+            "key": "detail2000INS11",
+            "value": "false"
+        },
+        {
+            "key": "toggle-zz-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029zz\"}"
+        },
+        {
+            "key": "detail2100ANM107",
+            "value": "true"
+        },
+        {
+            "key": "detail2100APER03",
+            "value": "true"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "fileNameExtension",
+            "value": ".txt"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"188d2f11d83ea69d332fa237fd202fd5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"912a1fd3e71083320d5d151fde39c239\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7683dfcb49c7dc6436a66484f834d503\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a829bbb00004732430019794a6bda672\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc538g1f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a280-f636271424bd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"93bfa762-753c-4e8a-9dd5-85e95382ec91\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc537f9e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"99eab2de-8ce1-4a40-ad6f-795a2cd76121\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fc1f159c-9e78-4487-9af2-824163bfec6b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"89f3d3bf-5537-45da-a552-841cf419e306\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1d164398-9d82-4fec-9e14-75cd73815d9a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ac\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"84c60bba4da192a4e923ce349570f59c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ee-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ea44e9cd-det1-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5bba6878-68e6-46eb-bd57-33af4478f9cc\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7e863284516f52889f73f9418296fced\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7af67d30-0670-4a46-91dd-f5a74810291l\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7293cc71-efbb-4653-9907-0bca0fce4187\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c7385852-a6bd-4836-a198-f194f4c56237\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029d9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-91dd-f5a7481029zz\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029qq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029mu\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det1-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b3798c94-12ee-44bb-9df5-517edc04667f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3cd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1503c298cba9add45db36480050adb9c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"97739bee-785c-4839-8cc7-f298a5fac7a1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det7-4ecb-8d8d-2108e893b1ab\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db07abc1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det3-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db0700ms\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070mdc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mbo\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db073ger\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mcl\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ce59e3e-a222-4323-a360-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db0700ds\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070ddc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dbo\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db071ecp\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dcl\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a361-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1705e04b-0abp-4304-8757-546eb176ce77\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db0700vs\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070vdc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vbo\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db072fdq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vcl\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ce59e3e-a222-4323-a362-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810291l\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-sftp-f5a74810302m\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810302n\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810302o\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"5a8679b526d3e1457343cc52708f5d56\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "secure_fileTransmissionAuthPassword",
+            "value": ""
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"19\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DMC\":\"19\",\"DMP\":\"53\",\"FIA\":\"noCoverage\",\"GRC\":\"19\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPO\":\"01\",\"SPS\":\"01\",\"STC\":\"19\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "denDeductionCodes",
+            "value": "[{\"value\":\"DEN\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental High\",\"value\":\"DENHI\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Low\",\"value\":\"DENLO\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental High Exec\",\"value\":\"DENXH\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Low Exec\",\"value\":\"DENXL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "detail2100AN3",
+            "value": "false"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2023-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-Dental-idc-segment",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db071ecp\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-2",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf2\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-1",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf1\"}"
+        },
+        {
+            "key": "fileTransmissionPath",
+            "value": "/in"
+        },
+        {
+            "key": "toggle-denhd04CalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd2\"}"
+        },
+        {
+            "key": "invalidSSN",
+            "value": "false"
+        },
+        {
+            "key": "includeICM",
+            "value": "false"
+        },
+        {
+            "key": "capsAllChar",
+            "value": "false"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "2310Loop",
+            "value": "{\"hidden\":true,\"stepId\":\"97739bee-785c-4839-8cc7-f298a5fac7a1\"}"
+        },
+        {
+            "key": "toggle-client-reporting",
+            "value": "{\"hidden\":true,\"stepId\":\"7293cc71-efbb-4653-9907-0bca0fce4187\"}"
+        },
+        {
+            "key": "headerISA05",
+            "value": "30"
+        },
+        {
+            "key": "toggle-medical-step",
+            "value": "{\"hidden\":true,\"stepId\":\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\"}"
+        },
+        {
+            "key": "headerBGN08",
+            "value": "4"
+        },
+        {
+            "key": "toggle-dental-step",
+            "value": "{\"hidden\":false,\"stepId\":\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\"}"
+        },
+        {
+            "key": "secure_fileTransmissionPassword",
+            "value": ""
+        },
+        {
+            "key": "headerDTP007",
+            "value": "false"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "kepps@indelible-solutions.com, totalrewards@indelible-solutions.com"
+        },
+        {
+            "key": "detail2100AN404",
+            "value": "true"
+        },
+        {
+            "key": "fileTransmissionUsername",
+            "value": "IndelibleSolutions"
+        },
+        {
+            "key": "toggle-group-number",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a74810291l\"}"
+        },
+        {
+            "key": "toggle-case-number",
+            "value": "{\"hidden\":true,\"stepId\":\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\"}"
+        },
+        {
+            "key": "fileTransmissionCheckbox",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810291l\"}"
+        },
+        {
+            "key": "groupNumber",
+            "value": "[{\"value\":\"35Y252300\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental High\",\"value\":\"DENHI\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental High Exec\",\"value\":\"DENXH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"35E755100\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Low\",\"value\":\"DENLO\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Low Exec\",\"value\":\"DENXL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "header1000BN104",
+            "value": "570287419"
+        },
+        {
+            "key": "denBenefitOptionMapping",
+            "value": "[{\"value\":\"35Y252300\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental High\",\"value\":\"DENHI\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental High Exec\",\"value\":\"DENXH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"35E755100\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Low\",\"value\":\"DENLO\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Low Exec\",\"value\":\"DENXL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-denAmtCalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am2\"}"
+        },
+        {
+            "key": "headerISA08",
+            "value": "570287419"
+        },
+        {
+            "key": "headerISA07",
+            "value": "30"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+        }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 5 22 * * FRI",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "d54fcd59-cd50-4cf5-82ae-c2d7c81e0a28"
+}

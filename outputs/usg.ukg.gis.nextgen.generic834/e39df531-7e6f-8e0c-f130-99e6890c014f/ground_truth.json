@@ -1,0 +1,646 @@
+{
+    "integrationId": "0f5b3de8-0a5d-4ffe-82a1-fc33d148b31e",
+    "tenantId": "e39df531-7e6f-8e0c-f130-99e6890c014f",
+    "integrationName": "SOU1043 AETNA med",
+    "vendor": "a7d7fc29-0a0e-40fb-8c6a-f263b048dbd7",
+    "fileTypeId": "usg.ukg.gis.nextgen.generic834",
+    "customerName": null,
+    "createdDate": "2023-10-20T15:32:13.279Z",
+    "updatedDate": "2024-01-02T21:50:05.377Z",
+    "fileTransferFields": [
+        {
+            "key": "headerISA16",
+            "value": ":"
+        },
+        {
+            "key": "fileTransmissionURL",
+            "value": "st1.aetna.com"
+        },
+        {
+            "key": "medhd04CalcInput10",
+            "value": "HLT"
+        },
+        {
+            "key": "header1000AN103",
+            "value": "FI"
+        },
+        {
+            "key": "medhd04CalcInput11",
+            "value": "HLT"
+        },
+        {
+            "key": "headerISA14",
+            "value": "true"
+        },
+        {
+            "key": "fileDestination",
+            "value": "customCredentials"
+        },
+        {
+            "key": "medhd04CalcInput12",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput13",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput14",
+            "value": "HLT"
+        },
+        {
+            "key": "headerISA11",
+            "value": "^"
+        },
+        {
+            "key": "medhd04CalcInput15",
+            "value": "HLT"
+        },
+        {
+            "key": "header1000AN104",
+            "value": "953402799"
+        },
+        {
+            "key": "companyName",
+            "value": "SOUTHWEST FLORIDA WATER MANAGEMENT DISTRICT"
+        },
+        {
+            "key": "fileNameOption",
+            "value": "MMddyyyyhhmmss"
+        },
+        {
+            "key": "denCoverageLevelMapping",
+            "value": "[{\"value\":\"EMP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Basic Aetna\",\"value\":\"AD10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Aetna\",\"value\":\"AD20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Executive Aetna\",\"value\":\"AD40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic Executive Aetna\",\"value\":\"AD60\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"E1D\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + 1\",\"value\":\"EEONE\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Basic Aetna\",\"value\":\"AD10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Aetna\",\"value\":\"AD20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic Executive Aetna\",\"value\":\"AD60\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"FAM\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee and Family\",\"value\":\"EEF\",\"table\":\"benefitOption\"},{\"description\":\"DC Employee + Fam (Prim)\",\"value\":\"EEFDP\",\"table\":\"benefitOption\"},{\"description\":\"DC Employee + Fam (Sec)\",\"value\":\"EEFDS\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Basic Aetna\",\"value\":\"AD10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Aetna\",\"value\":\"AD20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium District Couple Aetna\",\"value\":\"AD30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Executive Aetna\",\"value\":\"AD40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic District Couple Aetna\",\"value\":\"AD50\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic Executive Aetna\",\"value\":\"AD60\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-medAmtCalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142am2\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-plan-option-indicator",
+            "value": "{\"hidden\":false,\"stepId\":\"4085e59f-1361-4292-b719-e772db070dbo\"}"
+        },
+        {
+            "key": "headerBGN02",
+            "value": "0000001"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "hd01SegmentMed",
+            "value": "030"
+        },
+        {
+            "key": "detail2100APER05",
+            "value": "true"
+        },
+        {
+            "key": "headerGS02",
+            "value": "590965067"
+        },
+        {
+            "key": "detail2100APER07",
+            "value": "true"
+        },
+        {
+            "key": "headerGS03",
+            "value": "SOUTHWESTFL"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "false"
+        },
+        {
+            "key": "fileLocationOption",
+            "value": "customCredentials"
+        },
+        {
+            "key": "headerGS06",
+            "value": "590965067"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "toggle-client-number",
+            "value": "{\"hidden\":true,\"stepId\":\"c7385852-a6bd-4836-a198-f194f4c56237\"}"
+        },
+        {
+            "key": "detail2300DTP300",
+            "value": "false"
+        },
+        {
+            "key": "detail2100AHLHLoop",
+            "value": "false"
+        },
+        {
+            "key": "fileTransmissionPort",
+            "value": "2222"
+        },
+        {
+            "key": "detail2300DTP303",
+            "value": "false"
+        },
+        {
+            "key": "toggle-zz-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029zz\"}"
+        },
+        {
+            "key": "detail2100APER03",
+            "value": "true"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "toggle-medhd04CalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142hd2\"}"
+        },
+        {
+            "key": "secure_fileTransmissionAuthPassword",
+            "value": ""
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"19\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"FIA\":\"noCoverage\",\"FRD\":\"noCoverage\",\"GRC\":\"noCoverage\",\"GRP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"PAR\":\"noCoverage\",\"PTR\":\"noCoverage\",\"SEL\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"19\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"STP\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "detail2100AN3",
+            "value": "false"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2024-01-01T06:00:00.000Z"
+        },
+        {
+            "key": "toggle-Dental-idc-segment",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db071ecp\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-2",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf2\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-1",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf1\"}"
+        },
+        {
+            "key": "invalidSSN",
+            "value": "true"
+        },
+        {
+            "key": "toggle-denhd04CalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd2\"}"
+        },
+        {
+            "key": "capsAllChar",
+            "value": "false"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "false"
+        },
+        {
+            "key": "headerISA05",
+            "value": "30"
+        },
+        {
+            "key": "medhd04FlatInput3",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04FlatInput4",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04FlatInput1",
+            "value": "HLT"
+        },
+        {
+            "key": "toggle-dental-step",
+            "value": "{\"hidden\":false,\"stepId\":\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\"}"
+        },
+        {
+            "key": "usernameForGlobalCreds",
+            "value": "S015883"
+        },
+        {
+            "key": "medhd04FlatInput2",
+            "value": "HLT"
+        },
+        {
+            "key": "headerDTP007",
+            "value": "true"
+        },
+        {
+            "key": "detail2100AN404",
+            "value": "false"
+        },
+        {
+            "key": "toggle-group-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a74810291l\"}"
+        },
+        {
+            "key": "toggle-case-number",
+            "value": "{\"hidden\":true,\"stepId\":\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\"}"
+        },
+        {
+            "key": "fileTransmissionCheckbox",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810291l\"}"
+        },
+        {
+            "key": "medBenefitOptionMapping",
+            "value": "[{\"value\":\"003+0237086+010+00001+00100+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Admin & Exe Aetna\",\"value\":\"AM50\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00001+00200+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee and Family\",\"value\":\"EEF\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00201+00100+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00201+00200+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Family\",\"value\":\"EF\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00202+00100+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00202+00200+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee and Family\",\"value\":\"EEF\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00203+00100+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree w/o Medicare\",\"value\":\"AHRW\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+010+00203+00200+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Family\",\"value\":\"EF\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+011+00001+01000+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Copay Aetna\",\"value\":\"AM10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay District Couple Aetna\",\"value\":\"AM20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Admin & Exe Aetna\",\"value\":\"AM30\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+011+00201+01000+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna Copay Retiree w/o Medicare\",\"value\":\"ACRW\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003+0237086+011+00202+01000+035\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna Copay Retiree w/o Medicare\",\"value\":\"ACRW\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "denBenefitOptionMapping",
+            "value": "[{\"value\":\"004+0237087+010+00001+00100+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Basic Aetna\",\"value\":\"AD10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic Executive Aetna\",\"value\":\"AD60\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00100+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00200+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00300+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00400+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00500+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00600+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00700+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00800+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00201+00900+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00100+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00200+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00300+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00400+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00500+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00600+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00700+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00800+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+010+00202+00900+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00001+02000+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Premium Aetna\",\"value\":\"AD20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium District Couple Aetna\",\"value\":\"AD30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Executive Aetna\",\"value\":\"AD40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic District Couple Aetna\",\"value\":\"AD50\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02000+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02100+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02200+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02300+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02400+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02500+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02600+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02700+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00201+02900+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02000+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02100+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02200+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02300+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02400+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02500+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02600+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02700+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"}]}]},{\"value\":\"004+0237087+011+00202+02900+400\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"deductions.benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"}]}]}]"
+        },
+        {
+            "key": "medhd04FlatInput9",
+            "value": "HLT"
+        },
+        {
+            "key": "toggle-denAmtCalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am2\"}"
+        },
+        {
+            "key": "toggle-Medical-idc-segment",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db073ger\"}"
+        },
+        {
+            "key": "medhd04FlatInput7",
+            "value": "HLT"
+        },
+        {
+            "key": "headerISA08",
+            "value": "0737549"
+        },
+        {
+            "key": "medhd04FlatInput8",
+            "value": "HLT"
+        },
+        {
+            "key": "headerISA07",
+            "value": "ZZ"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "medhd04FlatInput5",
+            "value": "HLT"
+        },
+        {
+            "key": "headerISA06",
+            "value": "590965067"
+        },
+        {
+            "key": "medhd04FlatInput6",
+            "value": "HLT"
+        },
+        {
+            "key": "headerREF01",
+            "value": "true"
+        },
+        {
+            "key": "detail2310Loop",
+            "value": "false"
+        },
+        {
+            "key": "medCoverageLevelMapping",
+            "value": "[{\"value\":\"EMP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna Copay Retiree w/o Medicare\",\"value\":\"ACRW\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna HDHP Retiree w/o Medicare\",\"value\":\"AHRW\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Aetna\",\"value\":\"AM10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Admin & Exe Aetna\",\"value\":\"AM30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Admin & Exe Aetna\",\"value\":\"AM50\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna Copay Retiree\",\"value\":\"AMRC\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"E1D\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + 1\",\"value\":\"EEONE\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Copay Aetna\",\"value\":\"AM10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Admin & Exe Aetna\",\"value\":\"AM30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Admin & Exe Aetna\",\"value\":\"AM50\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"FAM\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee and Family\",\"value\":\"EEF\",\"table\":\"benefitOption\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Copay Aetna\",\"value\":\"AM10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay District Couple Aetna\",\"value\":\"AM20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Admin & Exe Aetna\",\"value\":\"AM30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Admin & Exe Aetna\",\"value\":\"AM50\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "medhd04FlatInput11",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04FlatInput10",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04FlatInput13",
+            "value": "HLT"
+        },
+        {
+            "key": "toggle-medhd04FlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142hd1\"}"
+        },
+        {
+            "key": "medhd04FlatInput12",
+            "value": "HLT"
+        },
+        {
+            "key": "policyNumber",
+            "value": "0737549"
+        },
+        {
+            "key": "toggle-dept-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029d9\"}"
+        },
+        {
+            "key": "medhd04FlatInput15",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04FlatInput14",
+            "value": "HLT"
+        },
+        {
+            "key": "toggle-vision-step",
+            "value": "{\"hidden\":true,\"stepId\":\"1705e04b-0abp-4304-8757-546eb176ce77\"}"
+        },
+        {
+            "key": "toggle-Medical-benefit-plan-option-indicator",
+            "value": "{\"hidden\":false,\"stepId\":\"4085e59f-1361-4292-b719-e771db070mbo\"}"
+        },
+        {
+            "key": "fileTransmissionForGlobalCreds",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810302m\"}"
+        },
+        {
+            "key": "toggle-denAmtFlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am1\"}"
+        },
+        {
+            "key": "minStartDateMed",
+            "value": "2024-01-01T06:00:00.000Z"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "toggle-QQ-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029qq\"}"
+        },
+        {
+            "key": "custFileName",
+            "value": "SECUREFTP.X12UNZ.AETNA."
+        },
+        {
+            "key": "toggle-denhd04FlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd1\"}"
+        },
+        {
+            "key": "detail2000INS04",
+            "value": "XN"
+        },
+        {
+            "key": "detail2000INS08",
+            "value": "true"
+        },
+        {
+            "key": "detail2000INS09",
+            "value": "false"
+        },
+        {
+            "key": "detail2000DTP04",
+            "value": "do not report"
+        },
+        {
+            "key": "fileNamePosition",
+            "value": "After"
+        },
+        {
+            "key": "headerINS03",
+            "value": "030"
+        },
+        {
+            "key": "detail2000DTP03",
+            "value": "do not report"
+        },
+        {
+            "key": "toggle-detail-2700-step",
+            "value": "{\"hidden\":true,\"stepId\":\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\"}"
+        },
+        {
+            "key": "detail2000DTP02",
+            "value": "do not report"
+        },
+        {
+            "key": "detail2000DTP01",
+            "value": "do not report"
+        },
+        {
+            "key": "detail2100ANM106",
+            "value": "false"
+        },
+        {
+            "key": "detail2100ANM105",
+            "value": "true"
+        },
+        {
+            "key": "companyId",
+            "value": "LS5HO"
+        },
+        {
+            "key": "detail2300DTP348",
+            "value": "startDate"
+        },
+        {
+            "key": "detail2000INS10",
+            "value": "true"
+        },
+        {
+            "key": "detail2300DTP349",
+            "value": "stopDate"
+        },
+        {
+            "key": "detail2000INS11",
+            "value": "false"
+        },
+        {
+            "key": "detail2100ANM107",
+            "value": "true"
+        },
+        {
+            "key": "fileNameExtension",
+            "value": "txt"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"188d2f11d83ea69d332fa237fd202fd5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"07bb7a9bd29e4bd92a53b122ccc07c9e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d4cef1e699472b95c07b9fdc9f383794\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a829bbb00004732430019794a6bda672\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc538g1f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a280-f636271424bd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"93bfa762-753c-4e8a-9dd5-85e95382ec91\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc537f9e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"99eab2de-8ce1-4a40-ad6f-795a2cd76121\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fc1f159c-9e78-4487-9af2-824163bfec6b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"89f3d3bf-5537-45da-a552-841cf419e306\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1d164398-9d82-4fec-9e14-75cd73815d9a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"84c60bba4da192a4e923ce349570f59c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ee-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ea44e9cd-det1-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e36315dfdfbf30b38cf0b626fb9c2dbc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-91dd-f5a74810291l\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7293cc71-efbb-4653-9907-0bca0fce4187\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c7385852-a6bd-4836-a198-f194f4c56237\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029d9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029zz\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029qq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det1-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b3798c94-12ee-44bb-9df5-517edc04667f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3cd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1503c298cba9add45db36480050adb9c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"97739bee-785c-4839-8cc7-f298a5fac7a1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det7-4ecb-8d8d-2108e893b1ab\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ea44e9cd-det3-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db0700ms\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070mdc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mbo\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db073ger\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mcl\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a360-f63627142hd1\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142hd2\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db0700ds\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070ddc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dbo\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db071ecp\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dcl\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a361-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142hd2\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1705e04b-0abp-4304-8757-546eb176ce77\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db0700vs\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070vdc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vbo\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db072fdq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vcl\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ce59e3e-a222-4323-a362-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810291l\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-sftp-f5a74810302m\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"83e08dbbcf556bb050f12d5831b06e3c\":{\"visited\":false,\"valid\":false,\"hidden\":false}}"
+        },
+        {
+            "key": "denDeductionCodes",
+            "value": "[{\"value\":\"DEN\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Basic Aetna\",\"value\":\"AD10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Aetna\",\"value\":\"AD20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium District Couple Aetna\",\"value\":\"AD30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Premium Executive Aetna\",\"value\":\"AD40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic District Couple Aetna\",\"value\":\"AD50\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Basic Executive Aetna\",\"value\":\"AD60\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Aetna Basic Retiree\",\"value\":\"ADR2\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Aetna Premium Retiree\",\"value\":\"ADRT\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-medAmtFlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142am1\"}"
+        },
+        {
+            "key": "fileTransmissionPath",
+            "value": "/EDIG-Test/toAetna"
+        },
+        {
+            "key": "includeICM",
+            "value": "false"
+        },
+        {
+            "key": "2310Loop",
+            "value": "{\"hidden\":true,\"stepId\":\"97739bee-785c-4839-8cc7-f298a5fac7a1\"}"
+        },
+        {
+            "key": "hd01SegmentDen",
+            "value": "030"
+        },
+        {
+            "key": "toggle-client-reporting",
+            "value": "{\"hidden\":true,\"stepId\":\"7293cc71-efbb-4653-9907-0bca0fce4187\"}"
+        },
+        {
+            "key": "medDeductionCodes",
+            "value": "[{\"value\":\"HLT\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Aetna Copay Retiree w/o Medicare\",\"value\":\"ACRW\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna HDHP Retiree w/o Medicare\",\"value\":\"AHRW\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Aetna\",\"value\":\"AM10\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay District Couple Aetna\",\"value\":\"AM20\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Copay Admin & Exe Aetna\",\"value\":\"AM30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Aetna\",\"value\":\"AM40\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical HDHP Admin & Exe Aetna\",\"value\":\"AM50\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna Copay Retiree\",\"value\":\"AMRC\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Aetna HDHP Retiree\",\"value\":\"AMRH\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-medical-step",
+            "value": "{\"hidden\":false,\"stepId\":\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\"}"
+        },
+        {
+            "key": "headerBGN08",
+            "value": "4"
+        },
+        {
+            "key": "secure_fileTransmissionPassword",
+            "value": ""
+        },
+        {
+            "key": "medhd04CalcInput5",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput6",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput7",
+            "value": "HLT"
+        },
+        {
+            "key": "fileTransmissionUsername",
+            "value": "S039614"
+        },
+        {
+            "key": "medhd04CalcInput8",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput1",
+            "value": "HLT"
+        },
+        {
+            "key": "denhd04CalcInput9",
+            "value": "DEN"
+        },
+        {
+            "key": "headerST02",
+            "value": "0000001"
+        },
+        {
+            "key": "integrationMode",
+            "value": "test"
+        },
+        {
+            "key": "medhd04CalcInput2",
+            "value": "HLT"
+        },
+        {
+            "key": "denhd04CalcInput8",
+            "value": "DEN"
+        },
+        {
+            "key": "medhd04CalcInput3",
+            "value": "HLT"
+        },
+        {
+            "key": "medhd04CalcInput4",
+            "value": "HLT"
+        },
+        {
+            "key": "denhd04CalcInput5",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput12",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput4",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput11",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput7",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput14",
+            "value": "DEN"
+        },
+        {
+            "key": "header1000BN102",
+            "value": "FI"
+        },
+        {
+            "key": "denhd04CalcInput6",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput13",
+            "value": "DEN"
+        },
+        {
+            "key": "toggle-Medical-benefit-ref-mapping-1",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e771db070rf1\"}"
+        },
+        {
+            "key": "medhd04CalcInput9",
+            "value": "HLT"
+        },
+        {
+            "key": "denhd04CalcInput1",
+            "value": "DEN"
+        },
+        {
+            "key": "header1000BN104",
+            "value": "95-3402799"
+        },
+        {
+            "key": "denhd04CalcInput15",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput3",
+            "value": "DEN"
+        },
+        {
+            "key": "toggle-Medical-benefit-ref-mapping-2",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e771db070rf2\"}"
+        },
+        {
+            "key": "denhd04CalcInput2",
+            "value": "DEN"
+        },
+        {
+            "key": "denhd04CalcInput10",
+            "value": "DEN"
+        }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "e39df531-7e6f-8e0c-f130-99e6890c014f"
+}

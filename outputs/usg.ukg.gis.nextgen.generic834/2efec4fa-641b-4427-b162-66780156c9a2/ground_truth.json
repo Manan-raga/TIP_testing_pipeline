@@ -1,0 +1,498 @@
+{
+    "integrationId": "1182c6e4-cb6d-4e43-831a-a5f5f6a34532",
+    "tenantId": "2efec4fa-641b-4427-b162-66780156c9a2",
+    "integrationName": "BCBS of AL Enrollment",
+    "vendor": "7a7e8a77-f78d-429e-8cc4-2fc4a5bdca3a",
+    "fileTypeId": "usg.ukg.gis.nextgen.generic834",
+    "customerName": null,
+    "createdDate": "2023-11-21T20:13:59.818Z",
+    "updatedDate": "2024-10-02T23:14:24.220Z",
+    "fileTransferFields": [
+        {
+            "key": "headerISA16",
+            "value": ":"
+        },
+        {
+            "key": "fileTransmissionURL",
+            "value": "bctransfer.bcbsal.org"
+        },
+        {
+            "key": "header1000AN103",
+            "value": "FI"
+        },
+        {
+            "key": "headerISA14",
+            "value": "false"
+        },
+        {
+            "key": "fileDestination",
+            "value": "customCredentials"
+        },
+        {
+            "key": "headerISA11",
+            "value": "^"
+        },
+        {
+            "key": "header1000AN104",
+            "value": "630512309"
+        },
+        {
+            "key": "companyName",
+            "value": "Maples Industries"
+        },
+        {
+            "key": "fileNameOption",
+            "value": "yyyyMMdd"
+        },
+        {
+            "key": "denCoverageLevelMapping",
+            "value": "[{\"value\":\"EMP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"benefitOption\"}]}]},{\"value\":\"FAM\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Child(ren)\",\"value\":\"EEC\",\"table\":\"benefitOption\"},{\"description\":\"Emp + Domestic Partner\",\"value\":\"EEDP\",\"table\":\"benefitOption\"},{\"description\":\"Emp + Dom Partner Family\",\"value\":\"EEDPF\",\"table\":\"benefitOption\"},{\"description\":\"Employee + Family\",\"value\":\"EEF\",\"table\":\"benefitOption\"}]}]},{\"value\":\"ESP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Spouse\",\"value\":\"EES\",\"table\":\"benefitOption\"}]}]}]"
+        },
+        {
+            "key": "toggle-medAmtCalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142am2\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070dbo\"}"
+        },
+        {
+            "key": "headerBGN02",
+            "value": "1"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "detail2100APER05",
+            "value": "false"
+        },
+        {
+            "key": "headerGS03",
+            "value": "630103830 "
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "fileLocationOption",
+            "value": "customCredentials"
+        },
+        {
+            "key": "headerGS06",
+            "value": "1"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "toggle-client-number",
+            "value": "{\"hidden\":true,\"stepId\":\"c7385852-a6bd-4836-a198-f194f4c56237\"}"
+        },
+        {
+            "key": "detail2300DTP300",
+            "value": "false"
+        },
+        {
+            "key": "detail2100AHLHLoop",
+            "value": "false"
+        },
+        {
+            "key": "fileTransmissionPort",
+            "value": "22"
+        },
+        {
+            "key": "detail2300DTP303",
+            "value": "false"
+        },
+        {
+            "key": "toggle-60-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029mu\"}"
+        },
+        {
+            "key": "toggle-zz-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029zz\"}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "detail2100APER03",
+            "value": "false"
+        },
+        {
+            "key": "toggle-medhd04CalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142hd2\"}"
+        },
+        {
+            "key": "customFilePath",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810302n\"}"
+        },
+        {
+            "key": "secure_fileTransmissionAuthPassword",
+            "value": ""
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"19\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"53\",\"DPC\":\"19\",\"FIA\":\"noCoverage\",\"FRI\":\"noCoverage\",\"GRC\":\"noCoverage\",\"GRP\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"PAR\":\"noCoverage\",\"SIB\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"19\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"STP\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "detail2100AN3",
+            "value": "false"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2023-12-31T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-Dental-idc-segment",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db071ecp\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-2",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf2\"}"
+        },
+        {
+            "key": "toggle-Dental-benefit-ref-mapping-1",
+            "value": "{\"hidden\":false,\"stepId\":\"4085e59f-1361-4292-b719-e772db070rf1\"}"
+        },
+        {
+            "key": "invalidSSN",
+            "value": "true"
+        },
+        {
+            "key": "toggle-denhd04CalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd2\"}"
+        },
+        {
+            "key": "capsAllChar",
+            "value": "false"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "headerISA05",
+            "value": "30"
+        },
+        {
+            "key": "toggle-dental-step",
+            "value": "{\"hidden\":false,\"stepId\":\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\"}"
+        },
+        {
+            "key": "headerDTP007",
+            "value": "false"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "jbrooks@maplesrugs.com"
+        },
+        {
+            "key": "detail2100AN404",
+            "value": "true"
+        },
+        {
+            "key": "toggle-group-number",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a74810291l\"}"
+        },
+        {
+            "key": "toggle-case-number",
+            "value": "{\"hidden\":true,\"stepId\":\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\"}"
+        },
+        {
+            "key": "fileTransmissionCheckbox",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810291l\"}"
+        },
+        {
+            "key": "groupNumber",
+            "value": "[{\"value\":\"80539\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "medBenefitOptionMapping",
+            "value": "[{\"value\":\"000\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"001\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alberta\",\"value\":\"AB\",\"table\":\"address.state\"},{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"American Samoa\",\"value\":\"AS\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"address.state\"},{\"description\":\"British Columbia\",\"value\":\"BC\",\"table\":\"address.state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"},{\"description\":\"Northern Mariana Islands\",\"value\":\"CM\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Foreign National\",\"value\":\"FN\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Guam\",\"value\":\"GU\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Manitoba\",\"value\":\"MB\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"New Brunswick\",\"value\":\"NB\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"Newfoundland and Labrador\",\"value\":\"NL\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nova Scotia\",\"value\":\"NS\",\"table\":\"address.state\"},{\"description\":\"Northwest Territories\",\"value\":\"NT\",\"table\":\"address.state\"},{\"description\":\"Nunavut\",\"value\":\"NU\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Ontario\",\"value\":\"ON\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Prince Edward Island\",\"value\":\"PE\",\"table\":\"address.state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"address.state\"},{\"description\":\"Quebec\",\"value\":\"QC\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Saskatchewan\",\"value\":\"SK\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"},{\"description\":\"Canada US\",\"value\":\"US\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"},{\"description\":\"Yukon\",\"value\":\"YT\",\"table\":\"address.state\"},{\"description\":\"Canada Other\",\"value\":\"ZZ\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"002\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"003\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alberta\",\"value\":\"AB\",\"table\":\"address.state\"},{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"American Samoa\",\"value\":\"AS\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"address.state\"},{\"description\":\"British Columbia\",\"value\":\"BC\",\"table\":\"address.state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"},{\"description\":\"Northern Mariana Islands\",\"value\":\"CM\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Foreign National\",\"value\":\"FN\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Guam\",\"value\":\"GU\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Manitoba\",\"value\":\"MB\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"New Brunswick\",\"value\":\"NB\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"Newfoundland and Labrador\",\"value\":\"NL\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nova Scotia\",\"value\":\"NS\",\"table\":\"address.state\"},{\"description\":\"Northwest Territories\",\"value\":\"NT\",\"table\":\"address.state\"},{\"description\":\"Nunavut\",\"value\":\"NU\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Ontario\",\"value\":\"ON\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Prince Edward Island\",\"value\":\"PE\",\"table\":\"address.state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"address.state\"},{\"description\":\"Quebec\",\"value\":\"QC\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Saskatchewan\",\"value\":\"SK\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"},{\"description\":\"Canada US\",\"value\":\"US\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"},{\"description\":\"Yukon\",\"value\":\"YT\",\"table\":\"address.state\"},{\"description\":\"Canada Other\",\"value\":\"ZZ\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]}]"
+        },
+        {
+            "key": "customFilePathandUserName",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810302o\"}"
+        },
+        {
+            "key": "denBenefitOptionMapping",
+            "value": "[{\"value\":\"D00\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"D01\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alberta\",\"value\":\"AB\",\"table\":\"address.state\"},{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"American Samoa\",\"value\":\"AS\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"address.state\"},{\"description\":\"British Columbia\",\"value\":\"BC\",\"table\":\"address.state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"},{\"description\":\"Northern Mariana Islands\",\"value\":\"CM\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Foreign National\",\"value\":\"FN\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Guam\",\"value\":\"GU\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Manitoba\",\"value\":\"MB\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"New Brunswick\",\"value\":\"NB\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"Newfoundland and Labrador\",\"value\":\"NL\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nova Scotia\",\"value\":\"NS\",\"table\":\"address.state\"},{\"description\":\"Northwest Territories\",\"value\":\"NT\",\"table\":\"address.state\"},{\"description\":\"Nunavut\",\"value\":\"NU\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Ontario\",\"value\":\"ON\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Prince Edward Island\",\"value\":\"PE\",\"table\":\"address.state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"address.state\"},{\"description\":\"Quebec\",\"value\":\"QC\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Saskatchewan\",\"value\":\"SK\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"},{\"description\":\"Canada US\",\"value\":\"US\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"},{\"description\":\"Yukon\",\"value\":\"YT\",\"table\":\"address.state\"},{\"description\":\"Canada Other\",\"value\":\"ZZ\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"D02\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"D03\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alberta\",\"value\":\"AB\",\"table\":\"address.state\"},{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"American Samoa\",\"value\":\"AS\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"address.state\"},{\"description\":\"British Columbia\",\"value\":\"BC\",\"table\":\"address.state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"},{\"description\":\"Northern Mariana Islands\",\"value\":\"CM\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Foreign National\",\"value\":\"FN\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Guam\",\"value\":\"GU\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Manitoba\",\"value\":\"MB\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"New Brunswick\",\"value\":\"NB\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"Newfoundland and Labrador\",\"value\":\"NL\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nova Scotia\",\"value\":\"NS\",\"table\":\"address.state\"},{\"description\":\"Northwest Territories\",\"value\":\"NT\",\"table\":\"address.state\"},{\"description\":\"Nunavut\",\"value\":\"NU\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Ontario\",\"value\":\"ON\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Prince Edward Island\",\"value\":\"PE\",\"table\":\"address.state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"address.state\"},{\"description\":\"Quebec\",\"value\":\"QC\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Saskatchewan\",\"value\":\"SK\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"},{\"description\":\"Canada US\",\"value\":\"US\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"},{\"description\":\"Yukon\",\"value\":\"YT\",\"table\":\"address.state\"},{\"description\":\"Canada Other\",\"value\":\"ZZ\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]}]"
+        },
+        {
+            "key": "toggle-Medical-idc-segment",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e772db073ger\"}"
+        },
+        {
+            "key": "toggle-denAmtCalcBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am2\"}"
+        },
+        {
+            "key": "headerISA08",
+            "value": "630103830 "
+        },
+        {
+            "key": "headerISA07",
+            "value": "30"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "headerREF01",
+            "value": "false"
+        },
+        {
+            "key": "detail2100APER07WE",
+            "value": "false"
+        },
+        {
+            "key": "medCoverageLevelMapping",
+            "value": "[{\"value\":\"EMP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee Only\",\"value\":\"EE\",\"table\":\"benefitOption\"}]}]},{\"value\":\"FAM\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Child(ren)\",\"value\":\"EEC\",\"table\":\"benefitOption\"},{\"description\":\"Emp + Domestic Partner\",\"value\":\"EEDP\",\"table\":\"benefitOption\"},{\"description\":\"Emp + Dom Partner Family\",\"value\":\"EEDPF\",\"table\":\"benefitOption\"},{\"description\":\"Employee + Family\",\"value\":\"EEF\",\"table\":\"benefitOption\"}]}]},{\"value\":\"ESP\",\"tables\":[{\"name\":\"benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Spouse\",\"value\":\"EES\",\"table\":\"benefitOption\"}]}]}]"
+        },
+        {
+            "key": "toggle-medhd04FlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142hd1\"}"
+        },
+        {
+            "key": "policyNumber",
+            "value": "805390001"
+        },
+        {
+            "key": "toggle-dept-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029d9\"}"
+        },
+        {
+            "key": "toggle-vision-step",
+            "value": "{\"hidden\":true,\"stepId\":\"1705e04b-0abp-4304-8757-546eb176ce77\"}"
+        },
+        {
+            "key": "toggle-Medical-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e771db070mbo\"}"
+        },
+        {
+            "key": "fileTransmissionForGlobalCreds",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-sftp-f5a74810302m\"}"
+        },
+        {
+            "key": "toggle-denAmtFlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142am1\"}"
+        },
+        {
+            "key": "minStartDateMed",
+            "value": "2023-12-31T05:00:00.000Z"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "medREF01",
+            "value": "[{\"value\":\"80539004\",\"tables\":[{\"name\":\"deductions.benefitOption\",\"selectedFieldValues\":[{\"description\":\"Employee + Children MDMP\",\"value\":\"ECDIAB\",\"table\":\"deductions.benefitOption\"},{\"description\":\"Employee Only MDMP\",\"value\":\"EEDIAB\",\"table\":\"deductions.benefitOption\"}]}]},{\"value\":\"80539000\",\"tables\":[{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]}]},{\"value\":\"80539002\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"80539001\",\"tables\":[{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"80539003\",\"tables\":[{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Salaried\",\"value\":\"S\",\"table\":\"salaryOrHourly\"}]}]}]"
+        },
+        {
+            "key": "medREF02",
+            "value": "[{\"value\":\"000\",\"tables\":[{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical\",\"value\":\"MED\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"001\",\"tables\":[{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical\",\"value\":\"MED\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"002\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Salary\",\"value\":\"MEDSL\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"003\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical Salary\",\"value\":\"MEDSL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-QQ-number",
+            "value": "{\"hidden\":true,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029qq\"}"
+        },
+        {
+            "key": "custFileName",
+            "value": "maples01.8345010.a.prod"
+        },
+        {
+            "key": "toggle-denhd04FlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a361-f63627142hd1\"}"
+        },
+        {
+            "key": "detail2000INS08",
+            "value": "true"
+        },
+        {
+            "key": "detail2000INS09",
+            "value": "false"
+        },
+        {
+            "key": "fileNamePosition",
+            "value": "No"
+        },
+        {
+            "key": "headerINS03",
+            "value": "030"
+        },
+        {
+            "key": "toggle-detail-2700-step",
+            "value": "{\"hidden\":true,\"stepId\":\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\"}"
+        },
+        {
+            "key": "detail2100APER07PE",
+            "value": "false"
+        },
+        {
+            "key": "detail2000DTP02",
+            "value": "337"
+        },
+        {
+            "key": "detail2000DTP01",
+            "value": "336"
+        },
+        {
+            "key": "detail2100ANM106",
+            "value": "false"
+        },
+        {
+            "key": "detail2100ANM105",
+            "value": "false"
+        },
+        {
+            "key": "companyId",
+            "value": "ZH8BH"
+        },
+        {
+            "key": "detail2100AN404ForeignCountry",
+            "value": "false"
+        },
+        {
+            "key": "excludeSpecailCharacter",
+            "value": "false"
+        },
+        {
+            "key": "detail2300DTP348",
+            "value": "startDate"
+        },
+        {
+            "key": "detail2000INS10",
+            "value": "false"
+        },
+        {
+            "key": "detail2300DTP349",
+            "value": "stopDate"
+        },
+        {
+            "key": "detail2000INS11",
+            "value": "false"
+        },
+        {
+            "key": "detail2100ANM107",
+            "value": "false"
+        },
+        {
+            "key": "fileNameExtension",
+            "value": ""
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"188d2f11d83ea69d332fa237fd202fd5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"912a1fd3e71083320d5d151fde39c239\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7683dfcb49c7dc6436a66484f834d503\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a829bbb00004732430019794a6bda672\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc538g1f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a280-f636271424bd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"93bfa762-753c-4e8a-9dd5-85e95382ec91\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"430025ec-c65a-4b55-a9a4-1bb4fc537f9e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"99eab2de-8ce1-4a40-ad6f-795a2cd76121\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fc1f159c-9e78-4487-9af2-824163bfec6b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"89f3d3bf-5537-45da-a552-841cf419e306\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1d164398-9d82-4fec-9e14-75cd73815d9a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ac\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"84c60bba4da192a4e923ce349570f59c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ee-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ea44e9cd-det1-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5bba6878-68e6-46eb-bd57-33af4478f9cc\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7e863284516f52889f73f9418296fced\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-91dd-f5a74810291l\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"7293cc71-efbb-4653-9907-0bca0fce4187\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c7385852-a6bd-4836-a198-f194f4c56237\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029d9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029zz\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029qq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-91dd-f5a7481029mu\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det1-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b3798c94-12ee-44bb-9df5-517edc04667f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3cd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-det2-4ecb-8d8d-2108e893b3ce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1503c298cba9add45db36480050adb9c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"97739bee-785c-4839-8cc7-f298a5fac7a1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8889cd47-12ee-4f09-b3b6-b807e758fdb3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det7-4ecb-8d8d-2108e893b1ab\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db07abc1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ea44e9cd-det3-4ecb-8d8d-2108e893b2ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db0700ms\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070mdc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070rf1\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e771db070rf2\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mbo\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db073ger\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e771db070mcl\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a360-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a360-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3eaac5d0-12bp-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db0700ds\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070ddc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070rf1\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4085e59f-1361-4292-b719-e772db070rf2\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dbo\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db071ecp\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db070dcl\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1ce59e3e-a222-4323-a361-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a361-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1705e04b-0abp-4304-8757-546eb176ce77\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db0700vs\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070vdc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e773db070rf1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070rf2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vbo\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e772db072fdq\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4085e59f-1361-4292-b719-e773db070vcl\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ce59e3e-a222-4323-a362-f63627142hd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142hd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a362-f63627142am2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810291l\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-sftp-f5a74810302m\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810302n\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"7af67d30-0670-4a46-sftp-f5a74810302o\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"5a8679b526d3e1457343cc52708f5d56\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "denDeductionCodes",
+            "value": "[{\"value\":\"DEN\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Salary\",\"value\":\"DENSL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-medAmtFlatBenAmt",
+            "value": "{\"hidden\":true,\"stepId\":\"1ce59e3e-a222-4323-a360-f63627142am1\"}"
+        },
+        {
+            "key": "detail2300medREF01mp2",
+            "value": "do not report"
+        },
+        {
+            "key": "detail2300medREF01mp1",
+            "value": "1L"
+        },
+        {
+            "key": "isCustomMappingNeededForEmpStatusCode",
+            "value": "{\"hidden\":true,\"stepId\":\"5bba6878-68e6-46eb-bd57-33af4478f9cc\"}"
+        },
+        {
+            "key": "fileTransmissionPath",
+            "value": "/"
+        },
+        {
+            "key": "includeICM",
+            "value": "false"
+        },
+        {
+            "key": "2310Loop",
+            "value": "{\"hidden\":true,\"stepId\":\"97739bee-785c-4839-8cc7-f298a5fac7a1\"}"
+        },
+        {
+            "key": "toggle-client-reporting",
+            "value": "{\"hidden\":true,\"stepId\":\"7293cc71-efbb-4653-9907-0bca0fce4187\"}"
+        },
+        {
+            "key": "medDeductionCodes",
+            "value": "[{\"value\":\"HLT\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Medical\",\"value\":\"MED\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Medical Salary\",\"value\":\"MEDSL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-medical-step",
+            "value": "{\"hidden\":false,\"stepId\":\"65c7e957-5cbp-4f7c-bb59-53cfdcbcd116\"}"
+        },
+        {
+            "key": "headerBGN08",
+            "value": "4"
+        },
+        {
+            "key": "secure_fileTransmissionPassword",
+            "value": ""
+        },
+        {
+            "key": "denREF01",
+            "value": "[{\"value\":\"80539D00\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]},{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"80539D01\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"80539D02\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Salary\",\"value\":\"DENSL\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]}]},{\"value\":\"80539D03\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Salary\",\"value\":\"DENSL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "fileTransmissionUsername",
+            "value": "maples01"
+        },
+        {
+            "key": "denREF02",
+            "value": "[{\"value\":\"D00\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"D01\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"salaryOrHourly\",\"selectedFieldValues\":[{\"description\":\"Hourly\",\"value\":\"H\",\"table\":\"salaryOrHourly\"}]}]},{\"value\":\"D02\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Salary\",\"value\":\"DENSL\",\"table\":\"deductions.deductionCode\"}]},{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"}]}]},{\"value\":\"D03\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Salary\",\"value\":\"DENSL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "headerST02",
+            "value": "0003"
+        },
+        {
+            "key": "header1000BN102",
+            "value": "BLUE CROSS AND BLUE SHIELD OF ALABAMA"
+        },
+        {
+            "key": "toggle-Medical-benefit-ref-mapping-1",
+            "value": "{\"hidden\":false,\"stepId\":\"4085e59f-1361-4292-b719-e771db070rf1\"}"
+        },
+        {
+            "key": "header1000BN104",
+            "value": "630103830 "
+        },
+        {
+            "key": "toggle-Medical-benefit-ref-mapping-2",
+            "value": "{\"hidden\":true,\"stepId\":\"4085e59f-1361-4292-b719-e771db070rf2\"}"
+        },
+        {
+            "key": "detail2300denREF01mp1",
+            "value": "1L"
+        },
+        {
+            "key": "detail2300denREF01mp2",
+            "value": "do not report"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 1 * * WED,SAT",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "2efec4fa-641b-4427-b162-66780156c9a2"
+}

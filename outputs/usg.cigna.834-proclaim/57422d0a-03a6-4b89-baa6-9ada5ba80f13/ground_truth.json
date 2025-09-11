@@ -1,0 +1,134 @@
+{
+    "integrationId": "bf68c033-21ba-46dc-b74b-bab7d75bc396",
+    "tenantId": "57422d0a-03a6-4b89-baa6-9ada5ba80f13",
+    "integrationName": "Cigna Dental and Vision Plan 0656781",
+    "vendor": "e15966a0-3a23-47d8-9e05-09702c3fc899",
+    "fileTypeId": "usg.cigna.834-proclaim",
+    "customerName": null,
+    "createdDate": "2025-04-08T13:46:36.265Z",
+    "updatedDate": "2025-05-29T18:50:15.480Z",
+    "fileTransferFields": [
+        {
+            "key": "deductionCodeVis",
+            "value": "[\"VIS\"]"
+        },
+        {
+            "key": "fileDestination",
+            "value": "dashboard"
+        },
+        {
+            "key": "benefitOptionMappingVis",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"4fb518c0df826c403c802e4575a43c92\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"70364c5fa28c3d8f97f0019fde47000b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"643a4102b1800a8f3077304932720a1d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c3cae732a8dacf664e6714196f0cabb4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2217d5c4007002e9eb0b7fd16c693860\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eb58e1d55b5848ad00c2389b9a734615\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08c37f897f20834d300024d8655a0a1c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"707e20a5c0e38a6966b3022a1750c81d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"738c2fcac75dbc15a8cb286899b4262b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b572d05ed0a603cd3276487b9581dfcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9c1a3d8858f5904d76e62f5302aa71ed\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4fe52b090ec3327fde7c62c8293f4b3f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7a1c08f107ae137f2cf5d1a2356bc109\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0dca65e886f9fab3595f7002449d1fd9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"29405f90ade353f73501209882e37ee1\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"baebe9425158ed1022a89835abaf2f2b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"070d57eefc978dc98dcde4d296fbdd56\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"745a2d69154d55fdfee6f307ed297f3b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d0a86ff70b489ca0554cbb9360274b2e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"95cad4d9ed91d7a5eb7f62c35546c005\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"982d6b2027ca0f8b6f9c6912fdb4341f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5c6cd0d48d91b93fc1705d4158afb16f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"03fda732f4cde53d72c4e291959da158\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"10bbbb70d998fc81d9d08117ce779f04\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aeee9098a07f6712797b7b311fd3d597\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8dcd975f4fcc8a35f3bba44c80566914\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bf5d0b13ba9d07970c3a739c122ffe8f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"899e27c4056149233829cfaf22d612e3\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "companyName",
+            "value": "R1XMR"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"nocoverage\",\"CHL\":\"child\",\"COU\":\"nocoverage\",\"DAD\":\"nocoverage\",\"DP\":\"domesticPartner\",\"DPC\":\"child\",\"FIA\":\"nocoverage\",\"GRC\":\"nocoverage\",\"MOM\":\"nocoverage\",\"OTH\":\"nocoverage\",\"SIS\":\"nocoverage\",\"SPS\":\"spouse\",\"STC\":\"child\",\"STF\":\"nocoverage\",\"STM\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "hIndNo",
+            "value": "20,029053964"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2025-03-01T05:00:00.000Z"
+        },
+        {
+            "key": "benefitOptionMappingDen",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "benefitOptionMappingMed",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "ECSRNumber",
+            "value": "134539"
+        },
+        {
+            "key": "denHd03",
+            "value": "DEN"
+        },
+        {
+            "key": "cignaDenBenefitOptionMapping",
+            "value": "[{\"value\":\"DENT1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Base\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"DENT2\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Buy\",\"value\":\"DENBU\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "false"
+        },
+        {
+            "key": "branchMapping",
+            "value": "[{\"value\":\"ACTIVE\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Base\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Dental Buy\",\"value\":\"DENBU\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Vision\",\"value\":\"VIS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "customerFEIN",
+            "value": "86-3175244Q"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "false"
+        },
+        {
+            "key": "integrationMode",
+            "value": "test"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "deductionCodeDen",
+            "value": "[\"DEN\",\"DENBU\"]"
+        },
+        {
+            "key": "masterPolicyNumber",
+            "value": "0656781"
+        },
+        {
+            "key": "benefitOptionMappingPre",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "minStartDateVis",
+            "value": "2025-03-01T05:00:00.000Z"
+        },
+        {
+            "key": "cignaVisBenefitOptionMapping",
+            "value": "[{\"value\":\"VIS\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Vision\",\"value\":\"VIS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "ClientNumber",
+            "value": "employeeNumber"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "57422d0a-03a6-4b89-baa6-9ada5ba80f13"
+}

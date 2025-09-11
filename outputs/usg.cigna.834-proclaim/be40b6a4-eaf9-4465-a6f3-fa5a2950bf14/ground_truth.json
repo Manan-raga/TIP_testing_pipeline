@@ -1,0 +1,130 @@
+{
+    "integrationId": "70a43779-1085-4ec9-bafd-cca9dd6c772f",
+    "tenantId": "be40b6a4-eaf9-4465-a6f3-fa5a2950bf14",
+    "integrationName": "BOA1002 proclaim",
+    "vendor": "db2dd184-8220-4c19-83f2-f8a943d3eda0",
+    "fileTypeId": "usg.cigna.834-proclaim",
+    "customerName": null,
+    "createdDate": "2024-03-14T21:38:48.171Z",
+    "updatedDate": "2024-04-09T19:48:52.172Z",
+    "fileTransferFields": [
+        {
+            "key": "fileDestination",
+            "value": "cignaProclaimSftp"
+        },
+        {
+            "key": "benefitOptionMappingVis",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"4fb518c0df826c403c802e4575a43c92\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"70364c5fa28c3d8f97f0019fde47000b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"643a4102b1800a8f3077304932720a1d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0ef0bb51c87e2eb6102a6dc6aa6bc13d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8563a67ed9293f17ced982d336f4621f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eb58e1d55b5848ad00c2389b9a734615\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08c37f897f20834d300024d8655a0a1c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3b826fa6a2b35684e5a01ae6f4c14d05\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"738c2fcac75dbc15a8cb286899b4262b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b572d05ed0a603cd3276487b9581dfcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9c1a3d8858f5904d76e62f5302aa71ed\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5427a95d94afc8c0931f42986c6cffbb\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7a1c08f107ae137f2cf5d1a2356bc109\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0dca65e886f9fab3595f7002449d1fd9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1c2ea1fbfaf304e07c1ca6c5bee93da5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"baebe9425158ed1022a89835abaf2f2b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"070d57eefc978dc98dcde4d296fbdd56\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"889628c76093be5623b72ca42212810a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d0a86ff70b489ca0554cbb9360274b2e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"95cad4d9ed91d7a5eb7f62c35546c005\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"982d6b2027ca0f8b6f9c6912fdb4341f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"6a94574acf214038c419556fa28050a9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"03fda732f4cde53d72c4e291959da158\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"10bbbb70d998fc81d9d08117ce779f04\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"aeee9098a07f6712797b7b311fd3d597\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"6d3ac5de265888c8204f0d4c0afbef94\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bf5d0b13ba9d07970c3a739c122ffe8f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"899e27c4056149233829cfaf22d612e3\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "companyName",
+            "value": "PSHWV"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"nocoverage\",\"CHL\":\"child\",\"COU\":\"nocoverage\",\"DAD\":\"nocoverage\",\"DP\":\"domesticPartner\",\"DPC\":\"child\",\"FIA\":\"nocoverage\",\"GRC\":\"nocoverage\",\"MOM\":\"nocoverage\",\"OTH\":\"nocoverage\",\"SIS\":\"nocoverage\",\"SPS\":\"spouse\",\"STC\":\"child\",\"STF\":\"nocoverage\",\"STM\":\"nocoverage\",\"TRS\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "hIndNo",
+            "value": "30,06-0303370"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2024-03-01T06:00:00.000Z"
+        },
+        {
+            "key": "benefitOptionMappingDen",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "benefitOptionMappingMed",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "true"
+        },
+        {
+            "key": "ECSRNumber",
+            "value": "111161"
+        },
+        {
+            "key": "denHd03",
+            "value": "DEN"
+        },
+        {
+            "key": "cignaDenBenefitOptionMapping",
+            "value": "[{\"value\":\"DPPO1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "branchMapping",
+            "value": "[{\"value\":\"A001\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Boa Technology, Inc.\",\"value\":\"19WQH\",\"table\":\"companyId\"},{\"description\":\"Boa Technology, Inc.\",\"value\":\"PSHWV\",\"table\":\"companyId\"}]}]}]"
+        },
+        {
+            "key": "cignaMedBenefitOptionMapping",
+            "value": ""
+        },
+        {
+            "key": "customerFEIN",
+            "value": "841473751"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "regine.cotton@boatechnology.com, kayla.mcauliffe@boatechnology.com"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "deductionCodeDen",
+            "value": "[\"DEN\"]"
+        },
+        {
+            "key": "masterPolicyNumber",
+            "value": "0613215"
+        },
+        {
+            "key": "benefitOptionMappingPre",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "ClientNumber",
+            "value": "employeeNumber"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 15 * * THU",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "be40b6a4-eaf9-4465-a6f3-fa5a2950bf14"
+}

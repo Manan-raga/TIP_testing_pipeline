@@ -1,0 +1,398 @@
+{
+    "integrationId": "bdae6819-0f35-401e-a4b2-d30c018616ac",
+    "tenantId": "7c9cbe03-3543-4601-90da-68555368fcdd",
+    "integrationName": "HOL1008 Unum Telephonic Export",
+    "vendor": "8a6752f8-fc8a-47f8-86b3-d9909136a317",
+    "fileTypeId": "usg.unum.telephonic",
+    "customerName": null,
+    "createdDate": "2023-04-25T18:20:55.099Z",
+    "updatedDate": "2025-01-21T19:57:51.299Z",
+    "fileTransferFields": [
+        {
+            "key": "traditionalLtdPolicyNum",
+            "value": "[{\"value\":\"911285\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "traditionalStdClassNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "traditionalStdChoice",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "fileDestination",
+            "value": "prodSftp"
+        },
+        {
+            "key": "traditionalStdDivisionNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Short Term Disability - WA\",\"value\":\"STDWA\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"2\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Short Term Disability\",\"value\":\"STD\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "traditionalLtdClassNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "toggle-disability-pension-aSO-step",
+            "value": "{\"hidden\":true,\"stepId\":\"52304fc7-fc8f-4d8e-8b3c-81043d005f2c\"}"
+        },
+        {
+            "key": "merlinGrpCiPolicyNum",
+            "value": "[{\"value\":\"474378\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "hiPolicyNumber",
+            "value": "[{\"value\":\"973883\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital Insurance\",\"value\":\"HOSP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-sTD-flat&Incremental-plan-step",
+            "value": "{\"hidden\":true,\"stepId\":\"0fa10584-77a7-4e85-b94a-357bdb98ec98\"}"
+        },
+        {
+            "key": "hiClassNumber",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital Insurance\",\"value\":\"HOSP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "merlinGrpCiSpDeductionCodes",
+            "value": "[\"CRIL2\",\"CRIL4\",\"CRIL6\"]"
+        },
+        {
+            "key": "fmlaReportingGroup",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"}]}]},{\"value\":\"2\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"}]}]}]"
+        },
+        {
+            "key": "merlinGrpCiDivisionNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "merlinGrpAccMinStartDate",
+            "value": "2025-01-01T06:00:00.000Z"
+        },
+        {
+            "key": "merlinGrpCiEmpConPer",
+            "value": "100"
+        },
+        {
+            "key": "traditionalStdMinStartDate",
+            "value": "2017-12-31T06:00:00.000Z"
+        },
+        {
+            "key": "toggle-Hawaii-tDI-step",
+            "value": "{\"hidden\":true,\"stepId\":\"90410f29-c6ba-47e6-a9d6-c8cf5e980eef\"}"
+        },
+        {
+            "key": "toggle-traditional-sTD-step",
+            "value": "{\"stepId\":\"34775441-701b-4f11-a6b3-960308e548c2\",\"hidden\":false}"
+        },
+        {
+            "key": "toggle-Flex-lTD-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"96bb3aed-befb-4b75-81d5-647dbed57c71\"}"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "hiEmpConPer",
+            "value": "100"
+        },
+        {
+            "key": "toggle-residents-lTD-step",
+            "value": "{\"hidden\":true,\"stepId\":\"500e82c8-4c7f-4aa5-8152-a6d674682a2b\"}"
+        },
+        {
+            "key": "traditionalLtdProductNum",
+            "value": "195"
+        },
+        {
+            "key": "traditionalLtdEmpConPer",
+            "value": "100"
+        },
+        {
+            "key": "merlinGrpAccPolicyNum",
+            "value": "[{\"value\":\"973881\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident Insurance\",\"value\":\"ACCID\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "merlinGrpAccDivisionNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident Insurance\",\"value\":\"ACCID\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "hiChoice",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital Insurance\",\"value\":\"HOSP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-merlin-group-critical-illness-step",
+            "value": "{\"stepId\":\"25db33bb-0743-4b4f-ac1d-bdc6bbd675ef\",\"hidden\":false}"
+        },
+        {
+            "key": "employeeFilters",
+            "value": "[{\"source\":\"companyId\",\"values\":[\"WKOVY\",\"XAEQX\",\"XAEUU\",\"XCMFN\",\"YNN3I\"]},{\"source\":\"employeeTypeCode\",\"values\":[\"CON\",\"REG\",\"UNI\"]}]"
+        },
+        {
+            "key": "toggle-long-term-disability-aSO-step",
+            "value": "{\"hidden\":true,\"stepId\":\"8afd7b43-b3ca-4a9a-aa50-37ddc23c919f\"}"
+        },
+        {
+            "key": "merlinGrpAccDeductionCodes",
+            "value": "[\"ACCID\"]"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "traditionalLtdDeductionCodes",
+            "value": "[\"LTD\"]"
+        },
+        {
+            "key": "merlinGrpCiDeductionCodes",
+            "value": "[\"CRIL\",\"CRIL3\",\"CRIL5\",\"CRIL2\",\"CRIL4\",\"CRIL6\"]"
+        },
+        {
+            "key": "toggle-catastrophic-disability-step",
+            "value": "{\"hidden\":true,\"stepId\":\"f5a2ced8-cd58-430f-9f34-69115b8570ce\"}"
+        },
+        {
+            "key": "hiMinStartDate",
+            "value": "2025-01-01T06:00:00.000Z"
+        },
+        {
+            "key": "merlinGrpAccClassNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident Insurance\",\"value\":\"ACCID\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "hiProductNum",
+            "value": "825"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "traditionalStdPolicyNum",
+            "value": "[{\"value\":\"911285\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "hiDivisionNumber",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital Insurance\",\"value\":\"HOSP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "clientName",
+            "value": "HolmanDistributionsCtrWA"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"7fe5cf9f8e6dd682cb6b2248e3c5af50\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bef05bf336de12c7aba1239892edb88a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0635b0bfdad159aeb21789cc49667f24\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0f2dc990df6346249b1f37fca9ed56d9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4dd34a15e88c357320f6192025cfbd46\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2ecccf519f1312de282ab49fec54f41d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7aa80836c885dd0b6ba2862427744fe5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e4420cb225fcd0a84542dd54943f3b25\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eb34938b-6a8e-4a29-a989-1574ba5951ej\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"25db33bb-0743-4b4f-ac1d-bdc6bbd676ef\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"507b9cb4cadb8f9b34c4cea3f2316f20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c242b97038609bd2f570b6a6b85777b0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eb34938b-6a8e-4a29-a989-1574ba5951ec\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0008b3c2-0bc3-477d-8cfd-5827608446c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b616517d-bb0d-47ba-a754-bc3d971f1954\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"dd757ff8-2e83-4a2e-b154-9870c6c17b1d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fc778a18-3350-4e48-a561-08bf58f89a69\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b7ef1941-24fe-4774-b2a9-f5d0de940dae\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"50cc143a-3fa4-4c0f-8d11-cfcf01608a7b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c18de4d7-1b0c-4b15-b837-152bc534f323\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"25db33bb-0743-4b4f-ac1d-bdc6bbd675ef\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4a80a501-6ff9-4c28-8ac8-ab5e4f18cbb3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ecfd2919-536c-4b17-bb53-5162da1a78d6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"25db33bb-0743-4b4f-ac1d-bdc6bbd675zc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"25db33bb-0743-4b4f-ac1d-bdc6bbd675hb\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"2917153f-462d-41d8-9925-929b4afbb9e5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"df488efd-ae52-4a20-8ddd-200dda5cba6e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2ee6cf13-b49c-4d4e-95eb-47d529317133\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8d357d96-b3c8-46e4-9b9a-c9bd988e09bc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f13f6a61-7727-4e65-8ff9-a8779cdee7b9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1a8e092e-85c4-4499-a5a6-d92838fcac3d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"abd0caae-8202-40a3-bf53-6d680477f77b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0408cb44-0129-4ea3-aba1-d0ca9edb1167\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"632763c1-3b86-447a-9d65-7c853e68b93c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"326be82d-098a-4dd7-9e52-b04c0fc6f9ba\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"38e7fbad-8a12-4bd7-a197-3b7779ebb4bb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4c630bf7-ac64-43fc-ad86-c81c8f04a72f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9d05ea80-1ca2-49c6-b8cf-8078d7c5f4e3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c8080433-a78a-4ecb-aaa1-78719b77cdde\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"58956979-1ff4-4d3a-a01c-424c7a1793fa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5ee2cc5f-163c-4389-bfa9-0591b404244b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"307fd8a0-df4a-41b7-be9b-010530e04f6a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"98e79944-9ef1-4302-9d00-dcbe43d88c42\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a376cb52-a3fc-4211-990e-f03985d14deb\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d49a8214-5a67-4984-9d38-1dd276bb16c1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"52304fc7-fc8f-4d8e-8b3c-81043d005f2c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3b74b41c-e334-4651-9f79-eb1283280603\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9b3b459a-9a67-4ce6-8973-4f8274e29225\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b84429c5-27e1-4bbf-bf14-0aaaf7117519\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"20a38f78-32d4-4732-9867-fe35d7f21157\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ce9e455d-3f32-4714-a0ef-4b6cd43b853e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0fbc2bc6-0f56-4a57-89fd-11f3c9e1d178\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8afd7b43-b3ca-4a9a-aa50-37ddc23c919f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4bebb46b-9bed-4542-8bef-7bc56fd282b4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b284c7d2-d771-44ee-b5ba-dad970ffaafa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a80be694-41ea-4821-b1ca-924b4f9efea7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d81dbad7-6c40-4a0d-b3b2-6b7e0e6523d9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"64568c00-263c-4b8b-99a9-c7e8b5a50151\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"307cc6af-7764-4b11-a1c2-f14d903a8b36\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"90410f29-c6ba-47e6-a9d6-c8cf5e980eef\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"719c3eeb-263d-4381-9193-b416a3e5f7fe\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4420567a-992a-420a-8fc8-ef3b8f9a4f68\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"733ff3e9-5ee8-4620-ac84-d1d878cdcb72\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ff21d2ee-9460-4283-8d14-6e9b07e66bed\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"06dd1f12-9322-40e3-9fb7-a4718d0876c5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0aaf5cfb-7a79-4a11-b3db-94ca25139f68\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4267d88f-d98e-4d50-9401-38979038da65\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a33bad8b-70d1-4500-8fd2-f73120d0b3b8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8db6d6d6-faf0-4953-a1e2-a515dc0361f4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5353b35a-12cd-404a-90c8-60a6e6a5f46c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8dd15cb9-6612-4780-ac96-ee92a47f1e81\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dcc7d400-aa5e-4094-8e4c-e089397f4e9f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bab8e3fd-8be1-4551-a27e-7ba81e6531c2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"cf9f1eb8-fbb5-40c0-9986-0dc22cee9f78\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c1142235-3812-4c3b-81a3-2259f8ad1d09\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"75810d53-f7c9-4c2d-9f8b-d36e8b957882\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"55d8a84a-1101-498b-9878-ce53add35a90\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"edeedde9-967a-4958-8af2-d696ef534c3d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4f1be831-e72b-4e0c-9225-fc768ebd7630\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"71333b61-e73a-4602-83a3-d341ef051229\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f2e04a77-51e3-4733-a2d8-987520eb3039\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ebe97e78-384f-4d77-b9a1-92869db0389b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4575aafb-000f-48b3-890f-92c621ec15ab\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5619e91e-7801-4079-8dbb-05ffebc5bce2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"616172e6-f382-43f7-9cb4-e4a1abe623cc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9cad3be0-7f27-4375-8109-44c101109e12\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7eecc9d8-5dfa-4d92-ab0f-4c9d377b4945\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"77766210-7647-4635-a4ad-572456dc98f9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"69a236bf-8c8b-4d82-bd86-72351d11ade5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4954e82b-fab0-4a2d-a563-3b23c58fe3da\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e6042358-e620-4201-9615-f21de01722d4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1d78ca01-b92e-487b-a86d-c3ac24ebc4de\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f835c24d-bfa4-4617-8804-cc46fce5f1d2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"06e209ac-574c-4979-a83d-4f17f464511e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"59f2f2e2-de45-4488-85be-76446b2c8e49\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"34b0b217-a603-4736-b508-f00f2c8bccbd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9d58dff2-d7c1-4023-98e2-1f1972aeeaa6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"08048d80-677e-4a79-ae7a-95f0dc986e20\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"525d0112-9419-4a6e-99a7-82c3fcd7e25b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"de6ba6b8-e646-4e21-8055-b2a910ea696d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3b320e3f-0f9c-482b-9ff4-728cb5a740b0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b97c12d0-0103-4fd0-ab30-a049a03fab6b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"02ca9371-330c-4903-b373-e0318abba2bc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"07176284-ec84-4769-80b2-e70015e33ab9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a2631b01-4ebc-4d71-b2b7-240933733a7d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a198026b-43c9-40d8-b50e-806210b82ffc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"482983bb-e7a2-42f3-9fad-6a5794b8026e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ebc1c86e-a07c-4ea1-92b0-268d12d23da5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ee78bba8-a7d3-4758-9fd7-b351f030b220\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a652a6f5-38f4-466b-b5fa-b5b449ce6c10\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3f354e55-f1dc-4b83-8099-b673abde7755\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0391611a-2dd2-454d-bc27-87f6f0a4da19\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d2b18a5f-3160-4419-bc37-410d331b2d71\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9248cb99-e371-42d4-ade6-fb2e4d38ee52\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7ed9feb5-6cdf-40e0-aaaa-d3801b250b0e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"221762c0-94ef-44a8-9be8-8412a1c8bf12\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d78affef-2cd9-4ae4-9df7-02bb220d66c8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"52db9735-d881-4eb9-90bf-42acd516fca6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"15514125-58a2-4f6f-8856-6394f499b147\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"27ec14d6-e0ce-4638-862e-411ff6023ef4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2534131d-aa7a-480f-9e80-33a832a2053c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"631565b3-ddf5-48ea-81f5-47bab43d457e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"34775441-701b-4f11-a6b3-960308e548c2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e68e795-2120-4a7a-bda2-7055c46f409e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"efc2a2ad-7de8-4476-af00-c019ba3e4289\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"62f6f20b-06ce-4d3b-b948-6feb0aeeb4f5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"42a200d2-964d-42ee-898b-b47b21a66bcf\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"166a9318-5169-4e83-ae2c-398f936d71bc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"891f8c81-2cab-4a6e-a7c3-fae8cddf31f0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f5a2ced8-cd58-430f-9f34-69115b8570ce\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"13ac686e-861c-4551-bbf7-073a0e5a2efa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d890694f-7edc-4e76-ac7a-adee630756c1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bd3c53e8-b632-47e5-9861-0e0bc28287df\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"364aa8bf-86ae-461d-819b-f1b30507bd40\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"33ae9e3a-d2a2-4b94-9ddd-ced80bcf3e1e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3d9ad225-11e6-48ae-b45d-013ce35aed40\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e5db7e08-2680-417f-894e-cf398b3a7a0f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"f00e2c3a-afed-4676-8824-a3ca231bb7db\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4268c301-0389-4e3d-ac32-8d105effe640\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"286f3df5-95a7-490d-8373-2e544ac26417\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"25c298ef-11ee-4180-983a-9d745cf976ad\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3ea737bf-baae-40dc-a18c-ae21edd2442c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"afdf704b-1968-4514-9d99-d1364c6d8023\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"afb0e25b-b414-4297-abcf-17810d0dfca8\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c7cff758-396f-4d90-a7d4-e255de582639\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c552079e-ce64-4455-b4af-920888287187\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"67ffdb07-8988-4c9b-86fb-9198d1ebc4ef\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"99948f9e-741e-4fad-9611-5115e6ff4834\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"08a1fa18-103c-4049-bce0-606be5f82575\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"18d74560-f8b7-42fe-b33e-6b7462f86698\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6acf2765-12be-44ba-bd5f-99a9511695d0\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ae60e465-c122-43af-9395-797cb774236e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"91bf21b1-6944-4d51-ba27-9713ed00ecde\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ee05924e-fba9-42e1-8d42-5f5848e765e0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f267e0ad-722f-459e-9006-aa6888a1b908\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b3ba63fc-33e7-4d72-a3d7-33a176bac484\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1bb8ad7c-9b2c-4840-a058-a066142b53c5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"96bb3aed-befb-4b75-81d5-647dbed57c71\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9785fe47-118e-4a02-acbe-f0e1e2bc4b14\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"86f8207a-ab68-469f-a65e-637158490c11\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9fb820b8-1161-429c-a3da-1789bcb3b0e2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0a8fc5a5-d841-4044-812a-7379ec5e6159\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0732f9c6-1df8-4f4c-a297-705d37077740\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b6278107-dc46-4b42-b6bf-ad050cfe8927\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"68374c8f-9881-4b3a-b5aa-31eb714085fd\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4ac52e81-5073-490b-aef3-b3d17c21a97a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"66ebde4a-308e-493e-8c72-0db47473767e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c225bc69-fd9b-4d86-86d4-44397ec46785\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ba6ba030-3e89-4cd6-9a97-9dfb02b9cf8b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"34e93b93-4b17-4458-ad4d-f44138ca67b2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ffa3076a-563c-4060-83b9-977c68da7d37\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"deedb1da-7e7d-4313-9707-842a5ba9aa49\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6ef09907-bff6-43f1-8588-eb66949860a9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"481812f8-b35c-4895-a9ad-aeb1819a92f7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c51fa861-16a6-41a6-87d9-2b8a494ea552\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"20cd2948-4e8b-4074-80f5-b5818b4345fa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f30cee1d-ca5a-4afe-96f1-db05f8477a9b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fe509711-e842-4a28-9e95-e39bf90b9569\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"24288385-58d4-4bcf-9dd4-d65b8812be7b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c43b4ea3-29af-4e33-a590-e8a800909da0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"783f1dd7-f86c-46bf-9728-25c10b205195\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"279c748e-1a0b-4035-88e0-2ef41c56e4e7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1b7adacb-0f6a-4a73-8ab6-c6ea3c0dfabe\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a07f27ec-50f0-48cf-9ee3-dfc8e1de9a2f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"65e038b1-93d9-4b28-8ab2-1219da071787\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"458cae53-d671-4933-8add-2fbdc98cbd97\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8e346065-2e2f-4093-b51c-6bf6839b2d8e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b6ba3f55-079f-4061-ba25-d21cbc5b6fd2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2a6c4c8c-a273-4c24-bfb6-db59acd6a572\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a558c2a1-cb3d-448b-accd-21ff6f079c94\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dc35c92f-f1f9-46aa-8c78-7d0cb4260695\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"64122d8f-3434-4222-a7eb-cb90d4be4d83\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"500e82c8-4c7f-4aa5-8152-a6d674682a2b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bf49144f-3731-40e2-927c-9cb639069ad6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a643328f-acb4-4f1c-9c48-fb1f3e731fe9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8e65368c-2ef8-454c-aa57-8b7fd779f923\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"75af6e1d-0c42-45be-9bae-f6f1069ca698\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"570029ef-7b92-4665-b55b-8c4aec109127\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"426e5845-857b-4d8f-af2c-de23e85c541f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2c3f8dac-c096-4ccc-affb-225eedaba250\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9451d6c5-6767-4e07-a45c-979880cfb5c8\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"53144238-3ec3-4510-971a-7730ccedcfc7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2e007069-efad-457d-a222-2212ed2860d7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9e595172-e6ff-4bc6-a31a-b3337bbceecb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b4d80501-706d-44d2-b733-421b864d07f9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4ca4ec69-86df-4e90-8c4e-52d04b99bf2e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4a1be3d3-4d9a-4454-a0a3-b467fed58349\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e2ea0fe9-0d9e-47f3-9a44-1a09ef6a646c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"311ba02b-eac1-456c-a47e-9823d2a5ad66\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5a9b8588-3c8c-43f3-a75f-11515ef5126b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"24af469e-a589-4807-abef-ad64951c5653\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4a97f7cf-4d93-4b51-b893-e813f22f19f1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"48381f60-c861-47aa-a145-a915e81436a9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0fa10584-77a7-4e85-b94a-357bdb98ec98\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"acff1eb9-e624-440c-bcb7-0074bbba96d6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"91e619dd-9975-4adf-9ec9-7922267c80b6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"edd56266-45dd-49b6-817c-0c4aed51d448\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4093dd0b-e218-4579-b876-b06d614e0e2e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4184f4f5-7ce8-4d9a-b83c-b03026638f1f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b7417a14-d674-47a0-acf3-ede63353408a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"89d5f280-e4dc-43d1-aa01-34220377ebb2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"633e67f8-865c-4d40-b0a5-cc418420631a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"553fa408-a386-436c-9d66-0056223bc577\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"801b5595-f784-49b5-873c-7caca68e1e89\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3cd7ac40-5d87-466d-bf51-cf891b271705\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0fe55dca-f318-4da5-9b97-16a651a7c1fa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5e9338e6-0283-47f2-87fc-fc876024de40\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2780427ebbed8d0be4dcd9bafb4a531a\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"02\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"01\",\"DPC\":\"02\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"02\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "toggle-flex-lTD-step",
+            "value": "{\"hidden\":true,\"stepId\":\"6acf2765-12be-44ba-bd5f-99a9511695d0\"}"
+        },
+        {
+            "key": "toggle-flex-sTD-step",
+            "value": "{\"hidden\":true,\"stepId\":\"b97c12d0-0103-4fd0-ab30-a049a03fab6b\"}"
+        },
+        {
+            "key": "toggle-mini-lTD-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"458cae53-d671-4933-8add-2fbdc98cbd97\"}"
+        },
+        {
+            "key": "toggle-office-name-mapping-step",
+            "value": "{\"hidden\":true,\"stepId\":\"eb34938b-6a8e-4a29-a989-1574ba5951ej\"}"
+        },
+        {
+            "key": "traditionalLtdDivisionNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "traditionalStdEmpConPer",
+            "value": "100"
+        },
+        {
+            "key": "toggle-new-york-dBL-step",
+            "value": "{\"hidden\":true,\"stepId\":\"cf9f1eb8-fbb5-40c0-9986-0dc22cee9f78\"}"
+        },
+        {
+            "key": "toggle-new-jersey-tDB-step",
+            "value": "{\"hidden\":true,\"stepId\":\"4267d88f-d98e-4d50-9401-38979038da65\"}"
+        },
+        {
+            "key": "traditionalStdDeductionCodes",
+            "value": "[\"STD\",\"STDWA\"]"
+        },
+        {
+            "key": "merlinGrpAccProductNum",
+            "value": "824"
+        },
+        {
+            "key": "partnerCaseID",
+            "value": "HOL-013616"
+        },
+        {
+            "key": "toggle-lifestyle-lTD-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"68374c8f-9881-4b3a-b5aa-31eb714085fd\"}"
+        },
+        {
+            "key": "hiDeductionCodes",
+            "value": "[\"HOSP\"]"
+        },
+        {
+            "key": "traditionalLtdChoice",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "disabilityCodes",
+            "value": "[\"100\",\"102\",\"400\"]"
+        },
+        {
+            "key": "toggle-california-vDI-step",
+            "value": "{\"hidden\":true,\"stepId\":\"f2e04a77-51e3-4733-a2d8-987520eb3039\"}"
+        },
+        {
+            "key": "toggle-traditional-lTD-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"4a1be3d3-4d9a-4454-a0a3-b467fed58349\"}"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "traditionalLtdMinStartDate",
+            "value": "2018-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-merlin-group-hospital-indemnity-step",
+            "value": "{\"stepId\":\"1a8e092e-85c4-4499-a5a6-d92838fcac3d\",\"hidden\":false}"
+        },
+        {
+            "key": "merlinGrpAccChoice",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident Insurance\",\"value\":\"ACCID\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "merlinGrpCiChoice",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - EE $10k\",\"value\":\"CRIL\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"2\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - EE $20k\",\"value\":\"CRIL3\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"3\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - EE $30k\",\"value\":\"CRIL5\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-lTD-flat&Incremental-plan-step",
+            "value": "{\"hidden\":true,\"stepId\":\"89d5f280-e4dc-43d1-aa01-34220377ebb2\"}"
+        },
+        {
+            "key": "merlinGrpCiProductNum",
+            "value": "822"
+        },
+        {
+            "key": "toggle-merlin-group-critical-illness-Deduction-Codes-Child",
+            "value": "{\"stepId\":\"25db33bb-0743-4b4f-ac1d-bdc6bbd675hb\",\"hidden\":true}"
+        },
+        {
+            "key": "merlinGrpAccEmpConPer",
+            "value": "100"
+        },
+        {
+            "key": "layoffCodes",
+            "value": "[\"CLOSE\",\"208\"]"
+        },
+        {
+            "key": "toggle-excess-lTD-step",
+            "value": "{\"hidden\":true,\"stepId\":\"afb0e25b-b414-4297-abcf-17810d0dfca8\"}"
+        },
+        {
+            "key": "toggle-New-jersey-tDB-aSO-step",
+            "value": "{\"hidden\":true,\"stepId\":\"77766210-7647-4635-a4ad-572456dc98f9\"}"
+        },
+        {
+            "key": "toggle-traditional-lTD-step",
+            "value": "{\"stepId\":\"2c3f8dac-c096-4ccc-affb-225eedaba250\",\"hidden\":false}"
+        },
+        {
+            "key": "toggle-fmla-eligibility-step",
+            "value": "{\"stepId\":\"25db33bb-0743-4b4f-ac1d-bdc6bbd676ef\",\"hidden\":false}"
+        },
+        {
+            "key": "merlinGrpCiMinStartDate",
+            "value": "2017-12-31T06:00:00.000Z"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "chorton@holmanusa.com, spoplasky@holmanusa.com"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "toggle-short-term-disability-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"221762c0-94ef-44a8-9be8-8412a1c8bf12\"}"
+        },
+        {
+            "key": "toggle-merlin-group-accident-step",
+            "value": "{\"stepId\":\"eb34938b-6a8e-4a29-a989-1574ba5951ec\",\"hidden\":false}"
+        },
+        {
+            "key": "toggle-new-york-dBL-aSO-step",
+            "value": "{\"hidden\":true,\"stepId\":\"59f2f2e2-de45-4488-85be-76446b2c8e49\"}"
+        },
+        {
+            "key": "toggle-lTD-old-series-step",
+            "value": "{\"hidden\":true,\"stepId\":\"24288385-58d4-4bcf-9dd4-d65b8812be7b\"}"
+        },
+        {
+            "key": "toggle-sTD-administrative-services-only-(ASO)-step",
+            "value": "{\"hidden\":true,\"stepId\":\"c8080433-a78a-4ecb-aaa1-78719b77cdde\"}"
+        },
+        {
+            "key": "earningCodes",
+            "value": "[\"REG\",\"OT\",\"OT2\",\"OTC\"]"
+        },
+        {
+            "key": "toggle-lTD-conversion-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"deedb1da-7e7d-4313-9707-842a5ba9aa49\"}"
+        },
+        {
+            "key": "toggle-comprehensive-disability-protection-step",
+            "value": "{\"hidden\":true,\"stepId\":\"e5db7e08-2680-417f-894e-cf398b3a7a0f\"}"
+        },
+        {
+            "key": "traditionalStdProductNum",
+            "value": "192"
+        },
+        {
+            "key": "merlinGrpCiClassNum",
+            "value": "[{\"value\":\"1\",\"tables\":[{\"name\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[{\"description\":\"Full Time\",\"value\":\"F\",\"table\":\"fullTimeOrPartTime\"},{\"description\":\"Part Time\",\"value\":\"P\",\"table\":\"fullTimeOrPartTime\"}]}]}]"
+        },
+        {
+            "key": "toggle-merlin-group-critical-illness-Deduction-Code-Spouse",
+            "value": "{\"hidden\":false,\"stepId\":\"25db33bb-0743-4b4f-ac1d-bdc6bbd675zc\"}"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "traditionalStdReport",
+            "value": "false"
+        },
+        {
+            "key": "toggle-mini-sTD-trust-step",
+            "value": "{\"hidden\":true,\"stepId\":\"ee78bba8-a7d3-4758-9fd7-b351f030b220\"}"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 12 * * MON",
+    "_source_file": "Integartion_Details_PLAS1_2025_07_03_15_45_43_formatted.json",
+    "_tenant_id": "7c9cbe03-3543-4601-90da-68555368fcdd"
+}

@@ -1,0 +1,530 @@
+{
+    "integrationId": "b05f9cd4-9c34-4e13-ab4f-5c6d5012a57a",
+    "tenantId": "784d1e3e-dae9-4299-b5b5-4c2604e6f348",
+    "integrationName": "Sunlife",
+    "vendor": "03f37935-aa24-4855-ae68-df7503d86037",
+    "fileTypeId": "usg.sunlife.834",
+    "customerName": null,
+    "createdDate": "2022-03-09T13:13:07.779Z",
+    "updatedDate": "2022-05-13T14:06:34.845Z",
+    "fileTransferFields": [
+        {
+            "key": "lTDPlanType",
+            "value": "N"
+        },
+        {
+            "key": "fileDestination",
+            "value": "dashboard"
+        },
+        {
+            "key": "toggle-Voluntary-Spouse-Life-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"34879434-97eb-457a-8921-b28f9e504f31\"}"
+        },
+        {
+            "key": "toggle-cancer-step",
+            "value": "{\"hidden\":true,\"stepId\":\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd114\"}"
+        },
+        {
+            "key": "volChildLifeBenefitPlan",
+            "value": "[{\"value\":\"AF11\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Child Supplemental Life\",\"value\":\"LIFEC\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "standAloneChildADDPlanType",
+            "value": "V"
+        },
+        {
+            "key": "crieCritIllnessPlanType",
+            "value": "V"
+        },
+        {
+            "key": "volLifePlanType",
+            "value": "V"
+        },
+        {
+            "key": "toggle-Basic-AD&D-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"5d147096-7a91-4768-9383-befb545229b2\"}"
+        },
+        {
+            "key": "toggle-voluntary-ad&d-step",
+            "value": "{\"hidden\":true,\"stepId\":\"bdcedc83-b77a-4792-8c6a-6571f126974c\"}"
+        },
+        {
+            "key": "minStartDateSpouseCritIllness",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-ma-pfml-step",
+            "value": "{\"hidden\":true,\"stepId\":\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd116\"}"
+        },
+        {
+            "key": "toggle-Hospital-Indemnity-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"fe0b59f7-e78e-4ccb-83ed-d9d1a6624e7f\"}"
+        },
+        {
+            "key": "toggle-critical-illness-spouse-step",
+            "value": "{\"hidden\":false,\"stepId\":\"e837fb24-3b80-459e-847d-3ae9f512a97a\"}"
+        },
+        {
+            "key": "toggle-stand-alone-family-ad&d-step",
+            "value": "{\"hidden\":true,\"stepId\":\"c128fd9c-6baf-4daf-925d-e231378ad019\"}"
+        },
+        {
+            "key": "toggle-bill-group",
+            "value": "{\"hidden\":false,\"stepId\":\"7af67d30-0670-4a46-91dd-f5a7481029d9\"}"
+        },
+        {
+            "key": "accBenefitPlan",
+            "value": "[{\"value\":\"ACC\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accidental Injury High\",\"value\":\"ACIN2\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Accidental Injury Low\",\"value\":\"ACINJ\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "volSpouseLifeDeductionCodes",
+            "value": "[\"LIFES\"]"
+        },
+        {
+            "key": "toggle-fmla-absence-management-step",
+            "value": "{\"hidden\":true,\"stepId\":\"32f4d993-70f8-4b07-baac-23d0cce064b5\"}"
+        },
+        {
+            "key": "toggle-voluntary-spouse-life-step",
+            "value": "{\"hidden\":false,\"stepId\":\"8d2d8ae5-3fe7-4138-8f46-e9edaaf0a471\"}"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "false"
+        },
+        {
+            "key": "toggle-Voluntary-Life-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"38493a13-ba5f-4173-a1cf-7c1331ff7076\"}"
+        },
+        {
+            "key": "toggle-basic-ad&d-step",
+            "value": "{\"hidden\":false,\"stepId\":\"e70679e2-8203-4827-8f84-7e3a653af123\"}"
+        },
+        {
+            "key": "memberGroup",
+            "value": "[{\"value\":\"2565550\",\"tables\":[{\"name\":\"deductionGroup\",\"selectedFieldValues\":[{\"description\":\"Benefits\",\"value\":\"BENEF\",\"table\":\"deductionGroup\"},{\"description\":\"Exempt\",\"value\":\"EXEMP\",\"table\":\"deductionGroup\"},{\"description\":\"Non Exempt\",\"value\":\"NEXMP\",\"table\":\"deductionGroup\"}]}]}]"
+        },
+        {
+            "key": "volSpouseLifeBenefitPlan",
+            "value": "[{\"value\":\"AF11\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Spouse Supplemental Life\",\"value\":\"LIFES\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "toggle-client-number",
+            "value": "{\"hidden\":true,\"stepId\":\"c7385852-a6bd-4836-a198-f194f4c56237\"}"
+        },
+        {
+            "key": "basicADDDeductionCodes",
+            "value": "[\"GLIFE\"]"
+        },
+        {
+            "key": "toggle-Basic-Life-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"ba6d50c4-724c-4087-a1ab-e13266a59cde\"}"
+        },
+        {
+            "key": "toggle-stand-alone-ad&d-step",
+            "value": "{\"hidden\":false,\"stepId\":\"78a8a507-2676-402e-96e5-fa70a385ff97\"}"
+        },
+        {
+            "key": "childCritIllnessPlanType",
+            "value": "V"
+        },
+        {
+            "key": "minStartDateBasicADD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "lTDDeductionCodes",
+            "value": "[\"LTD\"]"
+        },
+        {
+            "key": "minStartDateSTD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "toggle-basic-life-step",
+            "value": "{\"hidden\":false,\"stepId\":\"09c6b739-ede9-44f3-8591-bf968d827370\"}"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"19\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"53\",\"DPC\":\"19\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"19\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "spouseCritIllnessPlanType",
+            "value": "V"
+        },
+        {
+            "key": "minStartDateVolChildLife",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-Critical-Illness-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"fb26d655-cf0d-4a4d-b4bf-6e75b6e85fe4\"}"
+        },
+        {
+            "key": "toggle-voluntary-life-step",
+            "value": "{\"hidden\":false,\"stepId\":\"8889cd47-75b1-4f09-b3b6-b807e758fdb3\"}"
+        },
+        {
+            "key": "volChildLifePlanType",
+            "value": "V"
+        },
+        {
+            "key": "minStartDateStandAloneChildADD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "sTDBenefitPlan",
+            "value": "[{\"value\":\"STD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"STD   offset earn\",\"value\":\"STD\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "false"
+        },
+        {
+            "key": "toggle-basic-dependent-life-step",
+            "value": "{\"hidden\":true,\"stepId\":\"7602a364-653e-48a0-9948-4d1b66ce9ccb\"}"
+        },
+        {
+            "key": "standAloneSpouseADDBenefitPlan",
+            "value": "[{\"value\":\"ADD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Spouse Supplemental AD&D\",\"value\":\"LFADS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-dependent-ad&d-step",
+            "value": "{\"hidden\":true,\"stepId\":\"37fb1468-c3af-48c5-b6ed-ae9b33907ade\"}"
+        },
+        {
+            "key": "toggle-dental-step",
+            "value": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f20\"}"
+        },
+        {
+            "key": "accPlanType",
+            "value": "V"
+        },
+        {
+            "key": "minStartDateHospitalIndemnity",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "spouseCritIllnessDeductionCodes",
+            "value": "[\"CTILS\"]"
+        },
+        {
+            "key": "toggle-accident-step",
+            "value": "{\"hidden\":false,\"stepId\":\"ba06d746-ee99-4780-b460-73e23c9260b2\"}"
+        },
+        {
+            "key": "toggle-Critical-Illness-Child-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"1073aac4-a681-41fb-b796-9315592f2dd6\"}"
+        },
+        {
+            "key": "minStartDateStandAloneADD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "childCritIllnessDeductionCodes",
+            "value": "[\"CTILC\"]"
+        },
+        {
+            "key": "toggle-prepaid-dental-step",
+            "value": "{\"hidden\":true,\"stepId\":\"b3798c94-2756-44bb-9df5-517edc04667f\"}"
+        },
+        {
+            "key": "sTDPlanType",
+            "value": "N"
+        },
+        {
+            "key": "childCritIllnessBenefitPlan",
+            "value": "[{\"value\":\"CIB\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - Child(ren)\",\"value\":\"CTILC\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":false,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "toggle-voluntary-child-life-step",
+            "value": "{\"hidden\":false,\"stepId\":\"bdb00b50-22c3-4eb4-94b7-26670faf19d7\"}"
+        },
+        {
+            "key": "minStartDateLTD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-bill-sort",
+            "value": "{\"hidden\":true,\"stepId\":\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\"}"
+        },
+        {
+            "key": "policyNumber",
+            "value": "948697"
+        },
+        {
+            "key": "toggle-std-issue-age-step",
+            "value": "{\"hidden\":true,\"stepId\":\"d16809f2-fc3d-4c35-895e-3f2d882eb377\"}"
+        },
+        {
+            "key": "volSpouseLifePlanType",
+            "value": "V"
+        },
+        {
+            "key": "toggle-vision-step",
+            "value": "{\"hidden\":true,\"stepId\":\"1705e04b-0a6c-4304-8757-546eb176ce77\"}"
+        },
+        {
+            "key": "hospitalIndemnityPlanType",
+            "value": "V"
+        },
+        {
+            "key": "toggle-critical-illness-child-step",
+            "value": "{\"hidden\":false,\"stepId\":\"5b8a4954-3f9a-4313-8d3b-a4c4e6a5b22f\"}"
+        },
+        {
+            "key": "toggle-member-group",
+            "value": "{\"hidden\":false,\"stepId\":\"7293cc71-efbb-4653-9907-0bca0fce4187\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "basicLifeBenefitPlan",
+            "value": "[{\"value\":\"AC11\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"GTL - Life\",\"value\":\"GLIFE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "standAloneADDDeductionCodes",
+            "value": "[\"LFADE\"]"
+        },
+        {
+            "key": "standAloneADDPlanType",
+            "value": "V"
+        },
+        {
+            "key": "crieCritIllnessDeductionCodes",
+            "value": "[\"CTILL\"]"
+        },
+        {
+            "key": "volLifebenefitPlan",
+            "value": "[{\"value\":\"AF11\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Employee Supplemental Life\",\"value\":\"LIFEE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-Long-Term-Disability-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"e3fb706b-8865-4a5a-b942-212f06886607\"}"
+        },
+        {
+            "key": "billGroup",
+            "value": "[{\"value\":\"2273202\",\"tables\":[{\"name\":\"deductionGroup\",\"selectedFieldValues\":[{\"description\":\"Benefits\",\"value\":\"BENEF\",\"table\":\"deductionGroup\"},{\"description\":\"Exempt\",\"value\":\"EXEMP\",\"table\":\"deductionGroup\"},{\"description\":\"Non Exempt\",\"value\":\"NEXMP\",\"table\":\"deductionGroup\"}]}]}]"
+        },
+        {
+            "key": "basicADDBenefitPlan",
+            "value": "[{\"value\":\"ADD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"GTL - Life\",\"value\":\"GLIFE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-Stand-Alone-Spouse-AD&D-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"47756e62-bb33-41e7-952f-9e29e2221ca1\"}"
+        },
+        {
+            "key": "toggle-tdb-nj-step",
+            "value": "{\"hidden\":true,\"stepId\":\"a5cd92c3-1b72-46d4-ab1e-30fa1817c40b\"}"
+        },
+        {
+            "key": "toggle-Voluntary-Child-Life-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"a7092b08-26dc-43b9-a553-1171dcb9e526\"}"
+        },
+        {
+            "key": "minStartDateVolLife",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "minStartDateChildCritIllness",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-hospital-indemnity-step",
+            "value": "{\"hidden\":false,\"stepId\":\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd115\"}"
+        },
+        {
+            "key": "basicLifeDeductionCodes",
+            "value": "[\"GLIFE\"]"
+        },
+        {
+            "key": "spouseCritIllnessBenefitPlan",
+            "value": "[{\"value\":\"CIB\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - Spouse\",\"value\":\"CTILS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "standAloneSpouseADDPlanType",
+            "value": "V"
+        },
+        {
+            "key": "companyId",
+            "value": "GAWMY"
+        },
+        {
+            "key": "minStartDateStandAloneSpouseADD",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-stand-alone-child-ad&d-step",
+            "value": "{\"hidden\":false,\"stepId\":\"cded2e5b-9edc-420a-9363-086c201e9119\"}"
+        },
+        {
+            "key": "toggle-Short-Term-Disability-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"da765a23-afd4-464a-861e-b3dd21c84313\"}"
+        },
+        {
+            "key": "crieCritIllnessBenefitPlan",
+            "value": "[{\"value\":\"CIB\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness - Employee\",\"value\":\"CTILL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "minStartDateBasicLife",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-long-term-disability-step",
+            "value": "{\"hidden\":false,\"stepId\":\"34c18ef0-31f1-4893-bb16-3c32ee1c493a\"}"
+        },
+        {
+            "key": "lTDBenefitPlan",
+            "value": "[{\"value\":\"LTD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"LTD   offset earn\",\"value\":\"LTD\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "basicADDPlanType",
+            "value": "N"
+        },
+        {
+            "key": "volChildLifeDeductionCodes",
+            "value": "[\"LIFEC\"]"
+        },
+        {
+            "key": "toggle-critical-illness-step",
+            "value": "{\"hidden\":false,\"stepId\":\"c913b520-fb29-45e4-950b-e3825308dc49\"}"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"6f7788fe8153f0133c8c93674df5456f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3d627faff757bddedd047f5d5a9af5a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d4cef1e699472b95c07b9fdc9f383794\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2229c33ad79517c9477bbcac908f6cfb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2bfe07a50715eba62784948f82c575f9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"49144bbb862daa8529bbaf3d5ea2177b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7293cc71-efbb-4653-9907-0bca0fce4187\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af67d30-0670-4a46-91dd-f5a7481029d9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9c6f4059-ed38-477b-9d3a-d8010b59b15e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c7385852-a6bd-4836-a198-f194f4c56237\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f20\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1ce59e3e-a222-4323-a280-f636271424bd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2f561d88-beb2-4f7f-ab53-e55d69cd3253\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4085e59f-1361-4292-b719-e777db070cc0\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"b3798c94-2756-44bb-9df5-517edc04667f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"93bfa762-753c-4e8a-9dd5-85e95382ec91\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1511e06a-fdab-4a77-ac97-415e767546e5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fe0b59f7-e78e-4ccb-83ed-d9d1a6624e73\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1705e04b-0a6c-4304-8757-546eb176ce77\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bfbafafa-9dab-4bca-8cbe-d8bd97138d4f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c9b06241-ce37-4c20-b091-d316d8db82fc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1f5d2534-0a19-4dd4-8114-1760e21520b2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c2bf065e-031f-47ab-93cb-c4bc76c5f9f9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"99eab2de-8ce1-4a40-ad6f-795a2cd76121\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"867cecb9-90a8-461e-ba2d-ff46e4a1cea8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"94352871-fc5c-4050-911c-d1a0262dfe48\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"09c6b739-ede9-44f3-8591-bf968d827370\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fc1f159c-9e78-4487-9af2-824163bfec6b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"744d31a4-5e42-409f-8cd2-0ae7636596f6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ba6d50c4-724c-4087-a1ab-e13266a59cde\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"7602a364-653e-48a0-9948-4d1b66ce9ccb\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"89f3d3bf-5537-45da-a552-841cf419e306\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"8271cb15-726c-43c6-be0b-caa00ac46344\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a88eec27-f41b-4bf9-b17a-c691fdbcd30f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8889cd47-75b1-4f09-b3b6-b807e758fdb3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"107bf8f3-4563-48dc-a4dd-71d86325973e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d2249c51-107a-483e-a831-8a1e02e1eb87\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"38493a13-ba5f-4173-a1cf-7c1331ff7076\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"8d2d8ae5-3fe7-4138-8f46-e9edaaf0a471\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1d164398-9d82-4fec-9e14-75cd73815d9a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0a0b7444-dcf2-401d-9e7e-c599b90026b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"34879434-97eb-457a-8921-b28f9e504f31\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"bdb00b50-22c3-4eb4-94b7-26670faf19d7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ea44e9cd-4cbd-4ecb-8d8d-2108e893b1ab\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d440b737-1714-430d-87f2-a2375534375d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a7092b08-26dc-43b9-a553-1171dcb9e526\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"e70679e2-8203-4827-8f84-7e3a653af123\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"624201d9-7f8d-418f-8d5e-d7bf4cec27d6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"15227f1d-f885-4100-8733-c15474493645\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5d147096-7a91-4768-9383-befb545229b2\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"37fb1468-c3af-48c5-b6ed-ae9b33907ade\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"73e9bd4a-ea7d-4b92-aee7-3ae0837b8bfa\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"60204342-0d64-46ae-92f5-bcea0b79a4fc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"587b3507-73a3-4dbe-9bbb-51b5308b9327\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bdcedc83-b77a-4792-8c6a-6571f126974c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"99fd3fd1-e1f4-4a12-b352-ae98e7ee63d5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5281155b-1c49-456f-aa48-12ca06dc9530\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c0ea7563-2150-495d-917e-28bc8a5c2d6b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"81d15cef-64b6-4112-8c92-0e880c810dd2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3dc6845f-2ed4-413c-919c-1afd2682829f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"669d1803-c60d-4c6a-be0a-4a3c8f0954f4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6a34a943-2f87-47f9-a4fa-2fc26f81c139\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"36073935-4381-4baa-8713-52f1ed891aaf\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"56524ccd-8925-43e4-a917-68ec8b910d06\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c43a9030-b920-4c38-8bb2-d92c1432611e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9dbcb312-42e9-4c4c-999f-48bfec349866\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"78a8a507-2676-402e-96e5-fa70a385ff97\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e582f189-ae15-44f6-b7ed-90b279459510\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"af887d8c-22a2-42a3-83fb-0fcc75b32882\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"746092c1-95d1-4da5-a67c-27aa4c5edac5\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"db60f05b-3b19-4081-bee2-18cf680d3ebb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b34db549-dd1b-404b-9441-de79e84fd7b7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0802a0eb-0636-49b1-b136-e048d217e465\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"47756e62-bb33-41e7-952f-9e29e2221ca1\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"cded2e5b-9edc-420a-9363-086c201e9119\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eadd786e-d5bd-4490-a113-82113c1f69e9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d97ca348-4c85-442c-966a-e9eb31e08841\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c144838f-2c06-471a-b8cc-d700ebcd76dc\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"c128fd9c-6baf-4daf-925d-e231378ad019\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"33446f12-16fa-4552-bb59-7a510828eaf7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b781e29e-7bb1-4733-82f0-3b253b14bc95\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0d0112fc-69a5-4dac-91d7-e9b82b1dbda9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6546c1af-31f2-485d-9d60-074ec75d8191\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"6e3a8d5a-329a-498c-8416-5e6604078b2f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b5839cf4-98e3-4563-aeb6-94240c2d768e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da765a23-afd4-464a-861e-b3dd21c84313\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"d16809f2-fc3d-4c35-895e-3f2d882eb377\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"56c18611-7573-4269-b3d3-c79cf4ce7a14\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"28761cf7-e2df-491f-a7ff-54f3e7dd319b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"902af7f2-46cf-4c8b-9ad8-700763146d68\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a5cd92c3-1b72-46d4-ab1e-30fa1817c40b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"a831d7e5-fd0d-4468-850d-c13c8ca657b4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"88a74a0d-d99d-4f65-93e8-3d8d03581c0e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"444f4f47-8d7e-4de4-af09-5289c9dc4295\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7d657f3b-02b9-4368-a2dc-f5d362422ce3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"5c0e4e78-adf1-47fd-b853-47a324593623\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"16255a13-ae28-47cd-955a-b531d47445f5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"17316161-0327-4571-8f93-4abc59111400\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"511b7892-eb2c-47da-9e7e-acd9b288a6b7\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6ec22a60-01d1-4caa-b2f4-0db9f9b215c9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"be42f9bd-b7c7-41eb-b416-8103deafcdda\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d14b8d0f-4a41-40a2-85c4-8534042250f7\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"dc53c60e-070a-40fc-a547-521c8f30d8aa\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"83d12ed2-0f67-43c1-9eac-4251e0e6088a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"802e98de-58b1-4201-abe6-1489a3878f7b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0b199caf-46ae-4e68-9bbe-1cbb6dd999e4\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"34c18ef0-31f1-4893-bb16-3c32ee1c493a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f584f2fb-3348-4e67-98ff-f5a999f943b3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ecc1c149-b013-4dfe-a67c-7fdb7bdbe0a8\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e3fb706b-8865-4a5a-b942-212f06886607\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"392063d8-27fd-4546-8dfd-502034bd76b9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"8211c3b0-2161-458a-bbcb-7e984595a3d5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fc1c6b90-2072-4f37-854c-140dacaf65d8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"852fa001-13b1-4e2d-bde2-0c1ebbbe3050\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"32f4d993-70f8-4b07-baac-23d0cce064b5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"934d2c74-bf9c-4a1f-8738-ecdb97b8b94c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e171df6f2240c238ba9d452261d871a2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d5aca2e6-aafd-4cf5-809b-a44e1c91a8c2\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6ec232af-66a2-47c6-85a6-7a4ef78071c5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"b2288ae6-b054-44e5-badc-465714bec8c3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f0609b82d21f5c8a344f9d1b7bc38a52\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1291f3a2-e940-4614-aee7-6de382bb1781\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c913b520-fb29-45e4-950b-e3825308dc49\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d55cd465-c71d-4695-b2f3-5920de6dcbe8\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"898f89e3-9abc-4eac-b599-657c2f594477\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fb26d655-cf0d-4a4d-b4bf-6e75b6e85fe4\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"e837fb24-3b80-459e-847d-3ae9f512a97a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c26f8fca-f5a2-4d59-aea8-c0cdd57e41df\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"296ae72e-c3b7-475d-98cc-ae4f785b702d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"04f8e86b-066d-4fbe-81a3-4eb0e3f91874\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"5b8a4954-3f9a-4313-8d3b-a4c4e6a5b22f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"4366473f-f6d2-4418-8f76-dcdce7f57f08\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e11c7ea9-d298-411f-8fc9-66efab86dd01\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1073aac4-a681-41fb-b796-9315592f2dd6\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"ba06d746-ee99-4780-b460-73e23c9260b2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"699fea19-4c40-4833-bded-f2959acb6503\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cef9d002-a727-4392-b85c-5c3ff3f155e3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b612e1e2-f538-44bb-802e-541b5a7ec52d\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd114\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"197346a0-df17-46e4-b0db-d9479a02a3d6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5edf84ae-4c12-4c2e-8861-65298eda5d64\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b3d2ab89-3fb7-4bc1-b614-6e8320ca6d2a\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd115\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"93bfa762-753c-4e8a-9dd5-85e95382ec92\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1511e06a-fdab-4a77-ac97-415e767546e6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"fe0b59f7-e78e-4ccb-83ed-d9d1a6624e7f\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"65c7e957-5c5d-4f7c-bb59-53cfdcbcd116\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"93bfa762-753c-4e8a-9dd5-85e95382ec93\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1511e06a-fdab-4a77-ac97-415e767546e7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fe0b59f7-e78e-4ccb-83ed-d9d1a6624e7g\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"afd5c01e2b0d5bb12d5ecdca5999b6d9\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "standAloneChildADDDeductionCodes",
+            "value": "[\"LFADC\"]"
+        },
+        {
+            "key": "minStartDateCrieCritIllness",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-tdi-hawaii-step",
+            "value": "{\"hidden\":true,\"stepId\":\"7d657f3b-02b9-4368-a2dc-f5d362422ce3\"}"
+        },
+        {
+            "key": "toggle-Stand-Alone-AD&D-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"746092c1-95d1-4da5-a67c-27aa4c5edac5\"}"
+        },
+        {
+            "key": "toggle-Stand-Alone-Child-AD&D-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"c144838f-2c06-471a-b8cc-d700ebcd76dc\"}"
+        },
+        {
+            "key": "toggle-voluntary-ltd-step",
+            "value": "{\"hidden\":true,\"stepId\":\"392063d8-27fd-4546-8dfd-502034bd76b9\"}"
+        },
+        {
+            "key": "toggle-eap-step",
+            "value": "{\"hidden\":true,\"stepId\":\"6ec232af-66a2-47c6-85a6-7a4ef78071c5\"}"
+        },
+        {
+            "key": "minStartDateVolSpouseLife",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "hospitalIndemnityDeductionCodes",
+            "value": "[\"HCAR2\",\"HCARE\"]"
+        },
+        {
+            "key": "minStartDateAcc",
+            "value": "2022-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "standAloneSpouseADDDeductionCodes",
+            "value": "[\"LFADS\"]"
+        },
+        {
+            "key": "toggle-voluntary-std-step",
+            "value": "{\"hidden\":true,\"stepId\":\"dc53c60e-070a-40fc-a547-521c8f30d8aa\"}"
+        },
+        {
+            "key": "basicLifePlanType",
+            "value": "N"
+        },
+        {
+            "key": "toggle-Critical-Illness-Spouse-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"04f8e86b-066d-4fbe-81a3-4eb0e3f91874\"}"
+        },
+        {
+            "key": "toggle-stand-alone-spouse-ad&d-step",
+            "value": "{\"hidden\":false,\"stepId\":\"db60f05b-3b19-4081-bee2-18cf680d3ebb\"}"
+        },
+        {
+            "key": "toggle-voluntary-child-ad&d-step",
+            "value": "{\"hidden\":true,\"stepId\":\"36073935-4381-4baa-8713-52f1ed891aaf\"}"
+        },
+        {
+            "key": "toggle-Accident-benefit-plan-option-indicator",
+            "value": "{\"hidden\":true,\"stepId\":\"b612e1e2-f538-44bb-802e-541b5a7ec52d\"}"
+        },
+        {
+            "key": "integrationMode",
+            "value": "test"
+        },
+        {
+            "key": "standAloneADDBenefitPlan",
+            "value": "[{\"value\":\"ADD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Employee Supplemental AD&D\",\"value\":\"LFADE\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "sTDDeductionCodes",
+            "value": "[\"STD\"]"
+        },
+        {
+            "key": "standAloneChildADDBenefitPlan",
+            "value": "[{\"value\":\"ADD\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Child Supplemental AD&D\",\"value\":\"LFADC\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-vision-buy-up-step",
+            "value": "{\"hidden\":true,\"stepId\":\"c2bf065e-031f-47ab-93cb-c4bc76c5f9f9\"}"
+        },
+        {
+            "key": "accDeductionCodes",
+            "value": "[\"ACIN2\",\"ACINJ\"]"
+        },
+        {
+            "key": "toggle-short-term-disability-step",
+            "value": "{\"hidden\":false,\"stepId\":\"6546c1af-31f2-485d-9d60-074ec75d8191\"}"
+        },
+        {
+            "key": "toggle-aso-sun-advisor-std-step",
+            "value": "{\"hidden\":true,\"stepId\":\"511b7892-eb2c-47da-9e7e-acd9b288a6b7\"}"
+        },
+        {
+            "key": "toggle-voluntary-spouse-ad&d-step",
+            "value": "{\"hidden\":true,\"stepId\":\"81d15cef-64b6-4112-8c92-0e880c810dd2\"}"
+        },
+        {
+            "key": "volLifeDeductionCodes",
+            "value": "[\"LIFEE\"]"
+        }
+    ],
+    "deleted": false,
+    "runType": "manual",
+    "runAutomatically": false,
+    "cron": "0 0 * * * *",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "784d1e3e-dae9-4299-b5b5-4c2604e6f348"
+}

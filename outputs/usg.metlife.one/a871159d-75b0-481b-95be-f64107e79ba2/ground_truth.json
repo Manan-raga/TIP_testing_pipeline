@@ -1,0 +1,302 @@
+{
+    "integrationId": "99517a49-f3f0-416f-bf7c-a966279b5cc4",
+    "tenantId": "a871159d-75b0-481b-95be-f64107e79ba2",
+    "integrationName": "Metlife Export",
+    "vendor": "3aa767a9-1819-4376-a2b4-9d923f4d7e0f",
+    "fileTypeId": "usg.metlife.one",
+    "customerName": null,
+    "createdDate": "2024-05-08T15:02:53.249Z",
+    "updatedDate": "2024-07-16T17:52:51.483Z",
+    "fileTransferFields": [
+        {
+            "key": "visBranchCode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Alberta\",\"value\":\"AB\",\"table\":\"address.state\"},{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"address.state\"},{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"address.state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"address.state\"},{\"description\":\"American Samoa\",\"value\":\"AS\",\"table\":\"address.state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"address.state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"address.state\"},{\"description\":\"British Columbia\",\"value\":\"BC\",\"table\":\"address.state\"},{\"description\":\"Northern Mariana Islands\",\"value\":\"CM\",\"table\":\"address.state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"address.state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"address.state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"address.state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"address.state\"},{\"description\":\"Drenthe\",\"value\":\"DR\",\"table\":\"address.state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"address.state\"},{\"description\":\"Foreign National\",\"value\":\"FN\",\"table\":\"address.state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"address.state\"},{\"description\":\"Guam\",\"value\":\"GU\",\"table\":\"address.state\"},{\"description\":\"Hawaii\",\"value\":\"HI\",\"table\":\"address.state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"address.state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"address.state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"address.state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"address.state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"address.state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"address.state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"address.state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"address.state\"},{\"description\":\"Manitoba\",\"value\":\"MB\",\"table\":\"address.state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"address.state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"address.state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"address.state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"address.state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"address.state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"address.state\"},{\"description\":\"New Brunswick\",\"value\":\"NB\",\"table\":\"address.state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"address.state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"address.state\"},{\"description\":\"Netherlands\",\"value\":\"NE\",\"table\":\"address.state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"address.state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"address.state\"},{\"description\":\"Newfoundland and Labrador\",\"value\":\"NL\",\"table\":\"address.state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"address.state\"},{\"description\":\"Nova Scotia\",\"value\":\"NS\",\"table\":\"address.state\"},{\"description\":\"Northwest Territories\",\"value\":\"NT\",\"table\":\"address.state\"},{\"description\":\"Nunavut\",\"value\":\"NU\",\"table\":\"address.state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"address.state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"address.state\"},{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"address.state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"address.state\"},{\"description\":\"Ontario\",\"value\":\"ON\",\"table\":\"address.state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"address.state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"address.state\"},{\"description\":\"Prince Edward Island\",\"value\":\"PE\",\"table\":\"address.state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"address.state\"},{\"description\":\"Quebec\",\"value\":\"QC\",\"table\":\"address.state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"address.state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"address.state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"address.state\"},{\"description\":\"Saskatchewan\",\"value\":\"SK\",\"table\":\"address.state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"address.state\"},{\"description\":\"Canada US\",\"value\":\"US\",\"table\":\"address.state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"address.state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"address.state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"address.state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"address.state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"address.state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"address.state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"address.state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"address.state\"},{\"description\":\"Yukon\",\"value\":\"YT\",\"table\":\"address.state\"},{\"description\":\"Canada Other\",\"value\":\"ZZ\",\"table\":\"address.state\"}]}]},{\"value\":\"0002\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"address.state\"},{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"address.state\"}]}]},{\"value\":\"0003\",\"tables\":[{\"name\":\"address.state\",\"selectedFieldValues\":[{\"description\":\"California\",\"value\":\"CA\",\"table\":\"address.state\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-hyatt-legal",
+            "value": "{\"hidden\":false,\"stepId\":\"be23cf9f-6bc8-4dc3-9fd2-4da1f041e8a5\"}"
+        },
+        {
+            "key": "fileDestination",
+            "value": "prodSftp"
+        },
+        {
+            "key": "hiPlanType",
+            "value": "HH"
+        },
+        {
+            "key": "groupId",
+            "value": "[{\"value\":\"5966187\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Vision\",\"value\":\"VIS\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"0225074\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness+EEChildren 15000\",\"value\":\"CIC15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Children 30000\",\"value\":\"CIC30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 15000\",\"value\":\"CID15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 30000K\",\"value\":\"CID30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical Illness-Employee Only $15,000\",\"value\":\"CIE15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEmployee Only 30k\",\"value\":\"CIE30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEEFamily 15000\",\"value\":\"CIF15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Family 30000\",\"value\":\"CIF30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+ Spouse 15000\",\"value\":\"CIS15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Spouse 30000\",\"value\":\"CIS30\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"0225075\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident High Plan\",\"value\":\"ACCHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Accident Low Plan\",\"value\":\"ACCLP\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"0225076\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital High Plan\",\"value\":\"HOSHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Hospital Low Plan\",\"value\":\"HOSLP\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"9225074\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Legal Plan\",\"value\":\"LEGAL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-accident-insurance",
+            "value": "{\"hidden\":true,\"stepId\":\"746961b2-5854-44d9-8f3c-bae0c924bcee\"}"
+        },
+        {
+            "key": "eeCiAttAgeReportGroupNumber",
+            "value": "[{\"value\":\"0225074\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness+EEChildren 15000\",\"value\":\"CIC15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Children 30000\",\"value\":\"CIC30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 15000\",\"value\":\"CID15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 30000K\",\"value\":\"CID30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical Illness-Employee Only $15,000\",\"value\":\"CIE15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEmployee Only 30k\",\"value\":\"CIE30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEEFamily 15000\",\"value\":\"CIF15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Family 30000\",\"value\":\"CIF30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+ Spouse 15000\",\"value\":\"CIS15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Spouse 30000\",\"value\":\"CIS30\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-dependent-critical-illness-attained-age",
+            "value": "{\"hidden\":true,\"stepId\":\"f269d314-aecb-42d1-8df4-263b2c534a30\"}"
+        },
+        {
+            "key": "toggle-hidable-dependent-basic-life",
+            "value": "{\"hidden\":true,\"stepId\":\"e7ed70b0-ed7b-4d56-967a-ea0c40c08d68\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "accInsReportGroupNumber",
+            "value": "[{\"value\":\"0225075\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident High Plan\",\"value\":\"ACCHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Accident Low Plan\",\"value\":\"ACCLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "visCoverageStrTyp",
+            "value": "4tierCoverageStructure"
+        },
+        {
+            "key": "eeCiAttAgeSubcode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness+EEChildren 15000\",\"value\":\"CIC15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Children 30000\",\"value\":\"CIC30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 15000\",\"value\":\"CID15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 30000K\",\"value\":\"CID30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical Illness-Employee Only $15,000\",\"value\":\"CIE15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEmployee Only 30k\",\"value\":\"CIE30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEEFamily 15000\",\"value\":\"CIF15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Family 30000\",\"value\":\"CIF30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+ Spouse 15000\",\"value\":\"CIS15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Spouse 30000\",\"value\":\"CIS30\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "toggle-location-id",
+            "value": "{\"hidden\":true,\"stepId\":\"aa7fface-60d9-4178-a710-ef1222163954\"}"
+        },
+        {
+            "key": "toggle-hidable-employee-critical-illness",
+            "value": "{\"hidden\":true,\"stepId\":\"9d0ab543-f6a1-4c0d-aa93-fc0a22198520\"}"
+        },
+        {
+            "key": "visSubcode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Vision\",\"value\":\"VIS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "hlSubcode",
+            "value": "[{\"value\":\"0002\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Legal Plan\",\"value\":\"LEGAL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "toggle-hidable-spouse-optional-life-add",
+            "value": "{\"hidden\":true,\"stepId\":\"0dae674c-05e6-426f-ab52-198b952c9135\"}"
+        },
+        {
+            "key": "toggle-schedule-id",
+            "value": "{\"hidden\":true,\"stepId\":\"6d2c2d07-391e-4620-9563-665bfeccebbb\"}"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "eeCiAttAgeDeductionCodes",
+            "value": "[\"CIC15\",\"CIC30\",\"CID15\",\"CID30\",\"CIE15\",\"CIE30\",\"CIF15\",\"CIF30\",\"CIS15\",\"CIS30\"]"
+        },
+        {
+            "key": "companyId",
+            "value": "6OZ8P"
+        },
+        {
+            "key": "toggle-hidable-employee-basic-life-add",
+            "value": "{\"hidden\":true,\"stepId\":\"74a4d875-c46d-4388-a835-53e20949a86e\"}"
+        },
+        {
+            "key": "toggle-hidable-dependent-critical-illness-level-funded",
+            "value": "{\"hidden\":true,\"stepId\":\"9c5adef2-2f9b-40f7-9a1c-7dadca8abe49\"}"
+        },
+        {
+            "key": "toggle-hidable-employee-critical-illness-attained-age",
+            "value": "{\"hidden\":true,\"stepId\":\"58c3e156-06a1-4408-a0a5-ca183699145f\"}"
+        },
+        {
+            "key": "toggle-hidable-NYL-paidleave",
+            "value": "{\"hidden\":true,\"stepId\":\"1377039a-051a-11ee-be56-0242ac120002\"}"
+        },
+        {
+            "key": "toggle-hidable-long-term-disability",
+            "value": "{\"hidden\":true,\"stepId\":\"9e76d3c9-9270-42b8-af4d-e0cd73909766\"}"
+        },
+        {
+            "key": "visReportGroupNumber",
+            "value": "[{\"value\":\"5966187\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Vision\",\"value\":\"VIS\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-child-optional-life",
+            "value": "{\"hidden\":true,\"stepId\":\"374d92bb-466f-4f70-82b6-356267fa9d82\"}"
+        },
+        {
+            "key": "toggle-hidable-dependent-critical-illness",
+            "value": "{\"hidden\":true,\"stepId\":\"2c9d1fd8-7b62-4099-81f2-8eb302691936\"}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "eeCiAttAgePlanType",
+            "value": "GE"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"d45b533575dd5a842ea5b53220d515d0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7ee76df7d232a0503d59b102f5d6c5e2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3e41c08659bc10850ded1764577693c6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8ddcc27a1c0813056ac1e0c75ec3713f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f94f64ddb8df160a0b2b2dad24f57943\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"6319841889919293fc68a3e898960a4c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"73aaeae4-74ef-47a0-a403-aecc165630ce\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"bce48bf3-59e2-4f72-827e-884cf954dfdf\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"aa7fface-60d9-4178-a710-ef1222163954\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"6d2c2d07-391e-4620-9563-665bfeccebbb\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"98f7f994-67de-460b-ba86-43eefc665ced\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d4823f05-cb5c-466e-ac31-7b8808e73283\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d224e6e2-bd7a-476a-8458-e9568fec9288\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"062b4b1c-2339-4eb1-b083-b42c477a106e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d224e6e2-bd7a-476a-8458-e9568fec8177\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"26b282a9-5ef2-4897-b78a-0c8109ac2cdf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"53817594-2943-4105-9851-588178c2c7ad\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ffc96b8d-1c53-42da-a4f5-e8b9218c2cbe\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0ee331ac-4961-41d6-8f20-5bc32717fb3e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ba42adb4-679d-4d47-b8a7-bba1da33733b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7af69423-91fb-47a4-824e-33a66c7932ce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"afd3e542-d8dd-4d34-9409-eeabed29a3b2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"890620b6-6c4c-4612-87e2-8a4f271e15a3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9e7310ba-abd5-42b2-ba0e-9978e1e91547\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9402025b-72a3-449d-aa25-2970cdfd6469\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"975fa911-d653-4e8c-bdee-c158af4a6d4f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ad1f40db-1e06-4398-b47b-0399ffb5499b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"125ee28c-747f-4b65-98c8-08e80b80c73b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"380c9395-a0a6-4fd9-9b28-74c77d4ed6b1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e7ed70b0-ed7b-4d56-967a-ea0c40c08d68\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4778a86f-2fc6-4503-8f46-ffe9bef55184\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"606fe624-bf3d-4285-94be-c3a3216f88fe\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0f05fda2-631c-44c4-baef-859f0b2da0d6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9120c88f-a27e-49f2-a5e4-8ad26160d747\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f00b4266-2420-441c-94f7-9606cda736bf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"46ee5075-4b50-4fbc-ad66-b92d45289d9c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"96a50f8f-7473-4e43-baa7-c5816b588ace\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"526e3671-ef14-40fa-9533-e3227f46b84d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"db94acd3-7eca-4671-a4a7-8074646cda5f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bbe2e7fe-6a1f-4186-aa48-1683bfee043d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8e37b19a-3cfe-422c-b78b-0ac633dab4c7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"491e1180-550b-41c5-9f52-96ff04239712\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7afdcc98-0ad6-45c9-9028-0b8d9b89beb8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8d259d40-19e8-4c67-8329-72b1443b6210\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d8881a15-b703-4cd7-83e0-3f460772157c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"54031fce-5832-477d-bcf8-65e719f8d95a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bff16888-76e7-4ddc-a0b1-b26391ac0ce4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"374d92bb-466f-4f70-82b6-356267fa9d82\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"d22e0a90-5cca-4468-a135-c35f9ad5e617\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"074aba22-bda3-4154-ac90-8685b955b2ff\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9b339b39-ccb0-4d5a-896c-98002e64b792\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dd0422cf-d13a-4c0a-b733-f3a30c8c21ea\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"59c87bf5-28ba-4dfe-950c-192d29f55cf6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"74a4d875-c46d-4388-a835-53e20949a86e\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"4f82a400-5122-4959-8cce-024815c05147\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a8640e8d-d0b3-4f06-a8e0-1063699d6c16\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"04d51f53-581a-44ce-a9d8-f9a10f122f21\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3a430ed0-a8de-449c-8a82-bbb3efcdd69e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9ca4b171-6735-4d57-bfae-e34fbbaff313\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e26df7cf-017f-4456-965c-4e38006cd306\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"9d4a69bd-df5e-4a9b-8cf3-dccfbdf08cf0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8578da59-f523-4afc-8ab3-32055932530b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6ff31b24-d285-4cd6-92f0-c171795c5642\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bb2c2ac3-a761-4bba-9081-8ab7462eff1b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"82c76bf2-8d04-44b5-ab6a-ba671bfbd9f1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0dae674c-05e6-426f-ab52-198b952c9135\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"2175e743-9a62-4da3-81d2-085a94fbca45\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8760cde3-868a-4818-b479-277f0b019a02\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"54a22e94-5e1e-4346-b01b-741f7be27d03\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3f08fbdf-393c-4512-96a3-b064161b1175\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"352d3b88-5de7-4a26-bc6e-a42dbd063c79\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2cebf7a7-3555-4eeb-81da-1c6012f377a3\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"def87597-9bc5-4c30-831f-3182f1baf2fc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5ed8de66-14a5-4554-8397-7b5c53bfe3ee\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"62e5118e-8f3a-448e-9edc-0efc66cdbf63\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"826ed716-a72f-4381-b6ca-121d60073e86\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5241ef9b-9fe5-4a35-969c-eb66a059ac8e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9e76d3c9-9270-42b8-af4d-e0cd73909766\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"63f089ca-056b-4508-bc5c-ba0bac5a2553\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"31e94581-d986-46e9-994e-caccbeb2da5d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6c3541af-93dd-4b03-a593-10ce0e4247a6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"854f072d-1706-4a55-a0a8-c2fd359504ec\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0d361ad9-e7bd-447f-a4ff-6b5e1f15c35f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d2b4e56b-bad2-4745-8908-8f44ef8cb95d\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"7fb70462-89db-489c-8768-a4a6bccadd4b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9b44b2df-7d09-4203-89b9-2c31ecd37e54\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"76f1852d-98e3-4f43-a7df-df01531ab215\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d22ce69b-b63d-4af3-b1a5-ac0b5c72d599\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1c083a9c-f9d6-40a6-ac19-8500fe45e961\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"746961b2-5854-44d9-8f3c-bae0c924bcee\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"d478e437-cc0c-4e9c-bcce-79a4bf07d350\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b7fe93a8-b76e-4163-809a-4de873122945\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"874b1cd4-74ed-47b7-ba4a-3a6e73a7d92d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"26672a5c-467a-4f1a-9386-cfb3959fc5d2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"dd1e458f-1fbe-447a-9f25-abd7acb63925\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"9d0ab543-f6a1-4c0d-aa93-fc0a22198520\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"24bc5e9f-0d68-436b-986a-4f9e3fd4b266\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"589d1ffa-b667-43bb-84a6-9dab8f9c4a77\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4f5992d9-22da-42e4-b831-2ead2a2bbb74\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7d305c11-ef14-4a12-9c34-e40848046892\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9b485b0b-205d-4fdd-a0a3-5c10a71fff7d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2c9d1fd8-7b62-4099-81f2-8eb302691936\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ae062fd9-15ef-4e32-a8b7-4f969caddefb\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"82102072-39a9-47b9-a096-e7b3b5277a0c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"abc60acd-d156-4099-b5df-b1e9c95dea25\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d46926fc-0356-450f-ac9a-a638c15a0bac\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c3c102a0-55cc-4520-9e14-d3bb9e54b4dd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"58c3e156-06a1-4408-a0a5-ca183699145f\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"9975d515-b41b-4f2d-9383-fa94edcf85aa\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b2340861-4af1-4ed5-94c8-265663269d9e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0c4edb71-8444-446c-a781-e95995013936\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"718188b7-b01c-455d-af2c-8357742f452d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5ed333eb-917c-40af-9160-25fd5e6d2fd7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f269d314-aecb-42d1-8df4-263b2c534a30\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"33e8e1dc-4598-49d0-b243-251cf629f575\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bdc9ec7c-ded6-4707-9e69-f0ca51de00f8\":{\"visited\":true,\"valid\":false,\"hidden\":false},\"b52818ae-1ad6-4080-aa68-769cb7ea10fd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5a04757d-ac62-484b-84c2-17c959096d66\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2067df49-1fec-48a9-b8ea-115c21848229\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"73271788-c064-454b-aff0-56213751c9f9\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"85850e8e-27f4-488d-9a3d-391e12ffe8ee\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4ef920a3-abec-4067-b2ef-cc25c107d111\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a1fa13af-3bea-4695-b2e2-2ecd6b38a4f1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a5d148f7-9d48-4472-b21d-12ac338f8d71\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4ff1d896-fbba-42f7-9ffa-6d652f70321c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9c5adef2-2f9b-40f7-9a1c-7dadca8abe49\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"30a712a6-6458-4938-a139-3d954c2f20a2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2e06a68c-a8c0-4798-bed7-ac755eac4a59\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"582b64e8-c261-4fcd-8db5-44f7b14f2af7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1249b312-e5bb-496b-aad3-563260d0e888\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"35722e49-bd7c-4c82-95d2-ef5bae549973\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"66c91e59-63d1-4704-85cf-f4018517837c\":{\"visited\":true,\"valid\":true,\"hidden\":true},\"1ca9a51d-9fee-4b27-9e5d-45866dbb1162\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b2ca2dd8-e02c-45a0-a06d-cc5e951089e0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"09bdf99c-510e-42ad-b6b1-debeacd16669\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2c9f920f-9a08-46f0-89e9-649d8b823cc0\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"23f81f8b-c6b1-42d2-b168-387db9623173\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7384669b-bacf-44ae-a5f6-8bb6d2dc1839\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"f7e6fedb-7331-4599-8b35-825f1d50cd10\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7b2932e3-23e6-48fa-b46c-a628d8b9b5e2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6ba5cdec-edb9-428c-8aac-aa232e2efbb7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c4e29efe-9645-4b2b-ae02-6daf7c493482\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"dd63af63-edad-4ad8-8a06-8adb86273330\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9e8ad808-5e86-4a7a-9b74-2afb94a3aa31\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b6d9d9de-aab4-49c7-8cbf-b742b5729b3c\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"f7e6fedb-7331-4599-8b35-760f1d50cd10\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f5f6d9f7-a72a-4f84-9deb-808e161f789b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9452551d-417f-4782-9acc-64a0da5dd7e1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8cb384ea-8924-4b8d-8cf3-5a4bed0e93c7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0d736865-780f-4134-bba5-fb21b8e9ba44\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"be23cf9f-6bc8-4dc3-9fd2-4da1f041e8a5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f059bf5f-7c88-4abb-adf0-05c959f53530\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1c98bcd4-73d3-4404-9776-3f2a6df7d8dc\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"feb629ce-5e2e-4826-9aee-0d1832bcdd73\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"263cf678-b534-4768-8a51-71e815b14f82\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"41e2e9b9-0195-4c86-be37-a110d301ce47\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1377039a-051a-11ee-be56-0242ac120002\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"f7e6fedb-7331-4599-8b35-760f1d50ab23\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"f5f6d9f7-a72a-4f84-9deb-808e161f425h\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9452551d-417f-4782-9acc-64a0da5de3r3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8cb384ea-8924-4b8d-8cf3-5a4bed0e67c4\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"0d736865-780f-4134-bba5-fb21b8e9ad22\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fab38d8bcf35855ab6da571af09c6450\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "dCiAttAgePlanType",
+            "value": "GD"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"02\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"01\",\"DPC\":\"02\",\"EE\":\"noCoverage\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"02\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "accInsDeductionCodes",
+            "value": "[\"ACCHP\",\"ACCLP\"]"
+        },
+        {
+            "key": "hlBranchCode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Legal Plan\",\"value\":\"LEGAL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-employee-optional-life",
+            "value": "{\"hidden\":true,\"stepId\":\"46ee5075-4b50-4fbc-ad66-b92d45289d9c\"}"
+        },
+        {
+            "key": "toggle-hidable-auto-home",
+            "value": "{\"hidden\":true,\"stepId\":\"7384669b-bacf-44ae-a5f6-8bb6d2dc1839\"}"
+        },
+        {
+            "key": "metlifeFileName",
+            "value": "percptyx_visi_elig.70668.dat.pgp"
+        },
+        {
+            "key": "toggle-hidable-pet-coverage",
+            "value": "{\"hidden\":true,\"stepId\":\"b6d9d9de-aab4-49c7-8cbf-b742b5729b3c\"}"
+        },
+        {
+            "key": "toggle-group-Id",
+            "value": "{\"hidden\":true,\"stepId\":\"bce48bf3-59e2-4f72-827e-884cf954dfdf\"}"
+        },
+        {
+            "key": "hiDeductionCodes",
+            "value": "[\"HOSHP\",\"HOSLP\"]"
+        },
+        {
+            "key": "hlReportGroupNumber",
+            "value": "[{\"value\":\"9225074\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Legal Plan\",\"value\":\"LEGAL\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "toggle-hidable-spouse-optional-life",
+            "value": "{\"hidden\":true,\"stepId\":\"491e1180-550b-41c5-9f52-96ff04239712\"}"
+        },
+        {
+            "key": "hiReportGroupNumber",
+            "value": "[{\"value\":\"0225076\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital High Plan\",\"value\":\"HOSHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Hospital Low Plan\",\"value\":\"HOSLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-dental",
+            "value": "{\"hidden\":true,\"stepId\":\"98f7f994-67de-460b-ba86-43eefc665ced\"}"
+        },
+        {
+            "key": "hiSubcode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital High Plan\",\"value\":\"HOSHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Hospital Low Plan\",\"value\":\"HOSLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "visDeductionCodes",
+            "value": "[\"VIS\"]"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "szelenda@perceptyx.com"
+        },
+        {
+            "key": "toggle-hidable-employee-basic-life",
+            "value": "{\"hidden\":true,\"stepId\":\"9e7310ba-abd5-42b2-ba0e-9978e1e91547\"}"
+        },
+        {
+            "key": "accInsSubcode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident High Plan\",\"value\":\"ACCHP\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Accident Low Plan\",\"value\":\"ACCLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "customerNumber",
+            "value": "5966187"
+        },
+        {
+            "key": "toggle-hidable-employee-critical-illness-level-funded",
+            "value": "{\"hidden\":true,\"stepId\":\"73271788-c064-454b-aff0-56213751c9f9\"}"
+        },
+        {
+            "key": "hlDeductionCodes",
+            "value": "[\"LEGAL\"]"
+        },
+        {
+            "key": "toggle-hidable-short-term-disability",
+            "value": "{\"hidden\":true,\"stepId\":\"d2b4e56b-bad2-4745-8908-8f44ef8cb95d\"}"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "toggle-hidable-employee-optional-life-add",
+            "value": "{\"hidden\":true,\"stepId\":\"e26df7cf-017f-4456-965c-4e38006cd306\"}"
+        },
+        {
+            "key": "toggle-hidable-child-optional-life-add",
+            "value": "{\"hidden\":true,\"stepId\":\"2cebf7a7-3555-4eeb-81da-1c6012f377a3\"}"
+        },
+        {
+            "key": "accInsPlanType",
+            "value": "AH"
+        },
+        {
+            "key": "toggle-hidable-hospital-indemnity",
+            "value": "{\"hidden\":true,\"stepId\":\"66c91e59-63d1-4704-85cf-f4018517837c\"}"
+        },
+        {
+            "key": "eeCiAttAgeBranchCode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Critical Illness+EEChildren 15000\",\"value\":\"CIC15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Children 30000\",\"value\":\"CIC30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 15000\",\"value\":\"CID15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+DP 30000K\",\"value\":\"CID30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical Illness-Employee Only $15,000\",\"value\":\"CIE15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEmployee Only 30k\",\"value\":\"CIE30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEEFamily 15000\",\"value\":\"CIF15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Family 30000\",\"value\":\"CIF30\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+ Spouse 15000\",\"value\":\"CIS15\",\"table\":\"deductions.deductionCode\"},{\"description\":\"Critical IllnessEE+Spouse 30000\",\"value\":\"CIS30\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "visCoverageLevelCode",
+            "value": "VV"
+        },
+        {
+            "key": "hiBranchCode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital High Plan\",\"value\":\"HOSHP\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"0003\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Hospital Low Plan\",\"value\":\"HOSLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "toggle-hidable-vision",
+            "value": "{\"hidden\":false,\"stepId\":\"ffc96b8d-1c53-42da-a4f5-e8b9218c2cbe\"}"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "toggle-department-group",
+            "value": "{\"hidden\":true,\"stepId\":\"73aaeae4-74ef-47a0-a403-aecc165630ce\"}"
+        },
+        {
+            "key": "accInsBranchCode",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident High Plan\",\"value\":\"ACCHP\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"0003\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Accident Low Plan\",\"value\":\"ACCLP\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 12 * * MON",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "a871159d-75b0-481b-95be-f64107e79ba2"
+}

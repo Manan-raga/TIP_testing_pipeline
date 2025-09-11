@@ -1,0 +1,118 @@
+{
+    "integrationId": "79d18e20-a2ea-4755-a7c3-e0de36ff8fc0",
+    "tenantId": "49354e19-4d98-4e8d-8ce2-db0c27bde717",
+    "integrationName": "Cigna Dental Proclaim",
+    "vendor": "e15966a0-3a23-47d8-9e05-09702c3fc899",
+    "fileTypeId": "usg.cigna.834-proclaim",
+    "customerName": null,
+    "createdDate": "2024-07-18T16:10:27.312Z",
+    "updatedDate": "2025-06-30T14:41:45.829Z",
+    "fileTransferFields": [
+        {
+            "key": "fileDestination",
+            "value": "cignaProclaimSftp"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"4fb518c0df826c403c802e4575a43c92\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"70364c5fa28c3d8f97f0019fde47000b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"643a4102b1800a8f3077304932720a1d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c3cae732a8dacf664e6714196f0cabb4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2217d5c4007002e9eb0b7fd16c693860\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"eb58e1d55b5848ad00c2389b9a734615\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"08c37f897f20834d300024d8655a0a1c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"707e20a5c0e38a6966b3022a1750c81d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"738c2fcac75dbc15a8cb286899b4262b\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b572d05ed0a603cd3276487b9581dfcf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9c1a3d8858f5904d76e62f5302aa71ed\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4fe52b090ec3327fde7c62c8293f4b3f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7a1c08f107ae137f2cf5d1a2356bc109\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0dca65e886f9fab3595f7002449d1fd9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"29405f90ade353f73501209882e37ee1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"baebe9425158ed1022a89835abaf2f2b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"070d57eefc978dc98dcde4d296fbdd56\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"745a2d69154d55fdfee6f307ed297f3b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d0a86ff70b489ca0554cbb9360274b2e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"95cad4d9ed91d7a5eb7f62c35546c005\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"982d6b2027ca0f8b6f9c6912fdb4341f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"5c6cd0d48d91b93fc1705d4158afb16f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"03fda732f4cde53d72c4e291959da158\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"10bbbb70d998fc81d9d08117ce779f04\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"aeee9098a07f6712797b7b311fd3d597\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8dcd975f4fcc8a35f3bba44c80566914\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bf5d0b13ba9d07970c3a739c122ffe8f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"899e27c4056149233829cfaf22d612e3\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "companyName",
+            "value": "AMYDP"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"ANT\":\"nocoverage\",\"BRO\":\"nocoverage\",\"CHL\":\"child\",\"CIL\":\"nocoverage\",\"COD\":\"nocoverage\",\"COU\":\"nocoverage\",\"DAD\":\"nocoverage\",\"DIR\":\"nocoverage\",\"DP\":\"domesticPartner\",\"DPC\":\"child\",\"EXS\":\"nocoverage\",\"FIA\":\"nocoverage\",\"FRN\":\"nocoverage\",\"GRC\":\"nocoverage\",\"GRP\":\"nocoverage\",\"MOM\":\"nocoverage\",\"NCP\":\"nocoverage\",\"OTH\":\"nocoverage\",\"PAR\":\"nocoverage\",\"PIL\":\"nocoverage\",\"SIB\":\"nocoverage\",\"SIL\":\"nocoverage\",\"SIO\":\"nocoverage\",\"SIS\":\"nocoverage\",\"SLF\":\"nocoverage\",\"SPS\":\"spouse\",\"STC\":\"child\",\"STF\":\"nocoverage\",\"STM\":\"nocoverage\",\"TRU\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "hIndNo",
+            "value": "30,06-0303370"
+        },
+        {
+            "key": "minStartDateDen",
+            "value": "2022-07-01T04:00:00.000Z"
+        },
+        {
+            "key": "benefitOptionMappingDen",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "ECSRNumber",
+            "value": "117530"
+        },
+        {
+            "key": "denHd03",
+            "value": "DEN"
+        },
+        {
+            "key": "cignaDenBenefitOptionMapping",
+            "value": "[{\"value\":\"DHMO\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Pre Tax\",\"value\":\"DEN\",\"table\":\"deductions.deductionCode\"}]}]},{\"value\":\"DPPO\",\"tables\":[{\"name\":\"deductions.deductionCode\",\"selectedFieldValues\":[{\"description\":\"Dental Buy Up Pre Tax\",\"value\":\"DENBU\",\"table\":\"deductions.deductionCode\"}]}]}]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "branchMapping",
+            "value": "[{\"value\":\"A001\",\"tables\":[{\"name\":\"employeeTypeCode\",\"selectedFieldValues\":[{\"description\":\"Regular\",\"value\":\"REG\",\"table\":\"employeeTypeCode\"}]}]}]"
+        },
+        {
+            "key": "customerFEIN",
+            "value": "84-0534757"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "Jennifer.Emmett@nmetro.org"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "deductionCodeDen",
+            "value": "[\"DEN\",\"DENBU\"]"
+        },
+        {
+            "key": "masterPolicyNumber",
+            "value": "3342777"
+        },
+        {
+            "key": "benefitOptionMappingPre",
+            "value": "{\"totalFormFilledOutValidation\":true,\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "ClientNumber",
+            "value": "employeeNumber"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 10 14 * * WED",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "49354e19-4d98-4e8d-8ce2-db0c27bde717"
+}

@@ -1,0 +1,354 @@
+{
+    "integrationId": "76122e41-0e7a-40b4-bc75-42be3faf4d11",
+    "tenantId": "327e2942-8abe-4fa5-8be1-375e0f4a98e8",
+    "integrationName": "UNUM Basic Life",
+    "vendor": "73f93fff-44d0-4111-893f-ae64b383f3f9",
+    "fileTypeId": "usg.unum.basiclife",
+    "customerName": null,
+    "createdDate": "2024-02-05T15:42:30.839Z",
+    "updatedDate": "2024-12-27T16:29:21.579Z",
+    "fileTransferFields": [
+        {
+            "key": "eeVolAddDeductionCodes",
+            "value": "[\"ADDEE\"]"
+        },
+        {
+            "key": "fileDestination",
+            "value": "prodSftp"
+        },
+        {
+            "key": "toggle-ee-voluntary-ad&d-step",
+            "value": "{\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51884\",\"hidden\":false}"
+        },
+        {
+            "key": "spVolAddClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "toggle-ch-voluntary-ad&d-step",
+            "value": "{\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51886\",\"hidden\":false}"
+        },
+        {
+            "key": "eeVolSupplLifeDeductionCodes",
+            "value": "[\"VOLEE\"]"
+        },
+        {
+            "key": "toggle-vision-step",
+            "value": "{\"hidden\":true,\"stepId\":\"e5fdc1e4-759f-4b2c-829e-8491f7b12afd\"}"
+        },
+        {
+            "key": "spVolAddDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\"]}]}]}"
+        },
+        {
+            "key": "spVolAddPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDSP\"]}]}]}"
+        },
+        {
+            "key": "spVolSupplClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "true"
+        },
+        {
+            "key": "chVolSupplBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"LC\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLCH\"]}]}]}"
+        },
+        {
+            "key": "spVolSupplDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\"]}]}]}"
+        },
+        {
+            "key": "spVolSupplLifeDeductionCodes",
+            "value": "[\"VOLSP\"]"
+        },
+        {
+            "key": "chVolAddPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.0L23\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDCH\"]}]}]}"
+        },
+        {
+            "key": "spVolAddPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.0L02\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDSP\"]}]}]}"
+        },
+        {
+            "key": "chVolAddDeductionCodes",
+            "value": "[\"ADDCH\"]"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "chVolSupplPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.0M04\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLCH\"]}]}]}"
+        },
+        {
+            "key": "eeVolSupplBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "toggle-critical-illness-issue-age-step",
+            "value": "{\"hidden\":true,\"stepId\":\"18d79681-025f-454b-ace0-0700c8ea4271\"}"
+        },
+        {
+            "key": "eeVolSupplBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"LM\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLEE\"]}]}]}"
+        },
+        {
+            "key": "chVolSupplMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "spVolAddBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "chVolAddClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "chVolSupplDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\"]}]}]}"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "eeVolSupplDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\",\"2TJHW\"]}]}]}"
+        },
+        {
+            "key": "chVolAddPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDCH\"]}]}]}"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "basicLifePolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"931270\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"GLIFE\",\"GLIFX\",\"GTL\",\"LTDER\"]}]}]}"
+        },
+        {
+            "key": "eeVolSupplMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "basicLifeDeductionCodes",
+            "value": "[\"GLIFE\",\"GTL\",\"LTDER\",\"GLIFX\"]"
+        },
+        {
+            "key": "companyId",
+            "value": "2TIXW"
+        },
+        {
+            "key": "toggle-ch-voluntary-supplemental-life-step",
+            "value": "{\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f5\",\"hidden\":false}"
+        },
+        {
+            "key": "toggle-sp-voluntary-supplemental-life-step",
+            "value": "{\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f4\",\"hidden\":false}"
+        },
+        {
+            "key": "chVolSupplLifeDeductionCodes",
+            "value": "[\"VOLCH\"]"
+        },
+        {
+            "key": "eeVolAddClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "eeVolAddMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-select-long-term-disability-step",
+            "value": "{\"hidden\":true,\"stepId\":\"5831252a-4990-423f-90ae-a14ea7c0f5d8\"}"
+        },
+        {
+            "key": "spVolAddBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"AS\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDSP\"]}]}]}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        },
+        {
+            "key": "basicLifeDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\",\"2TJHW\"]}]}]}"
+        },
+        {
+            "key": "chVolSupplClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "toggle-ee-voluntary-supplemental-life-step",
+            "value": "{\"stepId\":\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f3\",\"hidden\":false}"
+        },
+        {
+            "key": "eeVolSupplClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1000\",\"sourceTables\":[{\"tableValue\":\"fullTimeOrPartTime\",\"selectedFieldValues\":[\"F\"]}]}]}"
+        },
+        {
+            "key": "spVolSupplBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "clientName",
+            "value": "KilroyRealty"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"65657a0c10fbf1a1686ea19e0734e169\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7efabfbd8aee0e2fe5e1e411dd03c324\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"bb4b48f1b80f8dccbbfbbdba01551bae\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"497a8afbe614fcfcc072552ae0035bce\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0b89203d-fd6d-4ed0-be53-1006da7e4684\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"77565571da75f9bffd02fec2efbeff66\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3babe90f-8369-42fc-9915-f2a0f01e92c5\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"c65a50da-fa4f-4cd3-b210-23dbedb4b80d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"aebb670a-3d42-4a50-8885-0b0c7e596184\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4d47f754-b39f-4147-a892-590b9591f177\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"31a66542-cbe4-40bf-878b-16612dabbb9e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"a1645151-520e-4d35-ada1-9df93e79a492\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c6e91771-ce51-48a2-b694-6e9355f6bb18\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ddcdc54a-0e41-43f5-98b3-eab5f98453b8\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ad8636bd-c64a-47a9-881b-f40251333c0b\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"2100f5d6-b4b2-4d2f-a9e9-e2a3db44aaf5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"af39a764-f430-4674-8827-4e5032e9c9d7\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b21b99b1-0f16-48b6-a26a-8534fb5b8b57\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"daa2bae1-8a32-4cb6-ad59-19cc428beab0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4366f9e1-3c3d-4744-bf40-3a8d5bbcc045\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9eb92ff1-c5c9-4d2d-85df-6b800bd1f33e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"bcda0e80-5de7-4e7c-978c-194d98e1f310\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e5fdc1e4-759f-4b2c-829e-8491f7b12afd\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"cdca2386-69f8-412f-a005-02878979d4fe\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"289870dc-581d-41e0-86f7-749c42c4efb6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4c97d84c-7005-4c38-84de-993935bf4ed1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d786e66a-6cfb-4552-969d-ccc8a824eb49\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4a9e376a-3753-40ec-8c22-73a0ee9cfe05\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"08650e62-a671-484b-b111-9f9e0eaa8c1d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"34613564-376d-4bf4-b9cc-ceb3f8c2ed0e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"908997e5-d31c-4147-ae04-579f4b7d1541\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b57be895-41a1-4123-9612-d843b19aa7a7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"617cfb59-8c4f-4ed7-85f8-d048278c8c75\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5ab3d552-eca6-402b-ae3e-39062ecee69c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e7ab2ec3-7bb7-4439-b4a3-bf957ffa731c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06c\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"292e14e7-bf28-4ef7-9712-06591bf2b06f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2735b957-e851-4326-a75b-692dc9f6d832\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"599912a3-b689-4357-b693-692f2370f662\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"adfd4be1-0b70-4dc2-ab5a-6bc8620ffab5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3fd7115b-043b-438f-a9f1-75d8966b2429\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a2ca2dd4-6855-4642-bae9-f9a694900464\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"357cf520-432a-4058-a088-b87b942a1fd6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ac6b9c4d-b302-48e1-a969-42e6fbd2af4d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2735b957-e851-4326-a75b-692dc9f6d833\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"599912a3-b689-4357-b693-692f2370f663\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"adfd4be1-0b70-4dc2-ab5a-6bc8620ffab6\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"56432958-29c6-4907-a27d-a75db4a2d7c9\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a2ca2dd4-6855-4642-bae9-f9a694900465\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"357cf520-432a-4058-a088-b87b942a1fd7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ac6b9c4d-b302-48e1-a969-42e6fbd2af5d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b7511cc2-c31d-4bf4-8e00-bd98ce04f5f5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2735b957-e851-4326-a75b-692dc9f6d834\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"599912a3-b689-4357-b693-692f2370f664\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"adfd4be1-0b70-4dc2-ab5a-6bc8620ffab7\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2fc18da7-1c07-4ce7-ba70-a1ada4d95c26\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a2ca2dd4-6855-4642-bae9-f9a694900466\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"357cf520-432a-4058-a088-b87b942a1fd8\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ac6b9c4d-b302-48e1-a969-42e6fbd2af6d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51884\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"089c20c7-023c-4f1e-8db5-4c379e1805a2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"24c3b277-0f5a-4c5a-8b06-4b67ebd4d4a3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"869f55a3-f06d-472c-a056-18633fbf863d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"ebf6d13d-17b8-4bb2-816a-478d2f9a8087\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b6c9931-a87c-489f-b7e2-664498a29e84\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"532e64cc-6804-4328-b0d1-dba1ea2fc08e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a98799ba-98b6-4220-9292-6502099993d3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51885\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"089c20c7-023c-4f1e-8db5-4c379e1805a3\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"24c3b277-0f5a-4c5a-8b06-4b67ebd4d4a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"869f55a3-f06d-472c-a056-18633fbf864d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"06772873-8e93-4aa2-9a52-ec84748961bb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b6c9931-a87c-489f-b7e2-664498a29e85\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"532e64cc-6804-4328-b0d1-dba1ea2fc09e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a98799ba-98b6-4220-9292-6502099993d4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"cd006e71-776c-4f5b-86e9-b6f708d51886\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"089c20c7-023c-4f1e-8db5-4c379e1805a4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"24c3b277-0f5a-4c5a-8b06-4b67ebd4d4a5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"869f55a3-f06d-472c-a056-18633fbf865d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e714db2d-88ba-4662-b9a1-021242311f8a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"2b6c9931-a87c-489f-b7e2-664498a29e86\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"532e64cc-6804-4328-b0d1-dba1ea2fc10e\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"a98799ba-98b6-4220-9292-6502099993d5\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5831252a-4990-423f-90ae-a14ea7c0f5d8\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"e53acdd1-b7c9-474f-b7b3-f5674a10543f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"584ad3b8-0b83-4b07-9184-c20c612dbc38\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"679c8c66-32f8-4739-86b2-85ab7d064da5\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e214714b-f176-4b21-adc1-5632a2b134d1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"11a06df9-715d-473a-802f-987dc43b5ccc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"060acaad-751b-4825-bcd2-d3e4c673b46f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"e160dbf7-4f1f-41e2-8284-a01fc90aff68\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"af46fe18-aac9-40c7-b1be-c16ec2d78bd1\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"1cf2ae15-1e07-4e76-b2b6-2a08eb14a6c3\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"08591c1e-eb78-4358-9b49-7594346d9934\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"19a1a266-4be6-40cb-ae8a-6c18af26088f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"336b937a-857b-4066-9f66-b41a2a42d653\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"8af2bc04-918d-43db-b866-b9b773e43a3d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ba434360-66ba-4c83-924c-3aa023f7365d\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1d3cb408-4dfa-4f92-88ee-710bf313f76c\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c11a7dd6-eeb8-486a-9347-710adc0b98fa\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"095cde7d-b2c8-46fb-b7ea-370bde552cb2\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"886a298a-def4-4f32-84ae-23ea324929e1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4ce7b209-ce74-436a-a1ed-f115b6c01478\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4c112e1c-1be2-42ad-a545-3881d0d2bafc\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c254c1b1-d3e4-44cc-90e6-e7235ae68a80\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"49b7597a-bf02-47c9-9800-726909145cfd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"cca0862b-cda5-46ee-b9ad-ea7f01868e44\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"7a370f2c-4fe0-43fd-aed7-55834b4de98a\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"3b132f6b-de9f-4034-bfdd-c76ce96d627a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"6d40580e-c7d0-4c9c-b3a1-040e1ac422d9\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"3ed18200-bb52-42f9-bafa-7388a1e56db0\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"d0f2c1ef-b1a2-49ad-bd6f-2f1c2dc7f96e\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ec5d4bec-1c56-4fd5-ab75-8f1444e5e05a\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"4b48aade-60b0-4686-ac02-3d5d7cb99177\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"76679d5f-e849-4a89-8379-271d62986f25\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"18d79681-025f-454b-ace0-0700c8ea4271\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"0f43dc02-eb83-4e92-9c0b-5410318d366f\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fc0d3a3d-bebd-4524-b2a8-ec8a4cb663c1\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2f1b12f2-bb9a-4493-91e9-ee0418a91586\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"82162286-a3f3-46a5-940a-ccf98678f6fe\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"217f80e3-f58e-4057-beb3-d6d740008dba\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"c43fa782-dbc4-4c2f-86f0-daec75528344\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"975145eb-2f49-4696-adee-e12cfe7df8c6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2807a7a190f2fc19e8b2672ddfc1b900\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"noCoverage\",\"CHL\":\"19\",\"COU\":\"noCoverage\",\"DAD\":\"noCoverage\",\"DP\":\"01\",\"DPC\":\"19\",\"FIA\":\"noCoverage\",\"GRC\":\"noCoverage\",\"MOM\":\"noCoverage\",\"OTH\":\"noCoverage\",\"SIS\":\"noCoverage\",\"SPS\":\"01\",\"STC\":\"19\",\"STF\":\"noCoverage\",\"STM\":\"noCoverage\",\"Z\":\"noCoverage\"}"
+        },
+        {
+            "key": "eeVolAddBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"AM\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDEE\"]}]}]}"
+        },
+        {
+            "key": "spVolSupplMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "toggle-basic-life-ad&d-std-ltd-dbl-std-state-plan-step",
+            "value": "{\"stepId\":\"908997e5-d31c-4147-ae04-579f4b7d1541\",\"hidden\":false}"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "spVolSupplPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLSP\"]}]}]}"
+        },
+        {
+            "key": "basicLifeCoverage",
+            "value": "includeNone"
+        },
+        {
+            "key": "toggle-dental-step",
+            "value": "{\"hidden\":true,\"stepId\":\"3babe90f-8369-42fc-9915-f2a0f01e92c5\"}"
+        },
+        {
+            "key": "toggle-sp-voluntary-ad&d-step",
+            "value": "{\"stepId\":\"cd006e71-776c-4f5b-86e9-b6f708d51885\",\"hidden\":false}"
+        },
+        {
+            "key": "eeVolAddPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDEE\"]}]}]}"
+        },
+        {
+            "key": "chVolAddMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "chVolAddDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\"]}]}]}"
+        },
+        {
+            "key": "chVolSupplBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "spVolSupplBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"LS\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLSP\"]}]}]}"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "payrollteam@kilroy.com, phudson@kilroyrealty.com, khoway@kilroyrealty.com"
+        },
+        {
+            "key": "basicLifeClassCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"1001\",\"sourceTables\":[{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"EXCBE\",\"EXCBX\",\"SVP\"]}]},{\"targetValue\":\"2001\",\"sourceTables\":[{\"tableValue\":\"deductionGroup\",\"selectedFieldValues\":[\"BE30P\"]}]}]}"
+        },
+        {
+            "key": "eeVolAddBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "spVolAddMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "termReason",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"TE\",\"sourceTables\":[{\"tableValue\":\"terminationReasonCode\",\"selectedFieldValues\":[\"100\",\"101\",\"TRO\",\"103\",\"104\",\"102\",\"106\",\"107\",\"205\",\"201\",\"203\",\"204\",\"108\",\"206\",\"105\",\"207\",\"Z\",\"208\"]}]},{\"targetValue\":\"RT\",\"sourceTables\":[{\"tableValue\":\"terminationReasonCode\",\"selectedFieldValues\":[\"202\"]}]},{\"targetValue\":\"LO\",\"sourceTables\":[{\"tableValue\":\"terminationReasonCode\",\"selectedFieldValues\":[\"200\"]}]},{\"targetValue\":\"IN\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"960\",\"305\"]}]},{\"targetValue\":\"DT\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"210\",\"300\"]}]},{\"targetValue\":\"DC\",\"sourceTables\":[{\"tableValue\":\"benefitChangeReasonCode\",\"selectedFieldValues\":[\"101\"]}]}]}"
+        },
+        {
+            "key": "eeVolAddDivisionNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"0001\",\"sourceTables\":[{\"tableValue\":\"companyId\",\"selectedFieldValues\":[\"2TIXW\"]}]}]}"
+        },
+        {
+            "key": "toggle-accident-step",
+            "value": "{\"hidden\":true,\"stepId\":\"c11a7dd6-eeb8-486a-9347-710adc0b98fa\"}"
+        },
+        {
+            "key": "basicLifeMinStartDate",
+            "value": "2024-01-01T05:00:00.000Z"
+        },
+        {
+            "key": "spVolSupplPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.AN47\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLSP\"]}]}]}"
+        },
+        {
+            "key": "chVolAddBenefitId",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"AC\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDCH\"]}]}]}"
+        },
+        {
+            "key": "eeVolAddPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.0S17\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"ADDEE\"]}]}]}"
+        },
+        {
+            "key": "chVolAddBenefitSelOption",
+            "value": "no"
+        },
+        {
+            "key": "eeVolSupplPlanCode",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"5.0N22\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLEE\"]}]}]}"
+        },
+        {
+            "key": "chVolSupplPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLCH\"]}]}]}"
+        },
+        {
+            "key": "toggle-dental-dhmo-step",
+            "value": "{\"hidden\":true,\"stepId\":\"ad8636bd-c64a-47a9-881b-f40251333c0b\"}"
+        },
+        {
+            "key": "toggle-select-short-term-disability-step",
+            "value": "{\"hidden\":true,\"stepId\":\"af46fe18-aac9-40c7-b1be-c16ec2d78bd1\"}"
+        },
+        {
+            "key": "eeVolSupplPolicyNumber",
+            "value": "{\"mustMatchAllCriteria\":false,\"mappings\":[{\"targetValue\":\"913662\",\"sourceTables\":[{\"tableValue\":\"deductions.deductionCode\",\"selectedFieldValues\":[\"VOLEE\"]}]}]}"
+        },
+        {
+            "key": "spVolAddDeductionCodes",
+            "value": "[\"ADDSP\"]"
+        },
+        {
+            "key": "toggle-critical-illness-attained-age-step",
+            "value": "{\"hidden\":true,\"stepId\":\"7a370f2c-4fe0-43fd-aed7-55834b4de98a\"}"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 15 12 * * FRI",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "327e2942-8abe-4fa5-8be1-375e0f4a98e8"
+}

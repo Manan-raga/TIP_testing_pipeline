@@ -1,0 +1,110 @@
+{
+    "integrationId": "458034d8-2554-49eb-987e-3bf9755f0704",
+    "tenantId": "b3b3d903-68d6-4495-8a10-a6b0cc2fec4e",
+    "integrationName": "Fidelity Enrollment",
+    "vendor": "41c60865-f199-48ef-b539-a68fd05ef6ed",
+    "fileTypeId": "usg.fidelity.demographic",
+    "customerName": null,
+    "createdDate": "2024-01-17T17:43:02.680Z",
+    "updatedDate": "2025-06-25T17:19:09.761Z",
+    "fileTransferFields": [
+        {
+            "key": "hireDate",
+            "value": "dateOfOriginalHire"
+        },
+        {
+            "key": "toggle-division-code",
+            "value": "{\"hidden\":true,\"stepId\":\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\"}"
+        },
+        {
+            "key": "fileDestination",
+            "value": "fidelityProdSftp"
+        },
+        {
+            "key": "eligibilityDate",
+            "value": "dateOfLastHire"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"4f9ee1e641b0bbce966e3b3a661cddd4\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"de0ead55ce394be28bdf2a6168ca5064\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"65fe81ddb1719cd33eba17be91fb9538\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b271ba677aedac0511cc6200ec95ef23\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"e76608244cd0b93c45048593d3752bc6\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"cd21044e20e2fc7a1bb336128429cb4a\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"371b76b7cc7da016f87f8666846facbd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f4dd0be0bf8454bdde5842c80f2050b1\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3eaac5d0-12ed-4d5f-b14c-be8becf80f21\":{\"visited\":false,\"valid\":false,\"hidden\":true},\"ac6ee43e29eb89507b6a4dd200d94eee\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "recordCASalary",
+            "value": "false"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "camila.sandesmolina@ukg.com, sgunter@allroads.com"
+        },
+        {
+            "key": "employeeFilters",
+            "value": "[{\"source\":\"employeeTypeCode\",\"values\":[\"CON\",\"INT\",\"REG\",\"SES\",\"STU\",\"SUM\",\"TMP\"]}]"
+        },
+        {
+            "key": "includeVestingDateForNewHires",
+            "value": "true"
+        },
+        {
+            "key": "earnCode",
+            "value": "[\"3PS\",\"ADALP\",\"AUTO\",\"BEREV\",\"BLDG\",\"BONUS\",\"BRVEA\",\"CDRAW\",\"COMM\",\"EVE\",\"FLAT\",\"HOL\",\"HOLA\",\"HOLR\",\"IMPDE\",\"JURY\",\"JURYA\",\"MISC\",\"MTHCO\",\"NC\",\"NIGHT\",\"NYVAC\",\"OT\",\"PTO\",\"PTOA\",\"PTOPA\",\"PTOPY\",\"PTOR\",\"REF\",\"REFEE\",\"REG\",\"REGFL\",\"RETRO\",\"SAT\",\"SEV\",\"TRAIN\",\"TRNFL\",\"UPAID\"]"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "planNumber",
+            "value": "19025"
+        },
+        {
+            "key": "notificationStart",
+            "value": "false"
+        },
+        {
+            "key": "eligibilityTracking",
+            "value": "true"
+        },
+        {
+            "key": "divisionIDMapping",
+            "value": "[{\"value\":\"KWDC\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"All Roads Kenworth DC LLC\",\"value\":\"062CW\",\"table\":\"companyId\"}]},{\"name\":\"payGroupCode\",\"selectedFieldValues\":[{\"description\":\"Kenworth DC\",\"value\":\"HV3\",\"table\":\"payGroupCode\"}]}]},{\"value\":\"NAG\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"George R. Norris LLC\",\"value\":\"0636Z\",\"table\":\"companyId\"}]},{\"name\":\"payGroupCode\",\"selectedFieldValues\":[{\"description\":\"Norris\",\"value\":\"XFV\",\"table\":\"payGroupCode\"},{\"description\":\"Norris ZXU\",\"value\":\"ZXU\",\"table\":\"payGroupCode\"}]}]},{\"value\":\"VAR\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Vermeer Mid Atlantic LLC\",\"value\":\"0630X\",\"table\":\"companyId\"}]},{\"name\":\"payGroupCode\",\"selectedFieldValues\":[{\"description\":\"Vermeer\",\"value\":\"WUU\",\"table\":\"payGroupCode\"}]}]},{\"value\":\"PNP\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"Packer Norris Parts LLC\",\"value\":\"062PA\",\"table\":\"companyId\"}]},{\"name\":\"payGroupCode\",\"selectedFieldValues\":[{\"description\":\"Packer Norris Parts\",\"value\":\"44Z\",\"table\":\"payGroupCode\"}]}]},{\"value\":\"ARKW\",\"tables\":[{\"name\":\"companyId\",\"selectedFieldValues\":[{\"description\":\"All Roads Kenworth LLC\",\"value\":\"5SXT5\",\"table\":\"companyId\"}]},{\"name\":\"payGroupCode\",\"selectedFieldValues\":[{\"description\":\"All Roads Kenworth\",\"value\":\"ARK\",\"table\":\"payGroupCode\"}]}]}]"
+        },
+        {
+            "key": "minimumAge",
+            "value": "18"
+        },
+        {
+            "key": "vestingDate",
+            "value": "dateOfLastHire"
+        },
+        {
+            "key": "lookBack",
+            "value": "2"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 0 14 * * SUN,MON,TUE,WED,THU,FRI,SAT",
+    "_source_file": "Integartion_Details_US_EAST1_2025_07_03_15_59_47_formatted.json",
+    "_tenant_id": "b3b3d903-68d6-4495-8a10-a6b0cc2fec4e"
+}

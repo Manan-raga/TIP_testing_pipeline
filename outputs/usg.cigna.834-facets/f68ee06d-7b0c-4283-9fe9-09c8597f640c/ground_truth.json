@@ -1,0 +1,122 @@
+{
+    "integrationId": "903b39ea-378b-4da0-9230-4d4d004782b1",
+    "tenantId": "f68ee06d-7b0c-4283-9fe9-09c8597f640c",
+    "integrationName": "CIGNA Facet 834",
+    "vendor": "06a8cd93-d757-4bda-9347-75f0dea36f89",
+    "fileTypeId": "usg.cigna.834-facets",
+    "customerName": null,
+    "createdDate": "2022-07-11T16:43:48.340Z",
+    "updatedDate": "2025-02-03T20:07:14.052Z",
+    "fileTransferFields": [
+        {
+            "key": "fileDestination",
+            "value": "cignaFacetsSftp"
+        },
+        {
+            "key": "benefitOptionMappingVis",
+            "value": "{\"totalFormFilledOutValidation\":true,\"CL2\":\"nocoverage\",\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "ui_statusMap",
+            "value": "{\"1b1f6bc0aa8624a49f03c5b5ecee3e20\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"3bafde83896ebe2cad456edcfca39cd2\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"b3245d998815b85c9f7899042457d831\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"8a631668bd41e3aa53cb4399fa570b09\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"2f91afb0a6843ec29c96ba12ea40c9ea\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"ca063f46e9a5d823cd2f4a768bc35aaf\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"fe4e816dc5cc1d89a20d256b63c5b565\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"51ad1b45c66a7058151bd20286181ecb\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"d93589978ee69b103c644f243cf5fb97\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"87883dfb0a77d7d2e11c1c33921be15d\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"f69279194f189d56cc91310e0c30487f\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"464be2e6214f3b4573d618b8a359973b\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"02f46e6232fec4bea76e033e46060e31\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"b111a8bf006fcb585ddf76af41c21e37\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"0400daa804ba00ec96ccaeed9cccf239\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"7c6de0b4b11dfefb3f2d15c60fb99a64\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"1852835094670548ff57043e46983316\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"1ac4177e776e1e9da10d443ed0a86c74\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"da137080c3d8607d57ee40ca7b6d67af\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"5707fd3210b15f8c4a1e713f4af014cd\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"c461a3b8311eae495235262d5e0b8fbd\":{\"visited\":false,\"valid\":false,\"hidden\":false},\"9feab54c4f8f18b5c7cdc52f6750b2be\":{\"visited\":true,\"valid\":true,\"hidden\":false},\"77b7235738d7d703948d5ba50be61226\":{\"visited\":true,\"valid\":true,\"hidden\":false}}"
+        },
+        {
+            "key": "companyName",
+            "value": "98RKA"
+        },
+        {
+            "key": "relationshipMapping",
+            "value": "{\"totalFormFilledOutValidation\":true,\"BRO\":\"nocoverage\",\"CHL\":\"child\",\"COU\":\"nocoverage\",\"DAD\":\"nocoverage\",\"DCH\":\"nocoverage\",\"DP\":\"domesticPartner\",\"DPC\":\"child\",\"FIA\":\"nocoverage\",\"GRC\":\"nocoverage\",\"MOM\":\"nocoverage\",\"OTH\":\"nocoverage\",\"SIS\":\"nocoverage\",\"SPS\":\"spouse\",\"STC\":\"child\",\"STF\":\"nocoverage\",\"STM\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "benefitOptionMappingDen",
+            "value": "{\"totalFormFilledOutValidation\":true,\"CL2\":\"nocoverage\",\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "minStartDateMed",
+            "value": "2023-01-31T05:00:00.000Z"
+        },
+        {
+            "key": "medClassPlanIdMapping",
+            "value": "[{\"value\":\"MOAP0001\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"Open Access Plus Advantage\",\"value\":\"OAPAD\",\"table\":\"deductionCode\"}]}]},{\"value\":\"MHDP0004\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"Health Savings Account Open Access Plus\",\"value\":\"HSAOA\",\"table\":\"deductionCode\"}]}]}]"
+        },
+        {
+            "key": "benefitOptionMappingMed",
+            "value": "{\"totalFormFilledOutValidation\":true,\"CL2\":\"nocoverage\",\"EE\":\"employeeonly\",\"EEC\":\"eechild\",\"EEDP\":\"eespouse\",\"EEDPF\":\"eefam\",\"EEF\":\"eefam\",\"EES\":\"eespouse\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "notificationStart",
+            "value": "true"
+        },
+        {
+            "key": "lookBack",
+            "value": "7"
+        },
+        {
+            "key": "notificationFailure",
+            "value": "true"
+        },
+        {
+            "key": "clientId",
+            "value": "84590"
+        },
+        {
+            "key": "notificationSuccess",
+            "value": "true"
+        },
+        {
+            "key": "classIdMapping",
+            "value": "[{\"value\":\"A003\",\"tables\":[{\"name\":\"state\",\"selectedFieldValues\":[{\"description\":\"Texas\",\"value\":\"TX\",\"table\":\"state\"}]}]},{\"value\":\"A002\",\"tables\":[{\"name\":\"state\",\"selectedFieldValues\":[{\"description\":\"Ohio\",\"value\":\"OH\",\"table\":\"state\"}]}]},{\"value\":\"A001\",\"tables\":[{\"name\":\"state\",\"selectedFieldValues\":[{\"description\":\"Alaska\",\"value\":\"AK\",\"table\":\"state\"},{\"description\":\"Alabama\",\"value\":\"AL\",\"table\":\"state\"},{\"description\":\"Arkansas\",\"value\":\"AR\",\"table\":\"state\"},{\"description\":\"Arizona\",\"value\":\"AZ\",\"table\":\"state\"},{\"description\":\"Bahamas\",\"value\":\"BA\",\"table\":\"state\"},{\"description\":\"California\",\"value\":\"CA\",\"table\":\"state\"},{\"description\":\"Colorado\",\"value\":\"CO\",\"table\":\"state\"},{\"description\":\"Connecticut\",\"value\":\"CT\",\"table\":\"state\"},{\"description\":\"District of Columbia\",\"value\":\"DC\",\"table\":\"state\"},{\"description\":\"Delaware\",\"value\":\"DE\",\"table\":\"state\"},{\"description\":\"Florida\",\"value\":\"FL\",\"table\":\"state\"},{\"description\":\"Georgia\",\"value\":\"GA\",\"table\":\"state\"},{\"description\":\"Iowa\",\"value\":\"IA\",\"table\":\"state\"},{\"description\":\"Idaho\",\"value\":\"ID\",\"table\":\"state\"},{\"description\":\"Illinois\",\"value\":\"IL\",\"table\":\"state\"},{\"description\":\"Indiana\",\"value\":\"IN\",\"table\":\"state\"},{\"description\":\"Kansas\",\"value\":\"KS\",\"table\":\"state\"},{\"description\":\"Kentucky\",\"value\":\"KY\",\"table\":\"state\"},{\"description\":\"Louisiana\",\"value\":\"LA\",\"table\":\"state\"},{\"description\":\"Massachusetts\",\"value\":\"MA\",\"table\":\"state\"},{\"description\":\"Maryland\",\"value\":\"MD\",\"table\":\"state\"},{\"description\":\"Maine\",\"value\":\"ME\",\"table\":\"state\"},{\"description\":\"Michigan\",\"value\":\"MI\",\"table\":\"state\"},{\"description\":\"Minnesota\",\"value\":\"MN\",\"table\":\"state\"},{\"description\":\"Missouri\",\"value\":\"MO\",\"table\":\"state\"},{\"description\":\"Mississippi\",\"value\":\"MS\",\"table\":\"state\"},{\"description\":\"Montana\",\"value\":\"MT\",\"table\":\"state\"},{\"description\":\"North Carolina\",\"value\":\"NC\",\"table\":\"state\"},{\"description\":\"North Dakota\",\"value\":\"ND\",\"table\":\"state\"},{\"description\":\"Nebraska\",\"value\":\"NE\",\"table\":\"state\"},{\"description\":\"New Hampshire\",\"value\":\"NH\",\"table\":\"state\"},{\"description\":\"New Jersey\",\"value\":\"NJ\",\"table\":\"state\"},{\"description\":\"New Mexico\",\"value\":\"NM\",\"table\":\"state\"},{\"description\":\"Nevada\",\"value\":\"NV\",\"table\":\"state\"},{\"description\":\"New York\",\"value\":\"NY\",\"table\":\"state\"},{\"description\":\"Oklahoma\",\"value\":\"OK\",\"table\":\"state\"},{\"description\":\"Oregon\",\"value\":\"OR\",\"table\":\"state\"},{\"description\":\"Pennsylvania\",\"value\":\"PA\",\"table\":\"state\"},{\"description\":\"Puerto Rico\",\"value\":\"PR\",\"table\":\"state\"},{\"description\":\"Rhode Island\",\"value\":\"RI\",\"table\":\"state\"},{\"description\":\"South Carolina\",\"value\":\"SC\",\"table\":\"state\"},{\"description\":\"South Dakota\",\"value\":\"SD\",\"table\":\"state\"},{\"description\":\"Tennessee\",\"value\":\"TN\",\"table\":\"state\"},{\"description\":\"Utah\",\"value\":\"UT\",\"table\":\"state\"},{\"description\":\"Virginia\",\"value\":\"VA\",\"table\":\"state\"},{\"description\":\"Virgin Islands\",\"value\":\"VI\",\"table\":\"state\"},{\"description\":\"Vermont\",\"value\":\"VT\",\"table\":\"state\"},{\"description\":\"Washington\",\"value\":\"WA\",\"table\":\"state\"},{\"description\":\"Wisconsin\",\"value\":\"WI\",\"table\":\"state\"},{\"description\":\"West Virginia\",\"value\":\"WV\",\"table\":\"state\"},{\"description\":\"Wyoming\",\"value\":\"WY\",\"table\":\"state\"}]}]}]"
+        },
+        {
+            "key": "notificationEmailAddress",
+            "value": "talentbenefits@abarcahealth.com, Arlene.Valcarcel@abarcahealth.com, angelicque.bautista@abarcahealth.com"
+        },
+        {
+            "key": "planSponsorId",
+            "value": "ABRCAHLTHFLS834"
+        },
+        {
+            "key": "subgroupIdMapping",
+            "value": "[{\"value\":\"0001\",\"tables\":[{\"name\":\"deductionCode\",\"selectedFieldValues\":[{\"description\":\"Health Savings Account Open Access Plus\",\"value\":\"HSAOA\",\"table\":\"deductionCode\"},{\"description\":\"Open Access Plus Advantage\",\"value\":\"OAPAD\",\"table\":\"deductionCode\"}]}]}]"
+        },
+        {
+            "key": "integrationMode",
+            "value": "production"
+        },
+        {
+            "key": "notificationCreateTicket",
+            "value": "false"
+        },
+        {
+            "key": "medHd03",
+            "value": "HLT"
+        },
+        {
+            "key": "deductionCodeMed",
+            "value": "[\"HSAOA\",\"OAPAD\"]"
+        },
+        {
+            "key": "masterPolicyNumber",
+            "value": "00635694-F"
+        },
+        {
+            "key": "benefitOptionMappingPre",
+            "value": "{\"totalFormFilledOutValidation\":true,\"CL2\":\"nocoverage\",\"EE\":\"nocoverage\",\"EEC\":\"nocoverage\",\"EEDP\":\"nocoverage\",\"EEDPF\":\"nocoverage\",\"EEF\":\"nocoverage\",\"EES\":\"nocoverage\",\"Z\":\"nocoverage\"}"
+        },
+        {
+            "key": "publishingConfiguration",
+            "value": "{\"sendToCarrier\":true,\"testFileName\":null,\"productionFileName\":null}"
+        },
+        {
+            "key": "notificationWarning",
+            "value": "false"
+        }
+    ],
+    "deleted": false,
+    "runType": "scheduling",
+    "runAutomatically": true,
+    "cron": "0 30 20 * * MON,FRI",
+    "_source_file": "Integartion_Details_ATL_2025_07_03_15_33_36_formatted.json",
+    "_tenant_id": "f68ee06d-7b0c-4283-9fe9-09c8597f640c"
+}
